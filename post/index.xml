@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Miaomi</title>
+    <link>https://example.com/post/</link>
+    <description>Recent content in Posts on Miaomi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 09 Jan 2023 13:50:03 +0800</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog Building Logs</title>
+      <link>https://example.com/2023/blog-building-logs/</link>
+      <pubDate>Mon, 09 Jan 2023 13:50:03 +0800</pubDate>
+      
+      <guid>https://example.com/2023/blog-building-logs/</guid>
+      <description>References Hugo Docs: A very brief and useful quick start, didn&amp;rsquo;t spent too much time. Hugo tutorial by CloudCannon: Got a roughly picture of the file hierarchy of Hugo. Build Websites with Hugo: A complete guide to work with Hugo, got a clue to change the /themes and other files. Hugo In Action: Didn&amp;rsquo;t finish yet. Hugo-stack-theme 主题魔改版 不是从零开始的 Hugo</description>
+    </item>
+    
+  </channel>
+</rss>
