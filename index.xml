@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miaomi</title><link>https://morimit.github.io/</link><description>Recent content on Miaomi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 10 Jan 2023 20:56:54 +0800</lastBuildDate><atom:link href="https://morimit.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Testpage</title><link>https://morimit.github.io/2023/testpage/</link><pubDate>Tue, 10 Jan 2023 20:56:54 +0800</pubDate><guid>https://morimit.github.io/2023/testpage/</guid><description>&lt;p>This is a test page.&lt;/p>
+&lt;p>testtesttest.&lt;/p></description></item><item><title>Blog Building Logs</title><link>https://morimit.github.io/2023/blog-building-logs/</link><pubDate>Mon, 09 Jan 2023 13:50:03 +0800</pubDate><guid>https://morimit.github.io/2023/blog-building-logs/</guid><description>&lt;img src="https://morimit.github.io/2023/blog-building-logs/Journey.png" alt="Featured image of post Blog Building Logs" />&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://gohugo.io/getting-started/quick-start/" target="_blank" rel="noopener"
+>Hugo Docs&lt;/a>: A very brief and useful quick start, didn&amp;rsquo;t spent too much time.&lt;/li>
+&lt;li>&lt;a class="link" href="https://cloudcannon.com/community/learn/hugo-101/" target="_blank" rel="noopener"
+>Hugo tutorial by CloudCannon&lt;/a>: Got a roughly picture of the file hierarchy of Hugo.&lt;/li>
+&lt;li>&lt;a class="link" href="https://pragprog.com/titles/bhhugo/" target="_blank" rel="noopener"
+>Build Websites with Hugo&lt;/a>: A complete guide to work with Hugo, got a clue to change the &lt;code>/themes&lt;/code> and other files.&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.manning.com/books/hugo-in-action" target="_blank" rel="noopener"
+>Hugo In Action&lt;/a>: Didn&amp;rsquo;t finish yet.&lt;/li>
+&lt;li>&lt;a class="link" href="https://mantyke.icu/posts/2022/stack-theme-mod/" target="_blank" rel="noopener"
+>Hugo-stack-theme 主题魔改版&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://fourxiajiao.github.io/2022/hugo-blog/" target="_blank" rel="noopener"
+>不是从零开始的 Hugo 建站笔记&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://www.mytechramblings.com/posts/create-a-website-with-hugo-and-gh/" target="_blank" rel="noopener"
+>Create and host a blog with Hugo and GitHub Pages in less than 30 minutes&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="log">Log&lt;/h2>
+&lt;h3 id="202319">2023.1.9&lt;/h3>
+&lt;ul>
+&lt;li>Changed the sidebar image, footer and theme color.&lt;/li>
+&lt;li>Deleted the categories and search in the left sidebar.&lt;/li>
+&lt;/ul>
+&lt;h3 id="2023110">2023.1.10&lt;/h3>
+&lt;ul>
+&lt;li>Signed up a new GitHub account, created a new repo automatically linked with GitHub Pages.&lt;/li>
+&lt;li>Conneted git with different GitHub accounts (SSH).&lt;/li>
+&lt;li>Pushed the public file to the repo.&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ul></description></item></channel></rss>
