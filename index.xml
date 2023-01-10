@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miaomi</title><link>https://morimit.github.io/</link><description>Recent content on Miaomi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 10 Jan 2023 20:56:54 +0800</lastBuildDate><atom:link href="https://morimit.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Testpage</title><link>https://morimit.github.io/2023/testpage/</link><pubDate>Tue, 10 Jan 2023 20:56:54 +0800</pubDate><guid>https://morimit.github.io/2023/testpage/</guid><description>&lt;p>This is a test page.&lt;/p>
-&lt;p>testtesttest.&lt;/p></description></item><item><title>Blog Building Logs</title><link>https://morimit.github.io/2023/blog-building-logs/</link><pubDate>Mon, 09 Jan 2023 13:50:03 +0800</pubDate><guid>https://morimit.github.io/2023/blog-building-logs/</guid><description>&lt;img src="https://morimit.github.io/2023/blog-building-logs/Journey.png" alt="Featured image of post Blog Building Logs" />&lt;h2 id="references">References&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miaomi</title><link>https://morimit.github.io/</link><description>Recent content on Miaomi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 09 Jan 2023 13:50:03 +0800</lastBuildDate><atom:link href="https://morimit.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog Building Logs</title><link>https://morimit.github.io/2023/blog-building-logs/</link><pubDate>Mon, 09 Jan 2023 13:50:03 +0800</pubDate><guid>https://morimit.github.io/2023/blog-building-logs/</guid><description>&lt;img src="https://morimit.github.io/2023/blog-building-logs/Journey.png" alt="Featured image of post Blog Building Logs" />&lt;h2 id="references">References&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a class="link" href="https://gohugo.io/getting-started/quick-start/" target="_blank" rel="noopener"
 >Hugo Docs&lt;/a>: A very brief and useful quick start, didn&amp;rsquo;t spent too much time.&lt;/li>
@@ -24,8 +23,8 @@
 &lt;/ul>
 &lt;h3 id="2023110">2023.1.10&lt;/h3>
 &lt;ul>
-&lt;li>Signed up a new GitHub account, created a new repo automatically linked with GitHub Pages.&lt;/li>
+&lt;li>Signed up a new GitHub account, created a public repo automatically linked with GitHub Pages, and a another private repo ready to hold site source files.&lt;/li>
 &lt;li>Conneted git with different GitHub accounts (SSH).&lt;/li>
-&lt;li>Pushed the public file to the repo.&lt;/li>
-&lt;li>&lt;/li>
+&lt;li>Create a brand new SSH key in the local file &lt;code>~/.ssh/&lt;/code>, and configurated GitHub Action.&lt;/li>
+&lt;li>碎碎念：因为不熟悉git，在查各种命令的时候花费了不少时间。&lt;/li>
 &lt;/ul></description></item></channel></rss>
