@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miaomi</title><link>https://morimit.github.io/</link><description>Recent content on Miaomi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 09 Jan 2023 13:50:03 +0800</lastBuildDate><atom:link href="https://morimit.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog Building Logs</title><link>https://morimit.github.io/2023/blog-building-logs/</link><pubDate>Mon, 09 Jan 2023 13:50:03 +0800</pubDate><guid>https://morimit.github.io/2023/blog-building-logs/</guid><description>&lt;img src="https://morimit.github.io/2023/blog-building-logs/Journey.png" alt="Featured image of post Blog Building Logs" />&lt;h2 id="references">References&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miaomi</title><link>https://morimit.github.io/</link><description>Recent content on Miaomi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 11 Jan 2023 20:59:31 +0800</lastBuildDate><atom:link href="https://morimit.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Blog Workflow</title><link>https://morimit.github.io/2023/blog-workflow/</link><pubDate>Wed, 11 Jan 2023 20:59:31 +0800</pubDate><guid>https://morimit.github.io/2023/blog-workflow/</guid><description>&lt;p>首先Hugo能够生成可以发布的网站文件，其次使用git进行版本控制，每次修改后可以把源码传到GitHub，最后GitHub对Hugo建站有完整的支持组件（GitHub action、GitHub pages service），所以才能顺利完成一系列自动部署。&lt;/p>
+&lt;h2 id="防踩坑注意事项">防踩坑注意事项&lt;/h2>
+&lt;ul>
+&lt;li>如果一台电脑的git要连接两个GitHub账号，使用SSH连接方式，需要本地gitbash生成&lt;strong>两组SSH密钥对&lt;/strong>，分别将公钥内容存入对应的GitHub账号，而在本地 &lt;code>~/.ssh&lt;/code> 文件夹下创建一个 &lt;code>config&lt;/code> 文件，填写私钥的对应信息。当设置git远程仓库的时候，需要参考 &lt;code>config&lt;/code> 文件中的内容。 具体参考：[[Connect git to GitHub]]&lt;/li>
+&lt;li>GitHub Action 可以将GitHub中放置源码的仓库（&lt;strong>source repo&lt;/strong>），通过GitHub内置的Hugo二进制文件来将源码打包生成 &lt;code>public&lt;/code> 文件夹，并根据自行（在GitHub上）写入的Action脚本，（脚本中写入通过接收本地的git push来触发），通过&lt;strong>新的SSH连接（本地生成一个新的SSH密钥对）&lt;/strong>，公钥填入publish repo的 &lt;code>settings/Deploy&lt;/code> ，私钥填入source repo 的&lt;code>settings/private key&lt;/code> 并将此&lt;strong>private key的名称填入Action脚本的特定位置&lt;/strong>，从而让本地的git软件将这个 &lt;code>public&lt;/code> 文件夹push 到GitHub上特定的、能触发GitHub pages发布的仓库（&lt;strong>publish repo&lt;/strong>）。具体参考：[[2.7 Build Hugo With GitHub Action]]&lt;/li>
+&lt;li>GitHub Action的脚本中写的推送到publish repo的branch，要和此仓库设定的GitHub pages发布branch相一致。&lt;/li>
+&lt;/ul>
+&lt;h2 id="搭建步骤">搭建步骤&lt;/h2>
+&lt;ul>
+&lt;li>先在本地下载Hugo二进制文件，一番折腾后通过 &lt;code>hugo server&lt;/code> 命令查看网站效果。&lt;/li>
+&lt;li>本地生成SSH密钥对，GitHub上创建源码仓库和发布仓库，发布仓库的命名必须是 &lt;code>xxxxx.github.io &lt;/code>，此命名和网站域名一致。参照 [[2.7 Build Hugo With GitHub Action]]配置好 GitHub Action 的脚本和两个仓库。&lt;/li>
+&lt;li>将本地项目文件夹通过 &lt;code>git push&lt;/code> 命令推送到source repo，可以在 &lt;code>https://xxxxx.github.io&lt;/code> 处查看网站。&lt;/li>
+&lt;/ul>
+&lt;h2 id="最后形成的workflow">最后形成的Workflow&lt;/h2>
+&lt;ul>
+&lt;li>本地修改内容，用&lt;code>hugo server&lt;/code> 命令查看修改效果。&lt;/li>
+&lt;li>&lt;code>git push&lt;/code> 到GitHub的源码仓库中，在&lt;code>https://xxxxx.github.io&lt;/code> 处查看发布好的网站。&lt;/li>
+&lt;/ul></description></item><item><title>Blog Building Logs</title><link>https://morimit.github.io/2023/blog-building-logs/</link><pubDate>Mon, 09 Jan 2023 13:50:03 +0800</pubDate><guid>https://morimit.github.io/2023/blog-building-logs/</guid><description>&lt;img src="https://morimit.github.io/2023/blog-building-logs/Journey.png" alt="Featured image of post Blog Building Logs" />&lt;h2 id="references">References&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a class="link" href="https://gohugo.io/getting-started/quick-start/" target="_blank" rel="noopener"
 >Hugo Docs&lt;/a>: A very brief and useful quick start, didn&amp;rsquo;t spent too much time.&lt;/li>
