@@ -31,6 +31,8 @@
 >不是从零开始的 Hugo 建站笔记&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" href="https://www.mytechramblings.com/posts/create-a-website-with-hugo-and-gh/" target="_blank" rel="noopener"
 >Create and host a blog with Hugo and GitHub Pages in less than 30 minutes&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" href="https://mantyke.icu/posts/2021/cf2cf0fb/" target="_blank" rel="noopener"
+>Hugo | 在文章中插入轮播图片&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="log">Log&lt;/h2>
 &lt;h3 id="202319">2023.1.9&lt;/h3>
@@ -43,5 +45,9 @@
 &lt;li>Signed up a new GitHub account, created a public repo automatically linked with GitHub Pages, and a another private repo ready to hold site source files.&lt;/li>
 &lt;li>Conneted git with different GitHub accounts (SSH).&lt;/li>
 &lt;li>Create a brand new SSH key in the local file &lt;code>~/.ssh/&lt;/code>, and configurated GitHub Action.&lt;/li>
-&lt;li>碎碎念：因为不熟悉git，在查各种命令的时候花费了不少时间。&lt;/li>
+&lt;/ul>
+&lt;h3 id="2023114">2023.1.14&lt;/h3>
+&lt;ul>
+&lt;li>Modified the categories archive wection.&lt;/li>
+&lt;li>Added imgloop.&lt;/li>
 &lt;/ul></description></item></channel></rss>
