@@ -1,4 +1,154 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miaomi</title><link>https://morimit.github.io/</link><description>Recent content on Miaomi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Mar 2023 09:33:30 +0800</lastBuildDate><atom:link href="https://morimit.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Different Blog Types</title><link>https://morimit.github.io/2023/different-blog-types/</link><pubDate>Thu, 16 Mar 2023 09:33:30 +0800</pubDate><guid>https://morimit.github.io/2023/different-blog-types/</guid><description>&lt;img src="https://morimit.github.io/2023/different-blog-types/hugo.PNG" alt="Featured image of post Different Blog Types" />&lt;h2 id="动态博客">动态博客&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miaomi</title><link>https://morimit.github.io/</link><description>Recent content on Miaomi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 05 Oct 2023 09:58:39 +0800</lastBuildDate><atom:link href="https://morimit.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>Python Deal With Excel</title><link>https://morimit.github.io/2023/python-deal-with-excel/</link><pubDate>Thu, 05 Oct 2023 09:58:39 +0800</pubDate><guid>https://morimit.github.io/2023/python-deal-with-excel/</guid><description>&lt;img src="https://morimit.github.io/2023/python-deal-with-excel/openpyxl.PNG" alt="Featured image of post Python Deal With Excel" />&lt;h2 id="需求">需求&lt;/h2>
+&lt;p>将微信接龙打卡更新到考勤表中，已到的人✔，未到的人❌&lt;/p>
+&lt;h2 id="思路拆分">思路拆分&lt;/h2>
+&lt;p>对比两列，一列是人员姓名（固定列），一列是此人当日打卡情况。每次微信打卡后，复制接龙到表格的对比列中，如果固定列的名字有出现在对比列中，则更新当日打卡记录。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>cells &lt;span style="color:#719e07">=&lt;/span> sheet[&lt;span style="color:#2aa198">&amp;#39;A3:A11&amp;#39;&lt;/span>] &lt;span style="color:#586e75">#固定列&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cells2 &lt;span style="color:#719e07">=&lt;/span> sheet[&lt;span style="color:#2aa198">&amp;#39;N3:N12&amp;#39;&lt;/span>] &lt;span style="color:#586e75">#对比列&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cells3 &lt;span style="color:#719e07">=&lt;/span> sheet[&lt;span style="color:#2aa198">&amp;#39;C3:C11&amp;#39;&lt;/span>] &lt;span style="color:#586e75">#保存到新列，每日更新&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>姓名\日期&lt;/th>
+&lt;th>10月5日&lt;/th>
+&lt;th>10月6日&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>张三&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>李四&lt;/td>
+&lt;td>❌&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>王五&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>使用的python包：openpyxsl模块
+参考教程：https://blog.csdn.net/weixin_44288604/article/details/120731317&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#719e07">import&lt;/span> os
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#719e07">import&lt;/span> openpyxl
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#719e07">import&lt;/span> chardet
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#719e07">import&lt;/span> codecs
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>path &lt;span style="color:#719e07">=&lt;/span> &lt;span style="color:#2aa198">r&lt;/span>&lt;span style="color:#2aa198">&amp;#34;C:&lt;/span>&lt;span style="color:#cb4b16">\\&lt;/span>&lt;span style="color:#2aa198">Users&lt;/span>&lt;span style="color:#cb4b16">\\&lt;/span>&lt;span style="color:#2aa198">DELL&lt;/span>&lt;span style="color:#cb4b16">\\&lt;/span>&lt;span style="color:#2aa198">Desktop&lt;/span>&lt;span style="color:#cb4b16">\\&lt;/span>&lt;span style="color:#2aa198">work&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>os&lt;span style="color:#719e07">.&lt;/span>chdir(path) &lt;span style="color:#586e75"># 修改工作路径&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>workbook &lt;span style="color:#719e07">=&lt;/span> openpyxl&lt;span style="color:#719e07">.&lt;/span>load_workbook(&lt;span style="color:#2aa198">&amp;#39;志愿者考勤表.xlsx&amp;#39;&lt;/span>) &lt;span style="color:#586e75"># 返回一个workbook数据类型的值&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#586e75"># print(workbook.sheetnames) # 打印Excel表中的所有表&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#586e75"># 选择工作表&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sheet &lt;span style="color:#719e07">=&lt;/span> workbook[&lt;span style="color:#2aa198">&amp;#39;Sheet1&amp;#39;&lt;/span>] &lt;span style="color:#586e75"># 获取指定sheet表&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cells &lt;span style="color:#719e07">=&lt;/span> sheet[&lt;span style="color:#2aa198">&amp;#39;A3:A11&amp;#39;&lt;/span>] &lt;span style="color:#586e75">#固定列&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cells2 &lt;span style="color:#719e07">=&lt;/span> sheet[&lt;span style="color:#2aa198">&amp;#39;N3:N12&amp;#39;&lt;/span>] &lt;span style="color:#586e75">#对比列&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>cells3 &lt;span style="color:#719e07">=&lt;/span> sheet[&lt;span style="color:#2aa198">&amp;#39;C3:C11&amp;#39;&lt;/span>] &lt;span style="color:#586e75">#保存到新列，每日更新&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#719e07">for&lt;/span> i &lt;span style="color:#719e07">in&lt;/span> cells:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#719e07">for&lt;/span> j &lt;span style="color:#719e07">in&lt;/span> i:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#586e75"># 打印A3到A11的数据&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#586e75"># print(j.value)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#719e07">for&lt;/span> k &lt;span style="color:#719e07">in&lt;/span> cells2:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#719e07">for&lt;/span> l &lt;span style="color:#719e07">in&lt;/span> k:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#586e75"># 打印N3到N12的数据&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#586e75"># print(l.value)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#719e07">if&lt;/span>(l&lt;span style="color:#719e07">.&lt;/span>value &lt;span style="color:#719e07">!=&lt;/span> &lt;span style="color:#cb4b16">None&lt;/span>):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#719e07">if&lt;/span>(j&lt;span style="color:#719e07">.&lt;/span>value&lt;span style="color:#719e07">.&lt;/span>find(l&lt;span style="color:#719e07">.&lt;/span>value) &lt;span style="color:#719e07">==&lt;/span> &lt;span style="color:#719e07">-&lt;/span>&lt;span style="color:#2aa198">1&lt;/span>):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#b58900">print&lt;/span>(l&lt;span style="color:#719e07">.&lt;/span>row)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#719e07">else&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> sheet[&lt;span style="color:#2aa198">&amp;#34;C&lt;/span>&lt;span style="color:#2aa198">{}&lt;/span>&lt;span style="color:#2aa198">&amp;#34;&lt;/span>&lt;span style="color:#719e07">.&lt;/span>format(j&lt;span style="color:#719e07">.&lt;/span>row)]&lt;span style="color:#719e07">.&lt;/span>value &lt;span style="color:#719e07">=&lt;/span> &lt;span style="color:#2aa198">&amp;#39;✔&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#719e07">for&lt;/span> k &lt;span style="color:#719e07">in&lt;/span> cells3:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#719e07">for&lt;/span> l &lt;span style="color:#719e07">in&lt;/span> k:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#719e07">if&lt;/span>( sheet[&lt;span style="color:#2aa198">&amp;#34;C&lt;/span>&lt;span style="color:#2aa198">{}&lt;/span>&lt;span style="color:#2aa198">&amp;#34;&lt;/span>&lt;span style="color:#719e07">.&lt;/span>format(l&lt;span style="color:#719e07">.&lt;/span>row)]&lt;span style="color:#719e07">.&lt;/span>value &lt;span style="color:#719e07">!=&lt;/span> &lt;span style="color:#2aa198">&amp;#39;✔&amp;#39;&lt;/span>):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#b58900">print&lt;/span>(l&lt;span style="color:#719e07">.&lt;/span>row)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> sheet[&lt;span style="color:#2aa198">&amp;#34;C&lt;/span>&lt;span style="color:#2aa198">{}&lt;/span>&lt;span style="color:#2aa198">&amp;#34;&lt;/span>&lt;span style="color:#719e07">.&lt;/span>format(l&lt;span style="color:#719e07">.&lt;/span>row)]&lt;span style="color:#719e07">.&lt;/span>value &lt;span style="color:#719e07">=&lt;/span> &lt;span style="color:#2aa198">&amp;#39;×&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>workbook&lt;span style="color:#719e07">.&lt;/span>save(&lt;span style="color:#2aa198">&amp;#39;志愿者考勤表.xlsx&amp;#39;&lt;/span>) &lt;span style="color:#586e75">#记得保存，否则更改不生效&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="需求变更">需求变更&lt;/h2>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> 要求整张表的行列对调&lt;/li>
+&lt;/ul>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>日期\姓名&lt;/th>
+&lt;th>张三&lt;/th>
+&lt;th>李四&lt;/th>
+&lt;th>王五&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>10月5日&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>❌&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>10月6日&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;td>✔&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-python" data-lang="python">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#719e07">import&lt;/span> os
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#719e07">import&lt;/span> openpyxl
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#719e07">import&lt;/span> chardet
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#719e07">import&lt;/span> codecs
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>path &lt;span style="color:#719e07">=&lt;/span> &lt;span style="color:#2aa198">r&lt;/span>&lt;span style="color:#2aa198">&amp;#34;C:&lt;/span>&lt;span style="color:#cb4b16">\\&lt;/span>&lt;span style="color:#2aa198">Users&lt;/span>&lt;span style="color:#cb4b16">\\&lt;/span>&lt;span style="color:#2aa198">DELL&lt;/span>&lt;span style="color:#cb4b16">\\&lt;/span>&lt;span style="color:#2aa198">Desktop&lt;/span>&lt;span style="color:#cb4b16">\\&lt;/span>&lt;span style="color:#2aa198">work&lt;/span>&lt;span style="color:#cb4b16">\\&lt;/span>&lt;span style="color:#2aa198">考勤表&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>os&lt;span style="color:#719e07">.&lt;/span>chdir(path) &lt;span style="color:#586e75"># 修改工作路径&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>workbook &lt;span style="color:#719e07">=&lt;/span> openpyxl&lt;span style="color:#719e07">.&lt;/span>load_workbook(&lt;span style="color:#2aa198">&amp;#39;志愿者考勤表.xlsx&amp;#39;&lt;/span>) &lt;span style="color:#586e75"># 返回一个workbook数据类型的值&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#586e75"># print(workbook.sheetnames) # 打印Excel表中的所有表&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#586e75"># 选择工作表&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>sheet &lt;span style="color:#719e07">=&lt;/span> workbook[&lt;span style="color:#2aa198">&amp;#39;Sheet1&amp;#39;&lt;/span>] &lt;span style="color:#586e75"># 获取指定sheet表&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>alignment &lt;span style="color:#719e07">=&lt;/span> openpyxl&lt;span style="color:#719e07">.&lt;/span>styles&lt;span style="color:#719e07">.&lt;/span>Alignment(horizontal&lt;span style="color:#719e07">=&lt;/span>&lt;span style="color:#2aa198">&amp;#34;center&amp;#34;&lt;/span>, vertical&lt;span style="color:#719e07">=&lt;/span>&lt;span style="color:#2aa198">&amp;#34;center&amp;#34;&lt;/span>, text_rotation&lt;span style="color:#719e07">=&lt;/span>&lt;span style="color:#2aa198">0&lt;/span>, wrap_text&lt;span style="color:#719e07">=&lt;/span>&lt;span style="color:#cb4b16">True&lt;/span>) &lt;span style="color:#586e75"># 设置对齐格式&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#719e07">def&lt;/span> &lt;span style="color:#268bd2">columnletter&lt;/span>(col):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> letter &lt;span style="color:#719e07">=&lt;/span> [&lt;span style="color:#2aa198">0&lt;/span>, &lt;span style="color:#2aa198">&amp;#39;A&amp;#39;&lt;/span>, &lt;span style="color:#2aa198">&amp;#39;B&amp;#39;&lt;/span>, &lt;span style="color:#2aa198">&amp;#39;C&amp;#39;&lt;/span>, &lt;span style="color:#2aa198">&amp;#39;D&amp;#39;&lt;/span>, &lt;span style="color:#2aa198">&amp;#39;E&amp;#39;&lt;/span>, &lt;span style="color:#2aa198">&amp;#39;F&amp;#39;&lt;/span>, &lt;span style="color:#2aa198">&amp;#39;G&amp;#39;&lt;/span>, &lt;span style="color:#2aa198">&amp;#39;H&amp;#39;&lt;/span>, &lt;span style="color:#2aa198">&amp;#39;I&amp;#39;&lt;/span>, &lt;span style="color:#2aa198">&amp;#39;J&amp;#39;&lt;/span>, &lt;span style="color:#2aa198">&amp;#39;K&amp;#39;&lt;/span>, &lt;span style="color:#2aa198">&amp;#39;L&amp;#39;&lt;/span>, &lt;span style="color:#2aa198">&amp;#39;M&amp;#39;&lt;/span>, &lt;span style="color:#2aa198">&amp;#39;N&amp;#39;&lt;/span>]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#719e07">return&lt;/span> letter[col]
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#719e07">for&lt;/span> i &lt;span style="color:#719e07">in&lt;/span> sheet&lt;span style="color:#719e07">.&lt;/span>iter_rows(min_row&lt;span style="color:#719e07">=&lt;/span>&lt;span style="color:#2aa198">2&lt;/span>, max_row&lt;span style="color:#719e07">=&lt;/span>&lt;span style="color:#2aa198">2&lt;/span>, min_col&lt;span style="color:#719e07">=&lt;/span>&lt;span style="color:#2aa198">2&lt;/span>, max_col&lt;span style="color:#719e07">=&lt;/span>&lt;span style="color:#2aa198">10&lt;/span>):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#719e07">for&lt;/span> j &lt;span style="color:#719e07">in&lt;/span> i:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#586e75"># 打印固定行（姓名行）&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#586e75"># print(j.value)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#719e07">for&lt;/span> k &lt;span style="color:#719e07">in&lt;/span> sheet&lt;span style="color:#719e07">.&lt;/span>iter_rows(min_row&lt;span style="color:#719e07">=&lt;/span>&lt;span style="color:#2aa198">16&lt;/span>, max_row&lt;span style="color:#719e07">=&lt;/span>&lt;span style="color:#2aa198">16&lt;/span>, min_col&lt;span style="color:#719e07">=&lt;/span>&lt;span style="color:#2aa198">1&lt;/span>, max_col&lt;span style="color:#719e07">=&lt;/span>&lt;span style="color:#2aa198">10&lt;/span>):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#719e07">for&lt;/span> l &lt;span style="color:#719e07">in&lt;/span> k:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#586e75"># 打印对比行（excel手动转置）&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#586e75"># print(l.value)&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#719e07">if&lt;/span>(l&lt;span style="color:#719e07">.&lt;/span>value &lt;span style="color:#719e07">!=&lt;/span> &lt;span style="color:#cb4b16">None&lt;/span>):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#719e07">if&lt;/span>(j&lt;span style="color:#719e07">.&lt;/span>value&lt;span style="color:#719e07">.&lt;/span>find(l&lt;span style="color:#719e07">.&lt;/span>value) &lt;span style="color:#719e07">==&lt;/span> &lt;span style="color:#719e07">-&lt;/span>&lt;span style="color:#2aa198">1&lt;/span>):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#586e75">#print(l.column) #注意打印出来的是数字，而不是字母&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#719e07">else&lt;/span>:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#586e75"># -----------------------&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#586e75">#新信息注入新行，打勾 &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#586e75"># -----------------------------&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> sheet[&lt;span style="color:#2aa198">&amp;#34;&lt;/span>&lt;span style="color:#2aa198">{}&lt;/span>&lt;span style="color:#2aa198">5&amp;#34;&lt;/span>&lt;span style="color:#719e07">.&lt;/span>format(columnletter(j&lt;span style="color:#719e07">.&lt;/span>column))]&lt;span style="color:#719e07">.&lt;/span>value &lt;span style="color:#719e07">=&lt;/span> &lt;span style="color:#2aa198">&amp;#39;✔&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> sheet[&lt;span style="color:#2aa198">&amp;#34;&lt;/span>&lt;span style="color:#2aa198">{}&lt;/span>&lt;span style="color:#2aa198">5&amp;#34;&lt;/span>&lt;span style="color:#719e07">.&lt;/span>format(columnletter(j&lt;span style="color:#719e07">.&lt;/span>column))]&lt;span style="color:#719e07">.&lt;/span>alignment &lt;span style="color:#719e07">=&lt;/span> alignment
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#586e75"># ----------------------------- &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#586e75">#新信息注入新行，打叉 &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#586e75"># ----------------------------- &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#719e07">for&lt;/span> k &lt;span style="color:#719e07">in&lt;/span> sheet&lt;span style="color:#719e07">.&lt;/span>iter_rows(min_row&lt;span style="color:#719e07">=&lt;/span>&lt;span style="color:#2aa198">5&lt;/span>, max_row&lt;span style="color:#719e07">=&lt;/span>&lt;span style="color:#2aa198">5&lt;/span>, min_col&lt;span style="color:#719e07">=&lt;/span>&lt;span style="color:#2aa198">2&lt;/span>, max_col&lt;span style="color:#719e07">=&lt;/span>&lt;span style="color:#2aa198">10&lt;/span>):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#719e07">for&lt;/span> l &lt;span style="color:#719e07">in&lt;/span> k:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#719e07">if&lt;/span>( sheet[&lt;span style="color:#2aa198">&amp;#34;&lt;/span>&lt;span style="color:#2aa198">{}&lt;/span>&lt;span style="color:#2aa198">5&amp;#34;&lt;/span>&lt;span style="color:#719e07">.&lt;/span>format(columnletter(l&lt;span style="color:#719e07">.&lt;/span>column))]&lt;span style="color:#719e07">.&lt;/span>value &lt;span style="color:#719e07">!=&lt;/span> &lt;span style="color:#2aa198">&amp;#39;✔&amp;#39;&lt;/span>):
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#b58900">print&lt;/span>(l&lt;span style="color:#719e07">.&lt;/span>column)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> sheet[&lt;span style="color:#2aa198">&amp;#34;&lt;/span>&lt;span style="color:#2aa198">{}&lt;/span>&lt;span style="color:#2aa198">5&amp;#34;&lt;/span>&lt;span style="color:#719e07">.&lt;/span>format(columnletter(l&lt;span style="color:#719e07">.&lt;/span>column))]&lt;span style="color:#719e07">.&lt;/span>value &lt;span style="color:#719e07">=&lt;/span> &lt;span style="color:#2aa198">&amp;#39;×&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> sheet[&lt;span style="color:#2aa198">&amp;#34;&lt;/span>&lt;span style="color:#2aa198">{}&lt;/span>&lt;span style="color:#2aa198">5&amp;#34;&lt;/span>&lt;span style="color:#719e07">.&lt;/span>format(columnletter(l&lt;span style="color:#719e07">.&lt;/span>column))]&lt;span style="color:#719e07">.&lt;/span>alignment &lt;span style="color:#719e07">=&lt;/span> alignment
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>workbook&lt;span style="color:#719e07">.&lt;/span>save(&lt;span style="color:#2aa198">&amp;#39;志愿者考勤表.xlsx&amp;#39;&lt;/span>)
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Different Blog Types</title><link>https://morimit.github.io/2023/different-blog-types/</link><pubDate>Thu, 16 Mar 2023 09:33:30 +0800</pubDate><guid>https://morimit.github.io/2023/different-blog-types/</guid><description>&lt;img src="https://morimit.github.io/2023/different-blog-types/hugo.PNG" alt="Featured image of post Different Blog Types" />&lt;h2 id="动态博客">动态博客&lt;/h2>
 &lt;ul>
 &lt;li>可以进入网页后台在线编写文章、管理评论，可以实时更新&lt;/li>
 &lt;li>搭建时需要租用服务器&lt;/li>
@@ -35,7 +185,7 @@
 &lt;h3 id="hugo">Hugo&lt;/h3>
 &lt;p>基于GO语言；非常快速；&lt;/p>
 &lt;h3 id="hexo">Hexo&lt;/h3>
-&lt;p>和Hugo差不多，很多主题修改后Hugo也可以用。&lt;/p></description></item><item><title>Connect Git to Github</title><link>https://morimit.github.io/2023/connect-git-to-github/</link><pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate><guid>https://morimit.github.io/2023/connect-git-to-github/</guid><description>&lt;h2 id="在git-bash终端创建两个ssh-key">在git bash终端创建两个SSH key:&lt;/h2>
+&lt;p>和Hugo差不多，很多主题修改后Hugo也可以用。&lt;/p></description></item><item><title>Connect Git to Github</title><link>https://morimit.github.io/2023/connect-git-to-github/</link><pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate><guid>https://morimit.github.io/2023/connect-git-to-github/</guid><description>&lt;img src="https://morimit.github.io/2023/connect-git-to-github/SSH.PNG" alt="Featured image of post Connect Git to Github" />&lt;h2 id="在git-bash终端创建两个ssh-key">在git bash终端创建两个SSH key:&lt;/h2>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#93a1a1;background-color:#002b36;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span>ssh-keygen -t rsa -f ~/.ssh/id_rsa_m -C &lt;span style="color:#2aa198">&amp;#34;firstmail@gmail.com&amp;#34;&lt;/span> &lt;span style="color:#586e75">#绑定hugo网站源代码存放的GitHub所用的邮箱&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>ssh-keygen -t rsa -f ~/.ssh/id_rsa -C &lt;span style="color:#2aa198">&amp;#34;secondmail@gmail.com&amp;#34;&lt;/span> &lt;span style="color:#586e75">#绑定另一个GitHub账号的邮箱&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="将两个ssh公钥分别添加到对应的github账号中">将两个SSH公钥分别添加到对应的GitHub账号中&lt;/h2>
@@ -142,7 +292,7 @@ alt="sshkey">
 &lt;li>&lt;code>git add .&lt;/code>添加修改后的所有文件到stage area；&lt;/li>
 &lt;li>&lt;code>git commit -m 'some commets'&lt;/code> 把stage area的文件添加到workspace&lt;/li>
 &lt;li>&lt;code>git push&lt;/code> 把工作区的文件推送到GitHub的源码仓库中，在&lt;code>https://xxxxx.github.io&lt;/code> 处查看发布好的网站。&lt;/li>
-&lt;/ul></description></item><item><title>如今我已坦然接受虚无</title><link>https://morimit.github.io/life/2023/today/</link><pubDate>Tue, 10 Jan 2023 20:56:54 +0800</pubDate><guid>https://morimit.github.io/life/2023/today/</guid><description>&lt;p>This is a test page.&lt;/p></description></item><item><title>小樱</title><link>https://morimit.github.io/life/2023/collection/</link><pubDate>Tue, 10 Jan 2023 20:56:54 +0800</pubDate><guid>https://morimit.github.io/life/2023/collection/</guid><description>&lt;img src="https://morimit.github.io/life/2023/collection/Sakura_Magic_circle.webp" alt="Featured image of post 小樱" />&lt;h2 id="魔法阵">魔法阵&lt;/h2>
+&lt;/ul></description></item><item><title>小樱卡牌</title><link>https://morimit.github.io/life/2023/collection/</link><pubDate>Tue, 10 Jan 2023 20:56:54 +0800</pubDate><guid>https://morimit.github.io/life/2023/collection/</guid><description>&lt;img src="https://morimit.github.io/life/2023/collection/Sakura_Magic_circle.webp" alt="Featured image of post 小樱卡牌" />&lt;h2 id="魔法阵">魔法阵&lt;/h2>
 &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
 &lt;div class="swiper-container">
 &lt;div class="swiper-wrapper">
@@ -196,7 +346,7 @@ lazyLoading : true,
 lazyLoadingInPrevNext : true,
 loop : true,
 });
-&lt;/script></description></item><item><title>Blog Build With GitHub Action</title><link>https://morimit.github.io/2023/blog-build-with-github-action/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://morimit.github.io/2023/blog-build-with-github-action/</guid><description>&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
+&lt;/script></description></item><item><title>Blog Build With GitHub Action</title><link>https://morimit.github.io/2023/blog-build-with-github-action/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://morimit.github.io/2023/blog-build-with-github-action/</guid><description>&lt;img src="https://morimit.github.io/2023/blog-build-with-github-action/actions.PNG" alt="Featured image of post Blog Build With GitHub Action" />&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
 &lt;p>将本地仓库推送到GitHub：[[Connect git to GitHub]]&lt;/p>
 &lt;h2 id="reference">Reference&lt;/h2>
 &lt;ul>
