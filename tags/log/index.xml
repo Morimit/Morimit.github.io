@@ -1,1 +1,162 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Log on Miaomi</title><link>https://morimit.github.io/tags/log/</link><description>Recent content in Log on Miaomi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 19 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://morimit.github.io/tags/log/index.xml" rel="self" type="application/rss+xml"/><item><title>Connect Git to Github</title><link>https://morimit.github.io/2023/connect-git-to-github/</link><pubDate>Thu, 19 Jan 2023 00:00:00 +0000</pubDate><guid>https://morimit.github.io/2023/connect-git-to-github/</guid><description>在git bash终端创建两个SSH key: ssh-keygen -t rsa -f ~/.ssh/id_rsa_m -C &amp;#34;firstmail@gmail.com&amp;#34; #绑定hugo网站源代码存放的GitHub所用的邮箱 ssh-keygen -t rsa -f ~/.ssh/id_rsa -C &amp;#34;secondmail@gmail.com&amp;#34; #绑定另一个GitHub</description></item><item><title>Blog Build With GitHub Action</title><link>https://morimit.github.io/2023/blog-build-with-github-action/</link><pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate><guid>https://morimit.github.io/2023/blog-build-with-github-action/</guid><description>Prerequisite 将本地仓库推送到GitHub：[[Connect git to GitHub]] Reference Build Hugo With GitHub Action Create and host a blog with Hugo and GitHub Pages in less than 30 minutes Creating a personal access token 基于 Github Action 自动构建 Hugo 博客 - (lix</description></item><item><title>Blog Building Logs</title><link>https://morimit.github.io/2023/blog-building-logs/</link><pubDate>Mon, 09 Jan 2023 13:50:03 +0800</pubDate><guid>https://morimit.github.io/2023/blog-building-logs/</guid><description>References Hugo Docs: A very brief and useful quick start, didn&amp;rsquo;t spent too much time. Hugo tutorial by CloudCannon: Got a roughly picture of the file hierarchy of Hugo. Build Websites with Hugo: A complete guide to work with Hugo, got a clue to change the /themes and other files. Hugo In Action Hugo-stack-theme 主题魔改版 不是从零开始的 Hugo 建站笔</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Log on Miaomi</title><link>https://morimit.github.io/tags/log/</link><description>Recent content in Log on Miaomi</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 29 Sep 2024 19:55:16 +0800</lastBuildDate><atom:link href="https://morimit.github.io/tags/log/index.xml" rel="self" type="application/rss+xml"/><item><title>Connect Git to Github</title><link>https://morimit.github.io/2023/connect-git-to-github/</link><pubDate>Tue, 10 Jan 2023 16:22:12 +0800</pubDate><guid>https://morimit.github.io/2023/connect-git-to-github/</guid><description>&lt;h2 id="在git-bash终端创建两个ssh-key">在git bash终端创建两个SSH key:&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>ssh-keygen -t rsa -f ~/.ssh/id_rsa_m -C &lt;span style="color:#a31515">&amp;#34;firstmail@gmail.com&amp;#34;&lt;/span> &lt;span style="color:#008000">#绑定hugo网站源代码存放的GitHub所用的邮箱&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2&lt;/span>&lt;span>ssh-keygen -t rsa -f ~/.ssh/id_rsa -C &lt;span style="color:#a31515">&amp;#34;secondmail@gmail.com&amp;#34;&lt;/span> &lt;span style="color:#008000">#绑定另一个GitHub账号的邮箱&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="将两个ssh公钥分别添加到对应的github账号中">将两个SSH公钥分别添加到对应的GitHub账号中&lt;/h2>
+&lt;p>两个SSH key分别配置在两个GitHub账号如下的设置里。
+&lt;figure 
+ 
+ class="gallery-image"
+ style="flex-grow: 183; flex-basis: 440px"
+ >
+ &lt;a href="https://morimit.github.io/2023/connect-git-to-github/sshkey.png"
+ data-size="1421x775"
+ >
+ &lt;img src="https://morimit.github.io/2023/connect-git-to-github/sshkey.png"
+ width="1421" 
+ height="775" 
+ srcset="https://morimit.github.io/2023/connect-git-to-github/sshkey_hu8035995803013650840.png 720w, https://morimit.github.io/2023/connect-git-to-github/sshkey_hu4691703007526908045.png 2048w" 
+ loading="lazy"
+ 
+ alt="sshkey"
+ 
+ />
+ &lt;/a>
+ 
+ &lt;figcaption>sshkey&lt;/figcaption>
+ 
+&lt;/figure>
+&lt;/p></description></item><item><title>Blog Building Logs</title><link>https://morimit.github.io/2023/blog-building-logs/</link><pubDate>Mon, 09 Jan 2023 13:50:03 +0800</pubDate><guid>https://morimit.github.io/2023/blog-building-logs/</guid><description>&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a class="link" 
+ href="https://gohugo.io/getting-started/quick-start/" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >Hugo Docs&lt;/a>: A very brief and useful quick start, didn&amp;rsquo;t spent too much time.&lt;/li>
+&lt;li>&lt;a class="link" 
+ href="https://cloudcannon.com/community/learn/hugo-101/" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >Hugo tutorial by CloudCannon&lt;/a>: Got a roughly picture of the file hierarchy of Hugo.&lt;/li>
+&lt;li>&lt;a class="link" 
+ href="https://pragprog.com/titles/bhhugo/" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >Build Websites with Hugo&lt;/a>: A complete guide to work with Hugo, got a clue to change the &lt;code>/themes&lt;/code> and other files.&lt;/li>
+&lt;li>&lt;a class="link" 
+ href="https://www.manning.com/books/hugo-in-action" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >Hugo In Action&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" 
+ href="https://mantyke.icu/posts/2022/stack-theme-mod/" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >Hugo-stack-theme 主题魔改版&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" 
+ href="https://fourxiajiao.github.io/2022/hugo-blog/" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >不是从零开始的 Hugo 建站笔记&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" 
+ href="https://www.mytechramblings.com/posts/create-a-website-with-hugo-and-gh/" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >Create and host a blog with Hugo and GitHub Pages in less than 30 minutes&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" 
+ href="https://mantyke.icu/posts/2021/cf2cf0fb/" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >Hugo | 在文章中插入轮播图片&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="log">Log&lt;/h2>
+&lt;h3 id="2023115">2023.1.15&lt;/h3>
+&lt;ul>
+&lt;li>Added the My Life section (extract from categories section).&lt;/li>
+&lt;/ul>
+&lt;h3 id="2023114">2023.1.14&lt;/h3>
+&lt;ul>
+&lt;li>Added imgloop.&lt;/li>
+&lt;/ul>
+&lt;h3 id="2023110">2023.1.10&lt;/h3>
+&lt;ul>
+&lt;li>Signed up a new GitHub account, created a public repo automatically linked with GitHub Pages, and a another private repo ready to hold site source files.&lt;/li>
+&lt;li>Conneted git with different GitHub accounts (SSH).&lt;/li>
+&lt;li>Create a brand new SSH key in the local file &lt;code>~/.ssh/&lt;/code>, and configurated GitHub Action.&lt;/li>
+&lt;/ul>
+&lt;h3 id="202319">2023.1.9&lt;/h3>
+&lt;ul>
+&lt;li>Changed the sidebar image, footer and theme color.&lt;/li>
+&lt;li>Deleted the categories and search in the left sidebar.&lt;/li>
+&lt;/ul></description></item><item><title>Blog Build With GitHub Action</title><link>https://morimit.github.io/2023/blog-build-with-github-action/</link><pubDate>Sun, 01 Jan 2023 13:50:03 +0800</pubDate><guid>https://morimit.github.io/2023/blog-build-with-github-action/</guid><description>&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
+&lt;p>将本地仓库推送到GitHub：[[Connect git to GitHub]]&lt;/p>
+&lt;h2 id="reference">Reference&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a class="link" 
+ href="https://gohugo.io/hosting-and-deployment/hosting-on-github/" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >Build Hugo With GitHub Action&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" 
+ href="https://www.mytechramblings.com/posts/create-a-website-with-hugo-and-gh/" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >Create and host a blog with Hugo and GitHub Pages in less than 30 minutes&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" 
+ href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-token" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >Creating a personal access token&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" 
+ href="https://www.lixueduan.com/posts/blog/01-github-action-deploy-hugo/" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >基于 Github Action 自动构建 Hugo 博客 - (lixueduan.com)&lt;/a>：讲清楚了GitHub Action中的.yml配置文件代码具体是怎样连接GitHub上的两个仓库的&lt;/li>
+&lt;li>&lt;a class="link" 
+ href="https://zhuanlan.zhihu.com/p/109057290" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >折腾Hugo | GitHub Pages | Github Actions自动构建发布免费个人网站 - 知乎 (zhihu.com)&lt;/a> ：步骤清晰，看完就能知道怎么给GitHub上的两个仓库配置公钥私钥&lt;/li>
+&lt;li>&lt;a class="link" 
+ href="https://lijingcheng.github.io/posts/hugo/" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >使用 Hugo + GitHub Actions 升级博客 // 风行&amp;rsquo;s Blog (lijingcheng.github.io)&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" 
+ href="https://gnu-linux.readthedocs.io/zh/latest/Chapter01/00_ssh-keygen.html" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >ssh-keygen 生成密钥&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="log">Log&lt;/h2>
+&lt;blockquote>
+&lt;p>The GitHub Action is going to grab the content from the &lt;code>XXX_source&lt;/code> repository, build it using Hugo and push the output into the &lt;code>XXX&lt;/code> repository.&lt;/p></description></item></channel></rss>

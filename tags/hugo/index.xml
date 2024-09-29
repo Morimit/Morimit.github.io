@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hugo on Miaomi</title><link>https://morimit.github.io/tags/hugo/</link><description>Recent content in Hugo on Miaomi</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 29 Sep 2024 16:15:00 +0800</lastBuildDate><atom:link href="https://morimit.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo | Hugo-stack-theme主题魔改版</title><link>https://morimit.github.io/2022/stack-theme-mod/</link><pubDate>Sun, 13 Feb 2022 03:02:52 +0800</pubDate><guid>https://morimit.github.io/2022/stack-theme-mod/</guid><description>&lt;p>Github仓库地址：&lt;a class="link" 
+ href="https://github.com/Mantyke" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >Mantyke&lt;/a>/&lt;a class="link" 
+ href="https://github.com/Mantyke/Hugo-stack-theme-mod" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >stack-theme-mod&lt;/a>&lt;/p>
+&lt;p>本主题由&lt;a class="link" 
+ href="https://github.com/CaiJimmy" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >CaiJimmy&lt;/a>制作并&lt;a class="link" 
+ href="https://github.com/CaiJimmy/hugo-theme-stack" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >发布&lt;/a>，这个仓库是由&lt;a class="link" 
+ href="https://mantyke.icu/" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >Mantyke&lt;/a>修改的魔改版本&lt;/p>
+&lt;p>预览：&lt;a class="link" 
+ href="https://stack-theme-mod.vercel.app/" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >Demo站&lt;/a>&lt;/p>
+&lt;br>
+&lt;h2 id="使用方式">使用方式&lt;/h2>
+&lt;p>&lt;strong>从零建立博客&lt;/strong>：Fork仓库到自己账号下，用Github 注册 Vercel，依次点击Overview → New Project → import刚刚Fork的仓库，设置&lt;code>FRAMEWORK PRESET&lt;/code>为Hugo → 点击&lt;code>Environment Variables&lt;/code>，设置&lt;code>NAME&lt;/code>为&lt;code>HUGO_VERSION&lt;/code>，&lt;code>Value&lt;/code>为&lt;code>Hugo版本号（如0.89.0）&lt;/code> → 点击Add → 点击Deploy，稍等十来秒即可部署完成。下载仓库到本地后使用Github Desktop更新文章。（注，本地预览需安装Hugo，具体请参照&lt;a class="link" 
+ href="https://mantyke.icu/2021/hugo-build-blog/" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >Hugo | 一起动手搭建个人博客吧&lt;/a>相关内容）&lt;/p></description></item></channel></rss>
