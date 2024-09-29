@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Miaomi</title><link>https://morimit.github.io/post/</link><description>Recent content in Posts on Miaomi</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 29 Sep 2024 19:55:16 +0800</lastBuildDate><atom:link href="https://morimit.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Python Deal With Excel</title><link>https://morimit.github.io/2023/python-deal-with-excel/</link><pubDate>Thu, 05 Oct 2023 09:58:39 +0800</pubDate><guid>https://morimit.github.io/2023/python-deal-with-excel/</guid><description>使用openpyxl库将每日微信接龙的录入到考勤表中</description></item><item><title>Different Blog Types</title><link>https://morimit.github.io/2023/different-blog-types/</link><pubDate>Thu, 16 Mar 2023 09:33:30 +0800</pubDate><guid>https://morimit.github.io/2023/different-blog-types/</guid><description>&lt;h2 id="动态博客">动态博客&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Miaomi</title><link>https://morimit.github.io/post/</link><description>Recent content in Posts on Miaomi</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sun, 29 Sep 2024 20:08:55 +0800</lastBuildDate><atom:link href="https://morimit.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Python Deal With Excel</title><link>https://morimit.github.io/2023/python-deal-with-excel/</link><pubDate>Thu, 05 Oct 2023 09:58:39 +0800</pubDate><guid>https://morimit.github.io/2023/python-deal-with-excel/</guid><description>&lt;h2 id="需求">需求&lt;/h2>
+&lt;p>将微信接龙打卡更新到考勤表中，已到的人✔，未到的人❌&lt;/p>
+&lt;h2 id="思路拆分">思路拆分&lt;/h2>
+&lt;p>对比两列，一列是人员姓名（固定列），一列是此人当日打卡情况。每次微信打卡后，复制接龙到表格的对比列中，如果固定列的名字有出现在对比列中，则更新当日打卡记录。&lt;/p></description></item><item><title>Different Blog Types</title><link>https://morimit.github.io/2023/different-blog-types/</link><pubDate>Thu, 16 Mar 2023 09:33:30 +0800</pubDate><guid>https://morimit.github.io/2023/different-blog-types/</guid><description>&lt;h2 id="动态博客">动态博客&lt;/h2>
 &lt;ul>
 &lt;li>可以进入网页后台在线编写文章、管理评论，可以实时更新&lt;/li>
 &lt;li>搭建时需要租用服务器&lt;/li>
@@ -181,55 +184,8 @@
 &lt;/ul>
 &lt;h2 id="log">Log&lt;/h2>
 &lt;blockquote>
-&lt;p>The GitHub Action is going to grab the content from the &lt;code>XXX_source&lt;/code> repository, build it using Hugo and push the output into the &lt;code>XXX&lt;/code> repository.&lt;/p></description></item><item><title>Hugo | Hugo-stack-theme主题魔改版</title><link>https://morimit.github.io/2022/stack-theme-mod/</link><pubDate>Sun, 13 Feb 2022 03:02:52 +0800</pubDate><guid>https://morimit.github.io/2022/stack-theme-mod/</guid><description>&lt;p>Github仓库地址：&lt;a class="link" 
- href="https://github.com/Mantyke" 
- 
- 
- target="_blank" 
- rel="noopener"
- >Mantyke&lt;/a>/&lt;a class="link" 
- href="https://github.com/Mantyke/Hugo-stack-theme-mod" 
- 
- 
- target="_blank" 
- rel="noopener"
- >stack-theme-mod&lt;/a>&lt;/p>
-&lt;p>本主题由&lt;a class="link" 
- href="https://github.com/CaiJimmy" 
- 
- 
- target="_blank" 
- rel="noopener"
- >CaiJimmy&lt;/a>制作并&lt;a class="link" 
- href="https://github.com/CaiJimmy/hugo-theme-stack" 
- 
- 
- target="_blank" 
- rel="noopener"
- >发布&lt;/a>，这个仓库是由&lt;a class="link" 
- href="https://mantyke.icu/" 
- 
- 
- target="_blank" 
- rel="noopener"
- >Mantyke&lt;/a>修改的魔改版本&lt;/p>
-&lt;p>预览：&lt;a class="link" 
- href="https://stack-theme-mod.vercel.app/" 
- 
- 
- target="_blank" 
- rel="noopener"
- >Demo站&lt;/a>&lt;/p>
-&lt;br>
-&lt;h2 id="使用方式">使用方式&lt;/h2>
-&lt;p>&lt;strong>从零建立博客&lt;/strong>：Fork仓库到自己账号下，用Github 注册 Vercel，依次点击Overview → New Project → import刚刚Fork的仓库，设置&lt;code>FRAMEWORK PRESET&lt;/code>为Hugo → 点击&lt;code>Environment Variables&lt;/code>，设置&lt;code>NAME&lt;/code>为&lt;code>HUGO_VERSION&lt;/code>，&lt;code>Value&lt;/code>为&lt;code>Hugo版本号（如0.89.0）&lt;/code> → 点击Add → 点击Deploy，稍等十来秒即可部署完成。下载仓库到本地后使用Github Desktop更新文章。（注，本地预览需安装Hugo，具体请参照&lt;a class="link" 
- href="https://mantyke.icu/2021/hugo-build-blog/" 
- 
- 
- target="_blank" 
- rel="noopener"
- >Hugo | 一起动手搭建个人博客吧&lt;/a>相关内容）&lt;/p></description></item><item><title>Chinese Test</title><link>https://morimit.github.io/2020/test-chinese/</link><pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate><guid>https://morimit.github.io/2020/test-chinese/</guid><description>&lt;h2 id="短代码测试">短代码测试&lt;/h2>
+&lt;p>The GitHub Action is going to grab the content from the &lt;code>XXX_source&lt;/code> repository, build it using Hugo and push the output into the &lt;code>XXX&lt;/code> repository.&lt;/p></description></item><item><title>Chinese Test</title><link>https://morimit.github.io/2020/test-chinese/</link><pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate><guid>https://morimit.github.io/2020/test-chinese/</guid><description>&lt;h2 id="短代码测试">短代码测试&lt;/h2>
 
 
 &lt;blockquote class="quote">
- &lt;p>三月，因久旱不雨，苏轼赴郿，祈雨于太白山之上清宫。数日后，虽有微雨，父老以为不足，于是，再陪宋太守亲往祭祷，回程路上，便见道中有云气自山中来，如群马奔突而至车座左右，苏轼一时好奇心起，开笼收云归家，作《攓云篇》。&lt;/p></description></item><item><title>Emoji Support</title><link>https://morimit.github.io/2019/emoji-support/</link><pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate><guid>https://morimit.github.io/2019/emoji-support/</guid><description>&lt;p>Emoji can be enabled in a Hugo project in a number of ways.&lt;/p></description></item></channel></rss>
+ &lt;p>三月，因久旱不雨，苏轼赴郿，祈雨于太白山之上清宫。数日后，虽有微雨，父老以为不足，于是，再陪宋太守亲往祭祷，回程路上，便见道中有云气自山中来，如群马奔突而至车座左右，苏轼一时好奇心起，开笼收云归家，作《攓云篇》。&lt;/p></description></item></channel></rss>
