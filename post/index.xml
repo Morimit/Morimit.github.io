@@ -1,13 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Miaomi</title><link>https://morimit.github.io/post/</link><description>Recent content in Posts on Miaomi</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Tue, 08 Oct 2024 17:46:33 +0800</lastBuildDate><atom:link href="https://morimit.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Test Page</title><link>https://morimit.github.io/2024/test-page/</link><pubDate>Sun, 29 Sep 2024 20:46:15 +0800</pubDate><guid>https://morimit.github.io/2024/test-page/</guid><description>&lt;p>hello~
-this is a test page
-hello~
-this is a test pagehello~
-this is a test page
-hello~
-this is a test pagehello~
-this is a test page
-hello~
-this is a test pagehello~&lt;/p></description></item><item><title>02</title><link>https://morimit.github.io/2023/02/</link><pubDate>Sun, 19 Nov 2023 17:42:15 +0800</pubDate><guid>https://morimit.github.io/2023/02/</guid><description>&lt;p>test page2&lt;/p></description></item><item><title>Python Deal With Excel</title><link>https://morimit.github.io/2023/python-deal-with-excel/</link><pubDate>Thu, 05 Oct 2023 09:58:39 +0800</pubDate><guid>https://morimit.github.io/2023/python-deal-with-excel/</guid><description>&lt;h2 id="需求">需求&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Miaomi</title><link>https://morimit.github.io/post/</link><description>Recent content in Posts on Miaomi</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 18 Oct 2024 12:19:54 +0800</lastBuildDate><atom:link href="https://morimit.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Python Deal With Excel</title><link>https://morimit.github.io/2023/python-deal-with-excel/</link><pubDate>Thu, 05 Oct 2023 09:58:39 +0800</pubDate><guid>https://morimit.github.io/2023/python-deal-with-excel/</guid><description>&lt;h2 id="需求">需求&lt;/h2>
 &lt;p>将微信接龙打卡更新到考勤表中，已到的人✔，未到的人❌&lt;/p>
 &lt;h2 id="思路拆分">思路拆分&lt;/h2>
 &lt;p>对比两列，一列是人员姓名（固定列），一列是此人当日打卡情况。每次微信打卡后，复制接龙到表格的对比列中，如果固定列的名字有出现在对比列中，则更新当日打卡记录。&lt;/p></description></item><item><title>Different Blog Types</title><link>https://morimit.github.io/2023/different-blog-types/</link><pubDate>Thu, 16 Mar 2023 09:33:30 +0800</pubDate><guid>https://morimit.github.io/2023/different-blog-types/</guid><description>&lt;h2 id="动态博客">动态博客&lt;/h2>
@@ -32,7 +23,7 @@ this is a test pagehello~&lt;/p></description></item><item><title>02</title><lin
 &lt;li>在GitHub上部署halo，省去购买服务器。&lt;/li>
 &lt;/ul>
 &lt;h3 id="wordpress">Wordpress&lt;/h3>
-&lt;p>可用docker搭建；基于PHP语言&lt;/p></description></item><item><title>Blog Workflow</title><link>https://morimit.github.io/2023/blog-workflow/</link><pubDate>Wed, 11 Jan 2023 20:59:31 +0800</pubDate><guid>https://morimit.github.io/2023/blog-workflow/</guid><description>&lt;p>首先Hugo能够生成可以发布的网站文件，其次使用git进行版本控制，每次修改后可以把源码传到GitHub，最后GitHub对Hugo建站有完整的支持组件（GitHub action、GitHub pages service），所以才能顺利完成一系列自动部署。&lt;/p></description></item><item><title>01</title><link>https://morimit.github.io/2023/01/</link><pubDate>Tue, 10 Jan 2023 20:56:54 +0800</pubDate><guid>https://morimit.github.io/2023/01/</guid><description>&lt;p>This is a test page.&lt;/p></description></item><item><title>小樱卡牌</title><link>https://morimit.github.io/2023/%E5%B0%8F%E6%A8%B1%E5%8D%A1%E7%89%8C/</link><pubDate>Tue, 10 Jan 2023 20:56:54 +0800</pubDate><guid>https://morimit.github.io/2023/%E5%B0%8F%E6%A8%B1%E5%8D%A1%E7%89%8C/</guid><description>&lt;h2 id="魔法阵">魔法阵&lt;/h2>
+&lt;p>可用docker搭建；基于PHP语言&lt;/p></description></item><item><title>Blog Workflow</title><link>https://morimit.github.io/2023/blog-workflow/</link><pubDate>Wed, 11 Jan 2023 20:59:31 +0800</pubDate><guid>https://morimit.github.io/2023/blog-workflow/</guid><description>&lt;p>首先Hugo能够生成可以发布的网站文件，其次使用git进行版本控制，每次修改后可以把源码传到GitHub，最后GitHub对Hugo建站有完整的支持组件（GitHub action、GitHub pages service），所以才能顺利完成一系列自动部署。&lt;/p></description></item><item><title>小樱卡牌</title><link>https://morimit.github.io/2023/%E5%B0%8F%E6%A8%B1%E5%8D%A1%E7%89%8C/</link><pubDate>Tue, 10 Jan 2023 20:56:54 +0800</pubDate><guid>https://morimit.github.io/2023/%E5%B0%8F%E6%A8%B1%E5%8D%A1%E7%89%8C/</guid><description>&lt;h2 id="魔法阵">魔法阵&lt;/h2>
 
 
  &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
@@ -284,8 +275,4 @@ this is a test pagehello~&lt;/p></description></item><item><title>02</title><lin
 &lt;/ul>
 &lt;h2 id="log">Log&lt;/h2>
 &lt;blockquote>
-&lt;p>The GitHub Action is going to grab the content from the &lt;code>XXX_source&lt;/code> repository, build it using Hugo and push the output into the &lt;code>XXX&lt;/code> repository.&lt;/p></description></item><item><title>Chinese Test</title><link>https://morimit.github.io/2020/test-chinese/</link><pubDate>Wed, 09 Sep 2020 00:00:00 +0000</pubDate><guid>https://morimit.github.io/2020/test-chinese/</guid><description>&lt;h2 id="短代码测试">短代码测试&lt;/h2>
-
-
-&lt;blockquote class="quote">
- &lt;p>三月，因久旱不雨，苏轼赴郿，祈雨于太白山之上清宫。数日后，虽有微雨，父老以为不足，于是，再陪宋太守亲往祭祷，回程路上，便见道中有云气自山中来，如群马奔突而至车座左右，苏轼一时好奇心起，开笼收云归家，作《攓云篇》。&lt;/p></description></item></channel></rss>
+&lt;p>The GitHub Action is going to grab the content from the &lt;code>XXX_source&lt;/code> repository, build it using Hugo and push the output into the &lt;code>XXX&lt;/code> repository.&lt;/p></description></item></channel></rss>
