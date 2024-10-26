@@ -1,133 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Miaomi</title><link>https://morimit.github.io/tags/blog/</link><description>Recent content in Blog on Miaomi</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Fri, 18 Oct 2024 12:19:54 +0800</lastBuildDate><atom:link href="https://morimit.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Different Blog Types</title><link>https://morimit.github.io/2023/different-blog-types/</link><pubDate>Thu, 16 Mar 2023 09:33:30 +0800</pubDate><guid>https://morimit.github.io/2023/different-blog-types/</guid><description>&lt;h2 id="动态博客">动态博客&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Miaomi</title><link>https://morimit.github.io/tags/blog/</link><description>Recent content in Blog on Miaomi</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 26 Oct 2024 20:59:56 +0800</lastBuildDate><atom:link href="https://morimit.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Different Blog Types</title><link>https://morimit.github.io/2023/different-blog-types/</link><pubDate>Thu, 16 Mar 2023 09:33:30 +0800</pubDate><guid>https://morimit.github.io/2023/different-blog-types/</guid><description>&lt;p>本章图片来源：hugo in action&lt;/p>
+&lt;h2 id="博客类型">博客类型&lt;/h2>
+&lt;p>从博客使用者的角度，按照是否有后台能够在线编辑博文，博客可分为：&lt;/p>
 &lt;ul>
-&lt;li>可以进入网页后台在线编写文章、管理评论，可以实时更新&lt;/li>
-&lt;li>搭建时需要租用服务器&lt;/li>
+&lt;li>静态博客&lt;/li>
+&lt;li>动态博客&lt;/li>
 &lt;/ul>
-&lt;h3 id="halo">halo&lt;/h3>
-&lt;p>不用输代码，直接生成网页，但要配置服务器：&lt;/p>
-&lt;ul>
-&lt;li>一台可访问公网的服务器。可购买云主机，或实体服务器。
-&lt;ul>
-&lt;li>服务器的连接与管理：SSH工具（如SecureCRT）、SFTP工具（往服务器上上传文件）。&lt;/li>
-&lt;li>服务器应用安装与环境部署。（部署手册也可也在这个博主账号下找）。&lt;/li>
-&lt;li>准备网站源码或安装包（jar包）进行部署。&lt;/li>
-&lt;li>防火墙开放8090端口，这是网站打开访问的端口 (&lt;code>xxx.xxx.xxx.xxx:8090&lt;/code>）。&lt;/li>
-&lt;li>可以下载一些主题包，在控制台页面安装。&lt;/li>
-&lt;li>在服务器上安装nginx。一般来说我们不会用jar包启动的8090端口的服务去直面用户，而是会在中间加一层代理服务器做转发服务（负载均衡、扛并发）。常用的代理服务器是nginx。nginx默认在80端口启动web服务。&lt;/li>
-&lt;li>配置nginx，让它代理到jar包启动的地址（xxx.xxx.xxx.xxx:8090），即可不用写8090端口访问。修改配置文件。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>在GitHub上部署halo，省去购买服务器。&lt;/li>
-&lt;/ul>
-&lt;h3 id="wordpress">Wordpress&lt;/h3>
-&lt;p>可用docker搭建；基于PHP语言&lt;/p></description></item><item><title>Blog Workflow</title><link>https://morimit.github.io/2023/blog-workflow/</link><pubDate>Wed, 11 Jan 2023 20:59:31 +0800</pubDate><guid>https://morimit.github.io/2023/blog-workflow/</guid><description>&lt;p>首先Hugo能够生成可以发布的网站文件，其次使用git进行版本控制，每次修改后可以把源码传到GitHub，最后GitHub对Hugo建站有完整的支持组件（GitHub action、GitHub pages service），所以才能顺利完成一系列自动部署。&lt;/p></description></item><item><title>Connect Git to Github</title><link>https://morimit.github.io/2023/connect-git-to-github/</link><pubDate>Tue, 10 Jan 2023 16:22:12 +0800</pubDate><guid>https://morimit.github.io/2023/connect-git-to-github/</guid><description>&lt;h2 id="在git-bash终端创建两个ssh-key">在git bash终端创建两个SSH key:&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>ssh-keygen -t rsa -f ~/.ssh/id_rsa_m -C &lt;span style="color:#a31515">&amp;#34;firstmail@gmail.com&amp;#34;&lt;/span> &lt;span style="color:#008000">#绑定hugo网站源代码存放的GitHub所用的邮箱&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2&lt;/span>&lt;span>ssh-keygen -t rsa -f ~/.ssh/id_rsa -C &lt;span style="color:#a31515">&amp;#34;secondmail@gmail.com&amp;#34;&lt;/span> &lt;span style="color:#008000">#绑定另一个GitHub账号的邮箱&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="将两个ssh公钥分别添加到对应的github账号中">将两个SSH公钥分别添加到对应的GitHub账号中&lt;/h2>
-&lt;p>两个SSH key分别配置在两个GitHub账号如下的设置里。
+&lt;p>从博客开发的角度看，动态博客多了应用服务器和数据库的部分。
 &lt;figure 
  
  class="gallery-image"
- style="flex-grow: 183; flex-basis: 440px"
+ style="flex-grow: 99; flex-basis: 237px"
  >
- &lt;a href="https://morimit.github.io/2023/connect-git-to-github/sshkey.png"
- data-size="1421x775"
+ &lt;a href="https://morimit.github.io/2023/different-blog-types/%E5%85%B8%E5%9E%8B%E5%8A%A8%E6%80%81%E5%8D%9A%E5%AE%A2%E6%9E%B6%E6%9E%84.png"
+ data-size="860x868"
  >
- &lt;img src="https://morimit.github.io/2023/connect-git-to-github/sshkey.png"
- width="1421" 
- height="775" 
- srcset="https://morimit.github.io/2023/connect-git-to-github/sshkey_hu8035995803013650840.png 720w, https://morimit.github.io/2023/connect-git-to-github/sshkey_hu4691703007526908045.png 2048w" 
+ &lt;img src="https://morimit.github.io/2023/different-blog-types/%E5%85%B8%E5%9E%8B%E5%8A%A8%E6%80%81%E5%8D%9A%E5%AE%A2%E6%9E%B6%E6%9E%84.png"
+ width="860" 
+ height="868" 
+ srcset="https://morimit.github.io/2023/different-blog-types/%E5%85%B8%E5%9E%8B%E5%8A%A8%E6%80%81%E5%8D%9A%E5%AE%A2%E6%9E%B6%E6%9E%84_hu14183632345828057992.png 720w, https://morimit.github.io/2023/different-blog-types/%E5%85%B8%E5%9E%8B%E5%8A%A8%E6%80%81%E5%8D%9A%E5%AE%A2%E6%9E%B6%E6%9E%84_hu4347290784196763693.png 2048w" 
  loading="lazy"
  
- alt="sshkey"
+ alt="典型动态博客架构"
  
  />
  &lt;/a>
  
- &lt;figcaption>sshkey&lt;/figcaption>
+ &lt;figcaption>典型动态博客架构&lt;/figcaption>
  
 &lt;/figure>
-&lt;/p></description></item><item><title>Blog Building Logs</title><link>https://morimit.github.io/2023/blog-building-logs/</link><pubDate>Mon, 09 Jan 2023 13:50:03 +0800</pubDate><guid>https://morimit.github.io/2023/blog-building-logs/</guid><description>&lt;h2 id="references">References&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a class="link" 
- href="https://gohugo.io/getting-started/quick-start/" 
- 
- 
- target="_blank" 
- rel="noopener"
- >Hugo Docs&lt;/a>: A very brief and useful quick start, didn&amp;rsquo;t spent too much time.&lt;/li>
-&lt;li>&lt;a class="link" 
- href="https://cloudcannon.com/community/learn/hugo-101/" 
- 
- 
- target="_blank" 
- rel="noopener"
- >Hugo tutorial by CloudCannon&lt;/a>: Got a roughly picture of the file hierarchy of Hugo.&lt;/li>
-&lt;li>&lt;a class="link" 
- href="https://pragprog.com/titles/bhhugo/" 
- 
- 
- target="_blank" 
- rel="noopener"
- >Build Websites with Hugo&lt;/a>: A complete guide to work with Hugo, got a clue to change the &lt;code>/themes&lt;/code> and other files.&lt;/li>
-&lt;li>&lt;a class="link" 
- href="https://www.manning.com/books/hugo-in-action" 
- 
- 
- target="_blank" 
- rel="noopener"
- >Hugo In Action&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" 
- href="https://mantyke.icu/posts/2022/stack-theme-mod/" 
- 
- 
- target="_blank" 
- rel="noopener"
- >Hugo-stack-theme 主题魔改版&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" 
- href="https://fourxiajiao.github.io/2022/hugo-blog/" 
- 
- 
- target="_blank" 
- rel="noopener"
- >不是从零开始的 Hugo 建站笔记&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" 
- href="https://www.mytechramblings.com/posts/create-a-website-with-hugo-and-gh/" 
- 
- 
- target="_blank" 
- rel="noopener"
- >Create and host a blog with Hugo and GitHub Pages in less than 30 minutes&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link" 
- href="https://mantyke.icu/posts/2021/cf2cf0fb/" 
- 
- 
- target="_blank" 
- rel="noopener"
- >Hugo | 在文章中插入轮播图片&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="log">Log&lt;/h2>
-&lt;h3 id="2023115">2023.1.15&lt;/h3>
-&lt;ul>
-&lt;li>Added the My Life section (extract from categories section).&lt;/li>
-&lt;/ul>
-&lt;h3 id="2023114">2023.1.14&lt;/h3>
-&lt;ul>
-&lt;li>Added imgloop.&lt;/li>
-&lt;/ul>
-&lt;h3 id="2023110">2023.1.10&lt;/h3>
-&lt;ul>
-&lt;li>Signed up a new GitHub account, created a public repo automatically linked with GitHub Pages, and a another private repo ready to hold site source files.&lt;/li>
-&lt;li>Conneted git with different GitHub accounts (SSH).&lt;/li>
-&lt;li>Create a brand new SSH key in the local file &lt;code>~/.ssh/&lt;/code>, and configurated GitHub Action.&lt;/li>
-&lt;/ul>
-&lt;h3 id="202319">2023.1.9&lt;/h3>
-&lt;ul>
-&lt;li>Changed the sidebar image, footer and theme color.&lt;/li>
-&lt;li>Deleted the categories and search in the left sidebar.&lt;/li>
-&lt;/ul></description></item><item><title>Blog Build With GitHub Action</title><link>https://morimit.github.io/2023/blog-build-with-github-action/</link><pubDate>Sun, 01 Jan 2023 13:50:03 +0800</pubDate><guid>https://morimit.github.io/2023/blog-build-with-github-action/</guid><description>&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
-&lt;p>将本地仓库推送到GitHub：[[Connect git to GitHub]]&lt;/p>
-&lt;h2 id="reference">Reference&lt;/h2>
+&lt;/p></description></item><item><title>Blog Workflow</title><link>https://morimit.github.io/2023/blog-workflow/</link><pubDate>Wed, 11 Jan 2023 20:59:31 +0800</pubDate><guid>https://morimit.github.io/2023/blog-workflow/</guid><description>&lt;h2 id="添加文章">添加文章&lt;/h2>
+&lt;h3 id="添加post文章">添加post文章&lt;/h3>
+&lt;p>不需要指定模板，Hugo会使用 &lt;code>archetypes/default.md&lt;/code>模板来建立文档：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>hugo new post/my-first-post.md
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="添加notes文章">添加notes文章&lt;/h3>
+&lt;p>指定模板，使用命令&lt;code>hugo new [文件路径]/[文件名].md -k [archetype name]&lt;/code>&lt;/p></description></item><item><title>Building Blog With GitHub Actions</title><link>https://morimit.github.io/2023/building-blog-with-github-actions/</link><pubDate>Tue, 10 Jan 2023 13:50:03 +0800</pubDate><guid>https://morimit.github.io/2023/building-blog-with-github-actions/</guid><description>&lt;h2 id="reference">Reference&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a class="link" 
  href="https://gohugo.io/hosting-and-deployment/hosting-on-github/" 
@@ -163,7 +69,7 @@
  
  target="_blank" 
  rel="noopener"
- >折腾Hugo | GitHub Pages | Github Actions自动构建发布免费个人网站 - 知乎 (zhihu.com)&lt;/a> ：步骤清晰，看完就能知道怎么给GitHub上的两个仓库配置公钥私钥&lt;/li>
+ >折腾Hugo | GitHub Pages | Github Actions自动构建发布免费个人网站 - 知乎 (zhihu.com)&lt;/a> ：看完就能知道怎么给GitHub上的两个仓库配置公钥私钥&lt;/li>
 &lt;li>&lt;a class="link" 
  href="https://lijingcheng.github.io/posts/hugo/" 
  
@@ -179,6 +85,100 @@
  rel="noopener"
  >ssh-keygen 生成密钥&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;h2 id="log">Log&lt;/h2>
-&lt;blockquote>
-&lt;p>The GitHub Action is going to grab the content from the &lt;code>XXX_source&lt;/code> repository, build it using Hugo and push the output into the &lt;code>XXX&lt;/code> repository.&lt;/p></description></item></channel></rss>
+&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
+&lt;p>建立好本地仓库和GitHub的连接：&lt;a class="link" 
+ href="https://morimit.github.io/2023/connect-git-to-github/" 
+ 
+ >Connect Git to GitHub&lt;/a>&lt;/p></description></item><item><title>如何使用Hugo搭建一个博客(总)</title><link>https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/</link><pubDate>Mon, 09 Jan 2023 13:50:03 +0800</pubDate><guid>https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/</guid><description>&lt;h2 id="博客规划">博客规划&lt;/h2>
+&lt;h3 id="定位">定位&lt;/h3>
+&lt;p>明确自己的核心需求就两个：&lt;/p>
+&lt;ul>
+&lt;li>技术笔记本&lt;/li>
+&lt;li>一些其他posts&lt;/li>
+&lt;/ul>
+&lt;h3 id="页面规划">页面规划&lt;/h3>
+&lt;h4 id="主页">主页&lt;/h4>
+&lt;ul>
+&lt;li>参考一些博客、小说、视频、新闻网站，展示页适合使用摊开的卡片形式，可以一目了然地看到所有posts的信息。&lt;/li>
+&lt;li>posts在本博客中是使用tags来管理的、互相没有上下级关联的博文。&lt;/li>
+&lt;/ul>
+&lt;h4 id="存档">存档&lt;/h4>
+&lt;p>存放所有notes和posts中的博文，考虑到博文的数量，按年份来分隔比较合理，并且不需要分页，因为分页有种切割了时间流的感觉。&lt;/p></description></item><item><title>About Websites</title><link>https://morimit.github.io/2023/about-websites/</link><pubDate>Mon, 02 Jan 2023 12:16:02 +0800</pubDate><guid>https://morimit.github.io/2023/about-websites/</guid><description>&lt;h2 id="名词释义">名词释义&lt;/h2>
+&lt;ul>
+&lt;li>webpage：能够显示在web浏览器上的文档&lt;/li>
+&lt;li>website：许多网页组合成网站&lt;/li>
+&lt;li>web server：在web上托管网站的服务器&lt;/li>
+&lt;li>search engine：能够帮助使用者查找网页的服务&lt;/li>
+&lt;li>连接上述诸位的就是web：内联网、外联网和互联网的范围见下图&lt;figure 
+ 
+ class="gallery-image"
+ style="flex-grow: 74; flex-basis: 179px"
+ >
+ &lt;a href="https://morimit.github.io/2023/about-websites/internet-schema-8-mdn.png"
+ data-size="362x483"
+ >
+ &lt;img src="https://morimit.github.io/2023/about-websites/internet-schema-8-mdn.png"
+ width="362" 
+ height="483" 
+ srcset="https://morimit.github.io/2023/about-websites/internet-schema-8-mdn_hu5114650924950752741.png 720w, https://morimit.github.io/2023/about-websites/internet-schema-8-mdn_hu16446234936770360412.png 2048w" 
+ loading="lazy"
+ 
+ alt="about web"
+ 
+ />
+ &lt;/a>
+ 
+ &lt;figcaption>about web&lt;/figcaption>
+ 
+&lt;/figure>
+&lt;/li>
+&lt;li>HTTP：规范两台计算机间传输超文本的文本化无状态协议&lt;figure 
+ 
+ class="gallery-image"
+ style="flex-grow: 304; flex-basis: 729px"
+ >
+ &lt;a href="https://morimit.github.io/2023/about-websites/web-server.png"
+ data-size="827x272"
+ >
+ &lt;img src="https://morimit.github.io/2023/about-websites/web-server.png"
+ width="827" 
+ height="272" 
+ srcset="https://morimit.github.io/2023/about-websites/web-server_hu9709201769568693954.png 720w, https://morimit.github.io/2023/about-websites/web-server_hu15581066417034439593.png 2048w" 
+ loading="lazy"
+ 
+ alt="HTTP"
+ 
+ />
+ &lt;/a>
+ 
+ &lt;figcaption>HTTP&lt;/figcaption>
+ 
+&lt;/figure>
+&lt;/li>
+&lt;li>IP address：任何连上互联网的电脑都能通过公共IP地址来访问&lt;/li>
+&lt;li>domain name：为互联网上任何可用的web服务器提供人类能理解的地址&lt;/li>
+&lt;/ul>
+&lt;h2 id="web-发展史">Web 发展史&lt;/h2>
+&lt;p>&lt;figure 
+ 
+ class="gallery-image"
+ style="flex-grow: 255; flex-basis: 613px"
+ >
+ &lt;a href="https://morimit.github.io/2023/about-websites/web-history.png"
+ data-size="770x301"
+ >
+ &lt;img src="https://morimit.github.io/2023/about-websites/web-history.png"
+ width="770" 
+ height="301" 
+ srcset="https://morimit.github.io/2023/about-websites/web-history_hu16711251112554345589.png 720w, https://morimit.github.io/2023/about-websites/web-history_hu6069480512318853866.png 2048w" 
+ loading="lazy"
+ 
+ alt="web history"
+ 
+ />
+ &lt;/a>
+ 
+ &lt;figcaption>web history&lt;/figcaption>
+ 
+&lt;/figure>
+&lt;/p></description></item></channel></rss>

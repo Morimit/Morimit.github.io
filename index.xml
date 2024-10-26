@@ -1,4 +1,22 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miaomi</title><link>https://morimit.github.io/</link><link rel="shortcut icon" href="https://morimit.github.io/images/Miaomi.svg"/><description>Recent content on Miaomi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 14 Oct 2024 09:50:32 +0800</lastBuildDate><atom:link href="https://morimit.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>2.1 第一节</title><link>https://morimit.github.io/javascript/chapter2/2.1/</link><pubDate>Sun, 29 Sep 2024 20:46:15 +0800</pubDate><guid>https://morimit.github.io/javascript/chapter2/2.1/</guid><description>&lt;h2 id="第一部分">第一部分&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miaomi</title><link>https://morimit.github.io/</link><link rel="shortcut icon" href="https://morimit.github.io/images/Miaomi.svg"/><description>Recent content on Miaomi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 14 Oct 2024 09:50:32 +0800</lastBuildDate><atom:link href="https://morimit.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>1.1 第一节</title><link>https://morimit.github.io/javascript/chapter1/1.1/</link><pubDate>Fri, 04 Oct 2024 17:05:36 +0800</pubDate><guid>https://morimit.github.io/javascript/chapter1/1.1/</guid><description>&lt;img src="https://morimit.github.io/javascript/chapter1/1.1/test.jpg" alt="Featured image of post 1.1 第一节" />&lt;p>???好像有什么问题&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="flex-grow: 101; flex-basis: 242px"
+>
+&lt;a href="https://morimit.github.io/javascript/chapter1/1.1/test.jpg"
+data-size="800x791"
+>
+&lt;img src="https://morimit.github.io/javascript/chapter1/1.1/test.jpg"
+width="800"
+height="791"
+srcset="https://morimit.github.io/javascript/chapter1/1.1/test_hu11782492115184430807.jpg 720w, https://morimit.github.io/javascript/chapter1/1.1/test_hu8512898996650691915.jpg 2048w"
+loading="lazy"
+alt="第一种图片插入方式"
+/>
+&lt;/a>
+&lt;figcaption>第一种图片插入方式&lt;/figcaption>
+&lt;/figure>
+&lt;/p></description></item><item><title>1.2 第二节</title><link>https://morimit.github.io/javascript/chapter1/1.2/</link><pubDate>Fri, 04 Oct 2024 17:05:36 +0800</pubDate><guid>https://morimit.github.io/javascript/chapter1/1.2/</guid><description>&lt;h2 id="第二节">第二节&lt;/h2></description></item><item><title>2.1 第一节</title><link>https://morimit.github.io/javascript/chapter2/2.1/</link><pubDate>Sun, 29 Sep 2024 20:46:15 +0800</pubDate><guid>https://morimit.github.io/javascript/chapter2/2.1/</guid><description>&lt;h2 id="第一部分">第一部分&lt;/h2>
 &lt;p>hello~
 this is a test page
 hello~
@@ -16,7 +34,7 @@ this is a test pagehello~
 &lt;h2 id="第三部分">第三部分&lt;/h2>
 &lt;p>首先Hugo能够生成可以发布的网站文件，其次使用git进行版本控制，每次修改后可以把源码传到GitHub，最后GitHub对Hugo建站有完整的支持组件（GitHub action、GitHub pages service），所以才能顺利完成一系列自动部署。
 首先Hugo能够生成可以发布的网站文件，其次使用git进行版本控制，每次修改后可以把源码传到GitHub，最后GitHub对Hugo建站有完整的支持组件（GitHub action、GitHub pages service），所以才能顺利完成一系列自动部署&lt;/p>
-&lt;p>首先Hugo能够生成可以发布的网站文件，其次使用git进行版本控制，每次修改后可以把源码传到GitHub，最后GitHub对Hugo建站有完整的支持组件（GitHub action、GitHub pages service），所以才能顺利完成一系列自动部署首先Hugo能够生成可以发布的网站文件，其次使用git进行版本控制，每次修改后可以把源码传到GitHub，最后GitHub对Hugo建站有完整的支持组件（GitHub action、GitHub pages service），所以才能顺利完成一系列自动部署&lt;/p></description></item><item><title>Python Deal With Excel</title><link>https://morimit.github.io/2023/python-deal-with-excel/</link><pubDate>Thu, 05 Oct 2023 09:58:39 +0800</pubDate><guid>https://morimit.github.io/2023/python-deal-with-excel/</guid><description>&lt;img src="https://morimit.github.io/2023/python-deal-with-excel/openpyxl.PNG" alt="Featured image of post Python Deal With Excel" />&lt;h2 id="需求">需求&lt;/h2>
+&lt;p>首先Hugo能够生成可以发布的网站文件，其次使用git进行版本控制，每次修改后可以把源码传到GitHub，最后GitHub对Hugo建站有完整的支持组件（GitHub action、GitHub pages service），所以才能顺利完成一系列自动部署首先Hugo能够生成可以发布的网站文件，其次使用git进行版本控制，每次修改后可以把源码传到GitHub，最后GitHub对Hugo建站有完整的支持组件（GitHub action、GitHub pages service），所以才能顺利完成一系列自动部署&lt;/p></description></item><item><title>使用Python操作Excel</title><link>https://morimit.github.io/2023/%E4%BD%BF%E7%94%A8python%E6%93%8D%E4%BD%9Cexcel/</link><pubDate>Thu, 05 Oct 2023 09:58:39 +0800</pubDate><guid>https://morimit.github.io/2023/%E4%BD%BF%E7%94%A8python%E6%93%8D%E4%BD%9Cexcel/</guid><description>&lt;img src="https://morimit.github.io/2023/%E4%BD%BF%E7%94%A8python%E6%93%8D%E4%BD%9Cexcel/openpyxl.PNG" alt="Featured image of post 使用Python操作Excel" />&lt;h2 id="需求">需求&lt;/h2>
 &lt;p>将微信接龙打卡更新到考勤表中，已到的人✔，未到的人❌&lt;/p>
 &lt;h2 id="思路拆分">思路拆分&lt;/h2>
 &lt;p>对比两列，一列是人员姓名（固定列），一列是此人当日打卡情况。每次微信打卡后，复制接龙到表格的对比列中，如果固定列的名字有出现在对比列中，则更新当日打卡记录。&lt;/p>
@@ -166,134 +184,176 @@ this is a test pagehello~
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">45&lt;/span>&lt;span> sheet[&lt;span style="color:#a31515">&amp;#34;&lt;/span>&lt;span style="color:#a31515">{}&lt;/span>&lt;span style="color:#a31515">5&amp;#34;&lt;/span>.format(columnletter(l.column))].alignment = alignment
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">46&lt;/span>&lt;span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">47&lt;/span>&lt;span>workbook.save(&lt;span style="color:#a31515">&amp;#39;志愿者考勤表.xlsx&amp;#39;&lt;/span>)
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Different Blog Types</title><link>https://morimit.github.io/2023/different-blog-types/</link><pubDate>Thu, 16 Mar 2023 09:33:30 +0800</pubDate><guid>https://morimit.github.io/2023/different-blog-types/</guid><description>&lt;img src="https://morimit.github.io/2023/different-blog-types/hugo.PNG" alt="Featured image of post Different Blog Types" />&lt;h2 id="动态博客">动态博客&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Different Blog Types</title><link>https://morimit.github.io/2023/different-blog-types/</link><pubDate>Thu, 16 Mar 2023 09:33:30 +0800</pubDate><guid>https://morimit.github.io/2023/different-blog-types/</guid><description>&lt;img src="https://morimit.github.io/2023/different-blog-types/hugo.PNG" alt="Featured image of post Different Blog Types" />&lt;p>本章图片来源：hugo in action&lt;/p>
+&lt;h2 id="博客类型">博客类型&lt;/h2>
+&lt;p>从博客使用者的角度，按照是否有后台能够在线编辑博文，博客可分为：&lt;/p>
 &lt;ul>
-&lt;li>可以进入网页后台在线编写文章、管理评论，可以实时更新&lt;/li>
-&lt;li>搭建时需要租用服务器&lt;/li>
+&lt;li>静态博客&lt;/li>
+&lt;li>动态博客&lt;/li>
+&lt;/ul>
+&lt;p>从博客开发的角度看，动态博客多了应用服务器和数据库的部分。
+&lt;figure
+class="gallery-image"
+style="flex-grow: 99; flex-basis: 237px"
+>
+&lt;a href="https://morimit.github.io/2023/different-blog-types/%E5%85%B8%E5%9E%8B%E5%8A%A8%E6%80%81%E5%8D%9A%E5%AE%A2%E6%9E%B6%E6%9E%84.png"
+data-size="860x868"
+>
+&lt;img src="https://morimit.github.io/2023/different-blog-types/%E5%85%B8%E5%9E%8B%E5%8A%A8%E6%80%81%E5%8D%9A%E5%AE%A2%E6%9E%B6%E6%9E%84.png"
+width="860"
+height="868"
+srcset="https://morimit.github.io/2023/different-blog-types/%E5%85%B8%E5%9E%8B%E5%8A%A8%E6%80%81%E5%8D%9A%E5%AE%A2%E6%9E%B6%E6%9E%84_hu14183632345828057992.png 720w, https://morimit.github.io/2023/different-blog-types/%E5%85%B8%E5%9E%8B%E5%8A%A8%E6%80%81%E5%8D%9A%E5%AE%A2%E6%9E%B6%E6%9E%84_hu4347290784196763693.png 2048w"
+loading="lazy"
+alt="典型动态博客架构"
+/>
+&lt;/a>
+&lt;figcaption>典型动态博客架构&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;blockquote class="quote">&lt;p>一些流行的Web技术栈包括LAMP(Linux、Apache、MySQL、PHP)、Microsoft.NET(IIS、ASP.NET、MS SQL Server)、MEAN(MongoDB、Express、Angular、Node.js)和MERN(MongoDB、Express、Reaction、Node.js)。&lt;/p>
+&lt;p>像Apache或IIS这样的Web服务器主要在传统的Web技术栈中托管静态资产，如图像、JavaScript和CSS,这些静态文件不会在多个用户之间更改。 第二组资产是动态内容，可以有所不同，它基于提供的请求参数，包括URL，请求标头，cookie或相关的HTTP POST数据，安装了PHP、ASP.NET或Express等软件的应用程序服务器会获取这些参数并创建响应&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="动态博客">动态博客&lt;/h2>
+&lt;ul>
+&lt;li>可以登录并进入网页后台在线编写文章、管理评论，发布和修改文章比静态博客方便，可以实时更新&lt;/li>
+&lt;li>搭建时需要租用/购买服务器，要考虑服务器的安全问题&lt;/li>
 &lt;/ul>
 &lt;h3 id="halo">halo&lt;/h3>
-&lt;p>不用输代码，直接生成网页，但要配置服务器：&lt;/p>
+&lt;p>开源建站工具，不用写代码，直接生成网页，但要有一台可访问公网的服务器（云主机或实体服务器），并需要进行以下服务器配置：&lt;/p>
 &lt;ul>
-&lt;li>一台可访问公网的服务器。可购买云主机，或实体服务器。
-&lt;ul>
-&lt;li>服务器的连接与管理：SSH工具（如SecureCRT）、SFTP工具（往服务器上上传文件）。&lt;/li>
-&lt;li>服务器应用安装与环境部署。（部署手册也可也在这个博主账号下找）。&lt;/li>
+&lt;li>服务器的连接与管理：SSH工具（如SecureCRT）、SFTP工具（向服务器上传文件）&lt;/li>
+&lt;li>服务器应用安装与环境部署&lt;/li>
 &lt;li>准备网站源码或安装包（jar包）进行部署。&lt;/li>
 &lt;li>防火墙开放8090端口，这是网站打开访问的端口 (&lt;code>xxx.xxx.xxx.xxx:8090&lt;/code>）。&lt;/li>
 &lt;li>可以下载一些主题包，在控制台页面安装。&lt;/li>
-&lt;li>在服务器上安装nginx。一般来说我们不会用jar包启动的8090端口的服务去直面用户，而是会在中间加一层代理服务器做转发服务（负载均衡、扛并发）。常用的代理服务器是nginx。nginx默认在80端口启动web服务。&lt;/li>
-&lt;li>配置nginx，让它代理到jar包启动的地址（xxx.xxx.xxx.xxx:8090），即可不用写8090端口访问。修改配置文件。&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>在GitHub上部署halo，省去购买服务器。&lt;/li>
+&lt;li>在服务器上安装nginx。一般来说我们不会用jar包启动的8090端口的服务去直面用户，而是会在中间加一层代理服务器做转发服务（负载均衡、扛并发）。常用的代理服务器就是nginx（默认在80端口启动web服务）。&lt;/li>
+&lt;li>配置nginx，让它代理到jar包启动的地址（xxx.xxx.xxx.xxx:8090），即可不用写8090端口访问。&lt;/li>
 &lt;/ul>
 &lt;h3 id="wordpress">Wordpress&lt;/h3>
-&lt;p>可用docker搭建；基于PHP语言&lt;/p>
+&lt;p>可用docker搭建；基于PHP语言；搭建步骤大致如下：&lt;/p>
 &lt;ul>
+&lt;li>购买主机和域名&lt;/li>
 &lt;li>安装docker&lt;/li>
-&lt;li>搭建博客。下载docker-compose.yml文件。接着用一行命令启动博客（之前下载的yml文件里写了从docker官方仓库拉取服务镜像，包括mysql和需要的web服务）。&lt;/li>
+&lt;li>搭建博客。下载docker-compose.yml文件，再用一行命令启动博客（yml文件里包含了从docker官方仓库拉取服务镜像，包括mysql和需要的web服务）。&lt;/li>
 &lt;li>登录（localhost:8000），选择语言、登录账户设置，即可以看到博客后台。&lt;/li>
-&lt;li>可以改换主题&lt;/li>
+&lt;li>最后可更换主题和插件&lt;/li>
 &lt;/ul>
 &lt;h2 id="静态博客">静态博客&lt;/h2>
 &lt;ul>
-&lt;li>利用github pages、Netlify、vercel等可以做免费托管，相当于发一个写好的package到托管网站上（比如Hugo目录中的publish文件夹），再写好自动配置程序（可以参考别人的配置模板），它就能自动把网站package发布到某个网址上。&lt;/li>
-&lt;li>缺点就是如果要新写文章，就要重新改好package再通过SSH同步上去。&lt;/li>
+&lt;li>使用博客生成器生成网站（一个包含一堆HTML文件的文件夹），每次发布/修改内容都需要重新生成此文件夹&lt;/li>
+&lt;li>网站放在托管平台，利用GitHub Pages、Netlify、vercel等可以做免费托管，无需购买服务器&lt;/li>
+&lt;li>利用GitHub Actions实现简单的CI/CD&lt;/li>
+&lt;li>缺点是扩展时受限于生成器提供的API&lt;/li>
 &lt;/ul>
-&lt;h3 id="hugo">Hugo&lt;/h3>
-&lt;p>基于GO语言；非常快速；&lt;/p>
-&lt;h3 id="hexo">Hexo&lt;/h3>
-&lt;p>和Hugo差不多，很多主题修改后Hugo也可以用。&lt;/p></description></item><item><title>Blog Workflow</title><link>https://morimit.github.io/2023/blog-workflow/</link><pubDate>Wed, 11 Jan 2023 20:59:31 +0800</pubDate><guid>https://morimit.github.io/2023/blog-workflow/</guid><description>&lt;img src="https://morimit.github.io/2023/blog-workflow/Journey2.png" alt="Featured image of post Blog Workflow" />&lt;p>首先Hugo能够生成可以发布的网站文件，其次使用git进行版本控制，每次修改后可以把源码传到GitHub，最后GitHub对Hugo建站有完整的支持组件（GitHub action、GitHub pages service），所以才能顺利完成一系列自动部署。&lt;/p>
-&lt;p>关于 GitHub action：&lt;/p>
+&lt;p>了解博客生成器之前，最好先了解Jamstack。J、A、M分别代表JavaScript、APIs、Markup，也即此技术栈的核心：&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="flex-grow: 190; flex-basis: 458px"
+>
+&lt;a href="https://morimit.github.io/2023/different-blog-types/jamstack%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E6%9E%B6%E6%9E%84.png"
+data-size="1188x622"
+>
+&lt;img src="https://morimit.github.io/2023/different-blog-types/jamstack%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E6%9E%B6%E6%9E%84.png"
+width="1188"
+height="622"
+srcset="https://morimit.github.io/2023/different-blog-types/jamstack%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E6%9E%B6%E6%9E%84_hu4320954668819643124.png 720w, https://morimit.github.io/2023/different-blog-types/jamstack%E9%9D%99%E6%80%81%E5%8D%9A%E5%AE%A2%E6%9E%B6%E6%9E%84_hu14042848128137971273.png 2048w"
+loading="lazy"
+alt="Jamstack"
+/>
+&lt;/a>
+&lt;figcaption>Jamstack&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>首次发出获取HTML页面的请求运行时Jamstack与传统Web技术栈的对比：
+&lt;figure
+class="gallery-image"
+style="flex-grow: 133; flex-basis: 319px"
+>
+&lt;a href="https://morimit.github.io/2023/different-blog-types/%E5%AF%B9%E6%AF%94.png"
+data-size="878x660"
+>
+&lt;img src="https://morimit.github.io/2023/different-blog-types/%E5%AF%B9%E6%AF%94.png"
+width="878"
+height="660"
+srcset="https://morimit.github.io/2023/different-blog-types/%E5%AF%B9%E6%AF%94_hu11320844251050641124.png 720w, https://morimit.github.io/2023/different-blog-types/%E5%AF%B9%E6%AF%94_hu3473551102215921378.png 2048w"
+loading="lazy"
+alt="与动态站点的web技术栈对比"
+/>
+&lt;/a>
+&lt;figcaption>与动态站点的web技术栈对比&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
 &lt;blockquote class="quote">
-&lt;p>The GitHub Action is going to grab the content from the &lt;code>XXX_source&lt;/code> repository, build it using Hugo and push the output into the &lt;code>XXX&lt;/code> repository&lt;/p>&lt;/blockquote>
-&lt;h2 id="防踩坑注意事项">防踩坑注意事项&lt;/h2>
-&lt;ul>
-&lt;li>如果一台电脑的git要连接两个GitHub账号，使用SSH连接方式，需要本地gitbash生成&lt;strong>两组SSH密钥对&lt;/strong>，分别将公钥内容存入对应的GitHub账号，而在本地 &lt;code>~/.ssh&lt;/code> 文件夹下创建一个 &lt;code>config&lt;/code> 文件，填写私钥的对应信息。当设置git远程仓库的时候，需要参考 &lt;code>config&lt;/code> 文件中的内容。 具体参考：&lt;a class="link"
-href="https://morimit.github.io/2023/connect-git-to-github/"
-title="connect git to github"
->Connect git to GitHub&lt;/a>&lt;/li>
-&lt;li>GitHub Action 可以将GitHub中放置源码的仓库（&lt;strong>source repo&lt;/strong>），通过GitHub内置的Hugo二进制文件来将源码打包生成 &lt;code>public&lt;/code> 文件夹，并根据自行（在GitHub上）写入的Action脚本，（脚本中写入通过接收本地的git push来触发），通过&lt;strong>新的SSH连接（本地生成一个新的SSH密钥对）&lt;/strong>，公钥填入publish repo的 &lt;code>settings/Deploy&lt;/code> ，私钥填入source repo 的&lt;code>settings/private key&lt;/code> 并将此&lt;strong>private key的名称填入Action脚本的特定位置&lt;/strong>，从而让本地的git软件将这个 &lt;code>public&lt;/code> 文件夹push 到GitHub上特定的、能触发GitHub pages发布的仓库（&lt;strong>publish repo&lt;/strong>）。具体参考：&lt;a class="link"
-href="https://morimit.github.io/2023/blog-build-with-github-action/"
-title="action"
->Build Hugo With GitHub Action&lt;/a>&lt;/li>
-&lt;li>GitHub Action的脚本中写的推送到publish repo的branch，要和此仓库设定的GitHub pages发布branch相一致。&lt;/li>
-&lt;/ul>
-&lt;h2 id="搭建步骤">搭建步骤&lt;/h2>
-&lt;ul>
-&lt;li>先在本地下载Hugo二进制文件，一番折腾后通过 &lt;code>hugo server&lt;/code> 命令查看网站效果。&lt;/li>
-&lt;li>本地生成SSH密钥对，GitHub上创建源码仓库和发布仓库，发布仓库的命名必须是 &lt;code>xxxxx.github.io &lt;/code>，此命名和网站域名一致。参照 &lt;a class="link"
-href="https://morimit.github.io/2023/blog-build-with-github-action/"
-title="action"
->Build Hugo With GitHub Action&lt;/a>配置好 GitHub Action 的脚本和两个仓库。&lt;/li>
-&lt;li>将本地项目文件夹通过 &lt;code>git push&lt;/code> 命令推送到source repo，可以在 &lt;code>https://xxxxx.github.io&lt;/code> 处查看网站。&lt;/li>
-&lt;/ul>
-&lt;h2 id="最后形成的workflow">最后形成的Workflow&lt;/h2>
-&lt;ul>
-&lt;li>&lt;code>git pull&lt;/code> 先将GitHub上的源码（如果有变动）同步到本地。&lt;/li>
-&lt;li>本地修改内容，若新增文件则可使用命令&lt;code>hugo new posts/新增内容.md&lt;/code>，用&lt;code>hugo server&lt;/code> 命令查看修改效果，如果再加上&lt;code>--buildDrafts&lt;/code>可以查看草稿文件 。&lt;/li>
-&lt;li>&lt;code>git add .&lt;/code>添加修改后的所有文件到stage area；&lt;/li>
-&lt;li>&lt;code>git commit -m 'some commets'&lt;/code> 把stage area的文件添加到workspace&lt;/li>
-&lt;li>&lt;code>git push&lt;/code> 把工作区的文件推送到GitHub的源码仓库中，在&lt;code>https://xxxxx.github.io&lt;/code> 处查看发布好的网站。&lt;/li>
-&lt;/ul></description></item><item><title>小樱卡牌</title><link>https://morimit.github.io/2023/%E5%B0%8F%E6%A8%B1%E5%8D%A1%E7%89%8C/</link><pubDate>Tue, 10 Jan 2023 20:56:54 +0800</pubDate><guid>https://morimit.github.io/2023/%E5%B0%8F%E6%A8%B1%E5%8D%A1%E7%89%8C/</guid><description>&lt;img src="https://morimit.github.io/2023/%E5%B0%8F%E6%A8%B1%E5%8D%A1%E7%89%8C/Sakura_Magic_circle.webp" alt="Featured image of post 小樱卡牌" />&lt;h2 id="魔法阵">魔法阵&lt;/h2>
-&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
-&lt;div class="swiper-container">
-&lt;div class="swiper-wrapper">
-&lt;div class="swiper-slide">
-&lt;img src="Sakura_Magic_circle.webp" alt="">
-&lt;/div>
-&lt;div class="swiper-slide">
-&lt;img src="Clear_Card_Magic_Circle_-_Sakura-0.webp" alt="">
-&lt;/div>
-&lt;div class="swiper-slide">
-&lt;img src="Clow.webp" alt="">
-&lt;/div>
-&lt;/div>
-&lt;div class="swiper-pagination">&lt;/div>
-&lt;/div>
-&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js">&lt;/script>
-&lt;script>
-var swiper = new Swiper('.swiper-container', {
-pagination: '.swiper-pagination',
-paginationClickable: true,
-autoHeight: true,
-keyboardControl : true,
-mousewheelControl : true,
-lazyLoading : true,
-lazyLoadingInPrevNext : true,
-loop : true,
-});
-&lt;/script>
-&lt;h2 id="库洛牌和小樱牌">库洛牌和小樱牌&lt;/h2>
-&lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
-&lt;div class="swiper-container">
-&lt;div class="swiper-wrapper">
-&lt;div class="swiper-slide">
-&lt;img src="Clow_back.jpg" alt="">
-&lt;/div>
-&lt;div class="swiper-slide">
-&lt;img src="Sakura_back.webp" alt="">
-&lt;/div>
-&lt;/div>
-&lt;div class="swiper-pagination">&lt;/div>
-&lt;/div>
-&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js">&lt;/script>
-&lt;script>
-var swiper = new Swiper('.swiper-container', {
-pagination: '.swiper-pagination',
-paginationClickable: true,
-autoHeight: true,
-keyboardControl : true,
-mousewheelControl : true,
-lazyLoading : true,
-lazyLoadingInPrevNext : true,
-loop : true,
-});
-&lt;/script></description></item><item><title>Connect Git to Github</title><link>https://morimit.github.io/2023/connect-git-to-github/</link><pubDate>Tue, 10 Jan 2023 16:22:12 +0800</pubDate><guid>https://morimit.github.io/2023/connect-git-to-github/</guid><description>&lt;img src="https://morimit.github.io/2023/connect-git-to-github/SSH.PNG" alt="Featured image of post Connect Git to Github" />&lt;h2 id="在git-bash终端创建两个ssh-key">在git bash终端创建两个SSH key:&lt;/h2>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>ssh-keygen -t rsa -f ~/.ssh/id_rsa_m -C &lt;span style="color:#a31515">&amp;#34;firstmail@gmail.com&amp;#34;&lt;/span> &lt;span style="color:#008000">#绑定hugo网站源代码存放的GitHub所用的邮箱&lt;/span>
+&lt;p>使用Jamstack，编译步骤已经执行了数据库处理和基于应用程序逻辑的拼接。 这种HTML生成并不是针对每个请求都发生的。 因此，该请求不需要通过互联网访问原始服务器。 而是在地理位置上靠近客户端的CDN提供内容。&lt;/p>&lt;/blockquote>
+&lt;p>可以看到Jamstack将大部分逻辑从应用程序中移出到web服务器，与应用程序服务器相比，web服务器的安全问题和维护需求更少，如果使用托管服务，则能最大程度减少维护工作。&lt;/p>
+&lt;h3 id="hugo">Hugo&lt;/h3>
+&lt;p>基于Go语言；生成站点的速度非常快。&lt;/p>
+&lt;h3 id="hexo">Hexo&lt;/h3>
+&lt;p>基于Node.js，很多主题稍作修改后Hugo也可以用。&lt;/p></description></item><item><title>Blog Workflow</title><link>https://morimit.github.io/2023/blog-workflow/</link><pubDate>Wed, 11 Jan 2023 20:59:31 +0800</pubDate><guid>https://morimit.github.io/2023/blog-workflow/</guid><description>&lt;img src="https://morimit.github.io/2023/blog-workflow/Journey2.png" alt="Featured image of post Blog Workflow" />&lt;h2 id="添加文章">添加文章&lt;/h2>
+&lt;h3 id="添加post文章">添加post文章&lt;/h3>
+&lt;p>不需要指定模板，Hugo会使用 &lt;code>archetypes/default.md&lt;/code>模板来建立文档：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>hugo new post/my-first-post.md
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="添加notes文章">添加notes文章&lt;/h3>
+&lt;p>指定模板，使用命令&lt;code>hugo new [文件路径]/[文件名].md -k [archetype name]&lt;/code>&lt;/p>
+&lt;p>比如添加JavaScript这个笔记，需要按照如下格式：&lt;/p>
+&lt;ol>
+&lt;li>在&lt;code>./content&lt;/code>目录下新建&lt;code>javascript&lt;/code>文件夹和&lt;code>_index.md&lt;/code>&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>hugo new javascript/_index.md -k note-section.md
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="2">
+&lt;li>在&lt;code>./content/javascript&lt;/code>目录下添加chapter：&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>hugo new javascript/chapter1/_index.md -k note-section.md
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ol start="3">
+&lt;li>在&lt;code>./content/javascript/chapter1&lt;/code>目录下添加每一节：&lt;/li>
+&lt;/ol>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>hugo new javascript/chapter1/1.1/index.md -k note.md
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>最后可以用&lt;code>hugo server&lt;/code> 命令查看修改效果，如果再加上&lt;code>--buildDrafts&lt;/code>可以查看草稿文件 ：
+&lt;figure
+class="gallery-image"
+style="flex-grow: 145; flex-basis: 349px"
+>
+&lt;a href="https://morimit.github.io/2023/blog-workflow/sample.png"
+data-size="1343x921"
+>
+&lt;img src="https://morimit.github.io/2023/blog-workflow/sample.png"
+width="1343"
+height="921"
+srcset="https://morimit.github.io/2023/blog-workflow/sample_hu1189619074954637178.png 720w, https://morimit.github.io/2023/blog-workflow/sample_hu10814658889366635454.png 2048w"
+loading="lazy"
+alt="sample note"
+/>
+&lt;/a>
+&lt;figcaption>sample note&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="将本地变化推送到远程仓库">将本地变化推送到远程仓库&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>git pull
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2&lt;/span>&lt;span>git add . &lt;span style="color:#008000">#添加修改后的所有文件到stage area&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3&lt;/span>&lt;span>git commit -m &lt;span style="color:#a31515">&amp;#34;添加评论&amp;#34;&lt;/span> &lt;span style="color:#008000">#把stage area的文件提交到分支&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4&lt;/span>&lt;span>git push origin main &lt;span style="color:#008000">#推送到源码仓库&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5&lt;/span>&lt;span>&lt;span style="color:#008000"># 最后可在`https://xxxxx.github.io` 处查看发布好的网站。&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="改动博客样式">改动博客样式&lt;/h2>
+&lt;h3 id="切换到测试分支开发">切换到测试分支开发&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>git branch &lt;span style="color:#008000">#查看所有分支&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2&lt;/span>&lt;span>git checkout -b test &lt;span style="color:#008000">#新建并切换到test分支&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="完成后合并到main分支">完成后合并到main分支&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>git switch main &lt;span style="color:#008000">#切换到main分支&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2&lt;/span>&lt;span>git merge --no-ff -m &lt;span style="color:#a31515">&amp;#34;merge with no-ff&amp;#34;&lt;/span> test &lt;span style="color:#008000">#在非fast forward模式下合并分支&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3&lt;/span>&lt;span>git log --graph --pretty=online --abbrev-commit &lt;span style="color:#008000">#可以查看合并结果&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4&lt;/span>&lt;span>git push origin main
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5&lt;/span>&lt;span>&lt;span style="color:#008000">#手动删除远程仓库内的test分支&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6&lt;/span>&lt;span>git branch -d test &lt;span style="color:#008000">#删除本地test分支&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7&lt;/span>&lt;span>git fetch --prune &lt;span style="color:#008000">#删除远程仓库中删除的分支的引用&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Connect Git to Github</title><link>https://morimit.github.io/2023/connect-git-to-github/</link><pubDate>Tue, 10 Jan 2023 16:22:12 +0800</pubDate><guid>https://morimit.github.io/2023/connect-git-to-github/</guid><description>&lt;img src="https://morimit.github.io/2023/connect-git-to-github/SSH.PNG" alt="Featured image of post Connect Git to Github" />&lt;h2 id="场景">场景&lt;/h2>
+&lt;p>需要用一台（Windows）电脑同时连接多个GitHub账号。&lt;/p>
+&lt;h2 id="建立ssh连接">建立SSH连接&lt;/h2>
+&lt;h3 id="创建两个ssh-key">创建两个SSH key&lt;/h3>
+&lt;p>在终端输入以下命令：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>ssh-keygen -t rsa -f ~/.ssh/id_rsa_m -C &lt;span style="color:#a31515">&amp;#34;firstmail@gmail.com&amp;#34;&lt;/span> &lt;span style="color:#008000">#绑定一个GitHub账号所用的邮箱&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2&lt;/span>&lt;span>ssh-keygen -t rsa -f ~/.ssh/id_rsa -C &lt;span style="color:#a31515">&amp;#34;secondmail@gmail.com&amp;#34;&lt;/span> &lt;span style="color:#008000">#绑定另一个GitHub账号的邮箱&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="将两个ssh公钥分别添加到对应的github账号中">将两个SSH公钥分别添加到对应的GitHub账号中&lt;/h2>
-&lt;p>两个SSH key分别配置在两个GitHub账号如下的设置里。
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="添加ssh公钥到对应github账号中">添加SSH公钥到对应GitHub账号中&lt;/h3>
+&lt;p>两个SSH key分别配置在对应GitHub账号中：
 &lt;figure
 class="gallery-image"
 style="flex-grow: 183; flex-basis: 440px"
@@ -312,15 +372,15 @@ alt="sshkey"
 &lt;figcaption>sshkey&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
-&lt;h2 id="清空本地的ssh缓存并添加新ssh密钥到ssh-agent中">清空本地的SSH缓存并添加新SSH密钥到SSH agent中&lt;/h2>
-&lt;p>在gitbash终端中输入命令：&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>ssh-add -D
+&lt;h3 id="本地添加新ssh密钥到ssh-agent中">本地添加新SSH密钥到SSH agent中&lt;/h3>
+&lt;p>在终端中输入命令：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>ssh-add -D &lt;span style="color:#008000">#清空本地的SSH缓存&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2&lt;/span>&lt;span>ssh-add ~/.ssh/id_rsa
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3&lt;/span>&lt;span>ssh-add ~/.ssh/id_rsa_m
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4&lt;/span>&lt;span>ssh-add -l
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>若提示 &lt;code>Could not open a connection to your authentication agent.&lt;/code> 则先执行命令 &lt;code>ssh-agent bash&lt;/code> 即可。&lt;/p>
-&lt;h2 id="在本地配置文件中设置不同账号和ssh-key的对应关系">在本地配置文件中设置不同账号和SSH key的对应关系&lt;/h2>
-&lt;p>在 &lt;code>~/.ssh/config&lt;/code> 文件（没有就新建一个）中设置不同仓库指向不同的密钥文件：&lt;/p>
+&lt;h3 id="修改本地配置文件">修改本地配置文件&lt;/h3>
+&lt;p>要在本地配置文件中设置不同账号和SSH key的对应关系，就需要在 &lt;code>~/.ssh/config&lt;/code> 文件（没有就新建一个）中设置不同仓库指向不同的密钥文件：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1&lt;/span>&lt;span>&lt;span style="color:#008000">#第一个账号&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2&lt;/span>&lt;span>Host github.com &lt;span style="color:#008000"># 这里域名随意写，标识账号1&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3&lt;/span>&lt;span>HostName github.com &lt;span style="color:#008000">#这里域名就是我们要访问的远程服务器域名github.com&lt;/span>
@@ -333,18 +393,14 @@ alt="sshkey"
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10&lt;/span>&lt;span>User git
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11&lt;/span>&lt;span>PreferredAuthentications publickey
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12&lt;/span>&lt;span>IdentityFile ~/.ssh/id_rsa_m
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="测试ssh连接是否成功">测试SSH连接是否成功&lt;/h2>
-&lt;p>在gitbash中执行命令&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="测试ssh连接">测试SSH连接&lt;/h3>
+&lt;p>在终端中执行命令&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>ssh -T git@github.com
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2&lt;/span>&lt;span>ssh -T git@second.github.com
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>提示 &lt;code>Hi Morimit! You've successfully authenticated, but GitHub does not provide shell access&lt;/code> 则为成功。&lt;/p>
-&lt;p>到此为止参考 &lt;a class="link"
-href="https://blog.csdn.net/Vivi_static/article/details/107859874"
-target="_blank"
-rel="noopener"
->github-手把手教程-本地如何连接多个github仓库_Vivi_static的博客-CSDN博客_如何连接多个github仓库&lt;/a>&lt;/p>
 &lt;h2 id="配置git">配置git&lt;/h2>
-&lt;p>进入项目文件夹。&lt;/p>
+&lt;h3 id="配置项目文件夹信息">配置项目文件夹信息&lt;/h3>
+&lt;p>在项目文件夹中打开终端并执行以下命令：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>&lt;span style="color:#008000"># 取消全局 用户名/邮箱 配置&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2&lt;/span>&lt;span>$ git config --global --unset user.name
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3&lt;/span>&lt;span>$ git config --global --unset user.email
@@ -352,99 +408,46 @@ rel="noopener"
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5&lt;/span>&lt;span>$ git config user.email &lt;span style="color:#a31515">&amp;#34;xxxx@xx.com&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6&lt;/span>&lt;span>$ git config user.name &lt;span style="color:#a31515">&amp;#34;xxxx&amp;#34;&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7&lt;/span>&lt;span>$ git config --list
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>配置远程仓库：&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="配置远程仓库信息">配置远程仓库信息&lt;/h3>
+&lt;p>注意设置远程仓库的时候，需要与 &lt;code>config&lt;/code> 文件中的Host名称对应。&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>$ git remote rm origin
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2&lt;/span>&lt;span>&lt;span style="color:#008000"># 远程仓库地址，注意Host名称&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3&lt;/span>&lt;span>$ git remote add origin git@second.github.com:githubUserName/repName.git
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4&lt;/span>&lt;span>$ git remote -v &lt;span style="color:#008000"># 查看远程&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="将本地仓库上传到远程仓库">将本地仓库上传到远程仓库&lt;/h2>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="将本地仓库上传到远程仓库">将本地仓库上传到远程仓库&lt;/h3>
 &lt;p>push测试：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>git add .
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2&lt;/span>&lt;span>git commit -m &lt;span style="color:#a31515">&amp;#34;自行添加注释&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3&lt;/span>&lt;span>git push origin main //推送
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>到此为止参考 &lt;a class="link"
-href="https://www.cnblogs.com/zhengyan/p/10728527.html#:~:text=%E6%9C%89%E6%97%B6%E5%80%99%E6%88%91%E4%BB%AC%E9%9C%80%E8%A6%81%E5%9C%A8%E5%90%8C%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E4%B8%8A%E8%BF%9E%E6%8E%A5%E5%A4%9A%E4%B8%AA%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93%EF%BC%8C%E6%AF%94%E5%A6%82%E8%BF%9E%E6%8E%A5%E4%B8%A4%E4%B8%AAGitHub%E8%B4%A6%E5%8F%B7%EF%BC%8C%E9%82%A3%E4%B9%88%E9%9C%80%E8%A6%81%E4%B8%A4%E4%B8%AA%E6%9D%A1%E4%BB%B6%E3%80%82%201.%E7%94%9F%E6%88%90%E4%B8%A4%E5%AF%B9%20%E7%A7%81%E9%92%A5%2F%E5%85%AC%E9%92%A5,%EF%BC%8C%E5%B9%B6%E4%B8%94%E5%AF%86%E9%92%A5%E6%96%87%E4%BB%B6%E5%91%BD%E5%90%8D%E4%B8%8D%E8%83%BD%E9%87%8D%E5%A4%8D%E3%80%82%202.push%20%E5%88%B0remote%E6%97%B6%E5%8C%BA%E5%88%86%E4%B8%A4%E4%B8%AA%E8%B4%A6%E6%88%B7%EF%BC%8C%E6%8E%A8%E9%80%81%E5%88%B0%E7%9B%B8%E5%BA%94%E7%9A%84%E4%BB%93%E5%BA%93%E3%80%82"
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3&lt;/span>&lt;span>git push origin main &lt;span style="color:#008000">#推送到远端main分支&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="流程总结">流程总结&lt;/h3>
+&lt;ol>
+&lt;li>确保SSH连接成功&lt;/li>
+&lt;li>新建本地仓库，在项目文件夹目录下打开git bash终端。&lt;/li>
+&lt;li>将本地仓库git初始化 &lt;code>git init&lt;/code>&lt;/li>
+&lt;li>在本地添加远程仓库的SSH地址 &lt;code>git remote add origin git@second.github.com:Morimit/Morimit_source.git&lt;/code> (注意这里的账号名 &lt;code>git@second.github.com&lt;/code> 是和 &lt;code>~/.ssh/config&lt;/code> 文件中配置一致的)&lt;/li>
+&lt;li>配置git账号: &lt;code>git config user.name &amp;quot;Morimit&amp;quot; &lt;/code> 和 &lt;code>git config user.email &amp;quot;firstmail@gmail.com&amp;quot;&lt;/code> 。&lt;/li>
+&lt;li>添加到暂存区和提交到当前分支： &lt;code>git add .&lt;/code> 、 &lt;code>git commit -m &amp;quot;comments&amp;quot;&lt;/code>&lt;/li>
+&lt;li>推送到远程仓库： &lt;code>git push origin main&lt;/code>&lt;/li>
+&lt;li>如果&lt;code>git pull&lt;/code>提示&lt;code>no tracking information&lt;/code>，则说明本地分支和远程分支的链接关系没有创建，用命令&lt;code>git branch --set-upstream &amp;lt;branch-name&amp;gt; origin/&amp;lt;branch-name&amp;gt;&lt;/code>。&lt;/li>
+&lt;/ol>
+&lt;h2 id="参考">参考&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a class="link"
+href="https://blog.csdn.net/Vivi_static/article/details/107859874"
 target="_blank"
 rel="noopener"
->Git之同一台电脑连接多个远程仓库 - zhengyan_web - 博客园 (cnblogs.com)&lt;/a>
-额外参考：&lt;a class="link"
+>github-手把手教程-本地如何连接多个github仓库_Vivi_static的博客-CSDN博客&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link"
+href="https://www.cnblogs.com/zhengyan/p/10728527.html"
+target="_blank"
+rel="noopener"
+>Git之同一台电脑连接多个远程仓库 - zhengyan_web - 博客园 (cnblogs.com)&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link"
 href="https://zhuanlan.zhihu.com/p/82388563"
 target="_blank"
 rel="noopener"
->本地Git仓库关联多个远程仓库的两种方法 - 知乎 (zhihu.com)&lt;/a>&lt;/p>
-&lt;h2 id="绑定好后新建本地仓库再连接到新远程仓库的流程总结">绑定好后，新建本地仓库再连接到新远程仓库的流程总结&lt;/h2>
-&lt;ol>
-&lt;li>新建本地仓库，使用gitbash进入到项目文件夹中。&lt;/li>
-&lt;li>将本地仓库git初始化 &lt;code>git init&lt;/code>&lt;/li>
-&lt;li>在本地添加远程仓库SSH地址 &lt;code>git remote add origin git@second.github.com:Morimit/Morimit_source.git&lt;/code> (注意这里的账号名是 &lt;code>git@second.github.com&lt;/code> 是和 &lt;code>~/.ssh/config&lt;/code> 文件中配置一致的)&lt;/li>
-&lt;li>配置git账号: &lt;code>git config user.name &amp;quot;Morimit&amp;quot; &lt;/code> 和 &lt;code>git config user.email &amp;quot;firstmail@gmail.com&amp;quot;&lt;/code> 。&lt;/li>
-&lt;li>添加和提交： &lt;code>git add .&lt;/code> 、 &lt;code>git commit -m &amp;quot;Add site files&amp;quot;&lt;/code>&lt;/li>
-&lt;li>推送到远程仓库： &lt;code>git push --set-upstream origin main&lt;/code>&lt;/li>
-&lt;/ol></description></item><item><title>Blog Building Logs</title><link>https://morimit.github.io/2023/blog-building-logs/</link><pubDate>Mon, 09 Jan 2023 13:50:03 +0800</pubDate><guid>https://morimit.github.io/2023/blog-building-logs/</guid><description>&lt;img src="https://morimit.github.io/2023/blog-building-logs/Journey.png" alt="Featured image of post Blog Building Logs" />&lt;h2 id="references">References&lt;/h2>
-&lt;ul>
-&lt;li>&lt;a class="link"
-href="https://gohugo.io/getting-started/quick-start/"
-target="_blank"
-rel="noopener"
->Hugo Docs&lt;/a>: A very brief and useful quick start, didn&amp;rsquo;t spent too much time.&lt;/li>
-&lt;li>&lt;a class="link"
-href="https://cloudcannon.com/community/learn/hugo-101/"
-target="_blank"
-rel="noopener"
->Hugo tutorial by CloudCannon&lt;/a>: Got a roughly picture of the file hierarchy of Hugo.&lt;/li>
-&lt;li>&lt;a class="link"
-href="https://pragprog.com/titles/bhhugo/"
-target="_blank"
-rel="noopener"
->Build Websites with Hugo&lt;/a>: A complete guide to work with Hugo, got a clue to change the &lt;code>/themes&lt;/code> and other files.&lt;/li>
-&lt;li>&lt;a class="link"
-href="https://www.manning.com/books/hugo-in-action"
-target="_blank"
-rel="noopener"
->Hugo In Action&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link"
-href="https://mantyke.icu/posts/2022/stack-theme-mod/"
-target="_blank"
-rel="noopener"
->Hugo-stack-theme 主题魔改版&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link"
-href="https://fourxiajiao.github.io/2022/hugo-blog/"
-target="_blank"
-rel="noopener"
->不是从零开始的 Hugo 建站笔记&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link"
-href="https://www.mytechramblings.com/posts/create-a-website-with-hugo-and-gh/"
-target="_blank"
-rel="noopener"
->Create and host a blog with Hugo and GitHub Pages in less than 30 minutes&lt;/a>&lt;/li>
-&lt;li>&lt;a class="link"
-href="https://mantyke.icu/posts/2021/cf2cf0fb/"
-target="_blank"
-rel="noopener"
->Hugo | 在文章中插入轮播图片&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="log">Log&lt;/h2>
-&lt;h3 id="2023115">2023.1.15&lt;/h3>
-&lt;ul>
-&lt;li>Added the My Life section (extract from categories section).&lt;/li>
-&lt;/ul>
-&lt;h3 id="2023114">2023.1.14&lt;/h3>
-&lt;ul>
-&lt;li>Added imgloop.&lt;/li>
-&lt;/ul>
-&lt;h3 id="2023110">2023.1.10&lt;/h3>
-&lt;ul>
-&lt;li>Signed up a new GitHub account, created a public repo automatically linked with GitHub Pages, and a another private repo ready to hold site source files.&lt;/li>
-&lt;li>Conneted git with different GitHub accounts (SSH).&lt;/li>
-&lt;li>Create a brand new SSH key in the local file &lt;code>~/.ssh/&lt;/code>, and configurated GitHub Action.&lt;/li>
-&lt;/ul>
-&lt;h3 id="202319">2023.1.9&lt;/h3>
-&lt;ul>
-&lt;li>Changed the sidebar image, footer and theme color.&lt;/li>
-&lt;li>Deleted the categories and search in the left sidebar.&lt;/li>
-&lt;/ul></description></item><item><title>Blog Build With GitHub Action</title><link>https://morimit.github.io/2023/blog-build-with-github-action/</link><pubDate>Sun, 01 Jan 2023 13:50:03 +0800</pubDate><guid>https://morimit.github.io/2023/blog-build-with-github-action/</guid><description>&lt;img src="https://morimit.github.io/2023/blog-build-with-github-action/actions.PNG" alt="Featured image of post Blog Build With GitHub Action" />&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
-&lt;p>将本地仓库推送到GitHub：[[Connect git to GitHub]]&lt;/p>
-&lt;h2 id="reference">Reference&lt;/h2>
+>本地Git仓库关联多个远程仓库的两种方法 - 知乎 (zhihu.com)&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Building Blog With GitHub Actions</title><link>https://morimit.github.io/2023/building-blog-with-github-actions/</link><pubDate>Tue, 10 Jan 2023 13:50:03 +0800</pubDate><guid>https://morimit.github.io/2023/building-blog-with-github-actions/</guid><description>&lt;img src="https://morimit.github.io/2023/building-blog-with-github-actions/actions.PNG" alt="Featured image of post Building Blog With GitHub Actions" />&lt;h2 id="reference">Reference&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a class="link"
 href="https://gohugo.io/hosting-and-deployment/hosting-on-github/"
@@ -470,7 +473,7 @@ rel="noopener"
 href="https://zhuanlan.zhihu.com/p/109057290"
 target="_blank"
 rel="noopener"
->折腾Hugo | GitHub Pages | Github Actions自动构建发布免费个人网站 - 知乎 (zhihu.com)&lt;/a> ：步骤清晰，看完就能知道怎么给GitHub上的两个仓库配置公钥私钥&lt;/li>
+>折腾Hugo | GitHub Pages | Github Actions自动构建发布免费个人网站 - 知乎 (zhihu.com)&lt;/a> ：看完就能知道怎么给GitHub上的两个仓库配置公钥私钥&lt;/li>
 &lt;li>&lt;a class="link"
 href="https://lijingcheng.github.io/posts/hugo/"
 target="_blank"
@@ -482,104 +485,551 @@ target="_blank"
 rel="noopener"
 >ssh-keygen 生成密钥&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;h2 id="log">Log&lt;/h2>
+&lt;h2 id="prerequisite">Prerequisite&lt;/h2>
+&lt;p>建立好本地仓库和GitHub的连接：&lt;a class="link"
+href="https://morimit.github.io/2023/connect-git-to-github/"
+>Connect Git to GitHub&lt;/a>&lt;/p>
+&lt;h2 id="steps">Steps&lt;/h2>
+&lt;p>Github Actions是GitHub提供的，使用脚本的大致作用如下：&lt;/p>
 &lt;blockquote>
 &lt;p>The GitHub Action is going to grab the content from the &lt;code>XXX_source&lt;/code> repository, build it using Hugo and push the output into the &lt;code>XXX&lt;/code> repository.&lt;/p>
 &lt;/blockquote>
-&lt;ul>
-&lt;li>在本地电脑中创建一个新的SSH密钥对：
-&lt;ul>
-&lt;li>&lt;code>ssh-keygen -t rsa -b 4096 -C &amp;quot;yourmail@mail.com&amp;quot; -f ~/.ssh/gh-pages -N &amp;quot;&amp;quot;&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>给Github上绑定GitHub Pages的公开仓库添加公钥：
-&lt;ul>
-&lt;li>&lt;figure
+&lt;h3 id="创建一个新的ssh密钥对">创建一个新的SSH密钥对：&lt;/h3>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>ssh-keygen -t rsa -b 4096 -C &lt;span style="color:#a31515">&amp;#34;yourmail@mail.com&amp;#34;&lt;/span> -f ~/.ssh/gh-pages -N &lt;span style="color:#a31515">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="给绑定github-pages的公开仓库添加公钥">给绑定GitHub Pages的公开仓库添加公钥：&lt;/h3>
+&lt;p>&lt;figure
 class="gallery-image"
 style="flex-grow: 176; flex-basis: 423px"
 >
-&lt;a href="https://morimit.github.io/2023/blog-build-with-github-action/ssh-pub.png"
+&lt;a href="https://morimit.github.io/2023/building-blog-with-github-actions/ssh-pub.png"
 data-size="1462x829"
 >
-&lt;img src="https://morimit.github.io/2023/blog-build-with-github-action/ssh-pub.png"
+&lt;img src="https://morimit.github.io/2023/building-blog-with-github-actions/ssh-pub.png"
 width="1462"
 height="829"
-srcset="https://morimit.github.io/2023/blog-build-with-github-action/ssh-pub_hu11002810579285631101.png 720w, https://morimit.github.io/2023/blog-build-with-github-action/ssh-pub_hu5676109179164988080.png 2048w"
+srcset="https://morimit.github.io/2023/building-blog-with-github-actions/ssh-pub_hu11002810579285631101.png 720w, https://morimit.github.io/2023/building-blog-with-github-actions/ssh-pub_hu5676109179164988080.png 2048w"
 loading="lazy"
 alt="ssh-pub"
 />
 &lt;/a>
 &lt;figcaption>ssh-pub&lt;/figcaption>
 &lt;/figure>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>给Github存放网站源码的私人仓库添加私钥：
-&lt;ul>
-&lt;li>&lt;figure
+&lt;/p>
+&lt;h3 id="给源码仓库添加私钥">给源码仓库添加私钥：&lt;/h3>
+&lt;p>注意：此 private key 的名称之后要填入 Action 脚本的特定位置。
+&lt;figure
 class="gallery-image"
 style="flex-grow: 184; flex-basis: 443px"
 >
-&lt;a href="https://morimit.github.io/2023/blog-build-with-github-action/ssh-private.PNG"
+&lt;a href="https://morimit.github.io/2023/building-blog-with-github-actions/ssh-private.PNG"
 data-size="1402x759"
 >
-&lt;img src="https://morimit.github.io/2023/blog-build-with-github-action/ssh-private.PNG"
+&lt;img src="https://morimit.github.io/2023/building-blog-with-github-actions/ssh-private.PNG"
 width="1402"
 height="759"
-srcset="https://morimit.github.io/2023/blog-build-with-github-action/ssh-private_hu7015378043531551199.PNG 720w, https://morimit.github.io/2023/blog-build-with-github-action/ssh-private_hu15609149015237877658.PNG 2048w"
+srcset="https://morimit.github.io/2023/building-blog-with-github-actions/ssh-private_hu7015378043531551199.PNG 720w, https://morimit.github.io/2023/building-blog-with-github-actions/ssh-private_hu15609149015237877658.PNG 2048w"
 loading="lazy"
 alt="ssh-private"
 />
 &lt;/a>
 &lt;figcaption>ssh-private&lt;/figcaption>
 &lt;/figure>
-&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>在项目文件夹中新建一个文件 &lt;code>.github/workflows/gh-pages.yml&lt;/code>：
-&lt;ul>
-&lt;li>添加下面脚本内容：&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
+&lt;/p>
+&lt;h3 id="给源码仓库添加脚本">给源码仓库添加脚本&lt;/h3>
+&lt;p>在源码仓库中找到Actions，新建workflow：
+&lt;figure
+class="gallery-image"
+style="flex-grow: 531; flex-basis: 1274px"
+>
+&lt;a href="https://morimit.github.io/2023/building-blog-with-github-actions/deploy1.png"
+data-size="1009x190"
+>
+&lt;img src="https://morimit.github.io/2023/building-blog-with-github-actions/deploy1.png"
+width="1009"
+height="190"
+srcset="https://morimit.github.io/2023/building-blog-with-github-actions/deploy1_hu14306429777008578761.png 720w, https://morimit.github.io/2023/building-blog-with-github-actions/deploy1_hu4381027907770251402.png 2048w"
+loading="lazy"
+alt="new workflows"
+/>
+&lt;/a>
+&lt;figcaption>new workflows&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>可以直接找到workflow的模板：
+&lt;figure
+class="gallery-image"
+style="flex-grow: 212; flex-basis: 510px"
+>
+&lt;a href="https://morimit.github.io/2023/building-blog-with-github-actions/deploy2.png"
+data-size="1352x636"
+>
+&lt;img src="https://morimit.github.io/2023/building-blog-with-github-actions/deploy2.png"
+width="1352"
+height="636"
+srcset="https://morimit.github.io/2023/building-blog-with-github-actions/deploy2_hu2671445812907821151.png 720w, https://morimit.github.io/2023/building-blog-with-github-actions/deploy2_hu12282095807828500979.png 2048w"
+loading="lazy"
+alt="workflow templates"
+/>
+&lt;/a>
+&lt;figcaption>workflow templates&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="flex-grow: 196; flex-basis: 470px"
+>
+&lt;a href="https://morimit.github.io/2023/building-blog-with-github-actions/deploy3.png"
+data-size="1069x545"
+>
+&lt;img src="https://morimit.github.io/2023/building-blog-with-github-actions/deploy3.png"
+width="1069"
+height="545"
+srcset="https://morimit.github.io/2023/building-blog-with-github-actions/deploy3_hu15032783113803292997.png 720w, https://morimit.github.io/2023/building-blog-with-github-actions/deploy3_hu6482598471482264613.png 2048w"
+loading="lazy"
+alt="template"
+/>
+&lt;/a>
+&lt;figcaption>template&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>脚本内容修改如下：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1&lt;/span>&lt;span>name: Deploy Hugo Site to Github Pages on Main Branch
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2&lt;/span>&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3&lt;/span>&lt;span>on:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4&lt;/span>&lt;span> push:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5&lt;/span>&lt;span> branches:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6&lt;/span>&lt;span> - main
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7&lt;/span>&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8&lt;/span>&lt;span>jobs:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9&lt;/span>&lt;span> build-deploy:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10&lt;/span>&lt;span> runs-on: ubuntu-latest
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11&lt;/span>&lt;span> steps:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12&lt;/span>&lt;span> - uses: actions/checkout@v1 &lt;span style="color:#008000"># v2 does not have submodules option now&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13&lt;/span>&lt;span> &lt;span style="color:#008000"># with:&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14&lt;/span>&lt;span> &lt;span style="color:#008000"># submodules: true&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15&lt;/span>&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16&lt;/span>&lt;span> - name: Setup Hugo
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17&lt;/span>&lt;span> uses: peaceiris/actions-hugo@v2
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18&lt;/span>&lt;span> with:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19&lt;/span>&lt;span> hugo-version: &lt;span style="color:#a31515">&amp;#39;latest&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20&lt;/span>&lt;span> extended: true
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21&lt;/span>&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22&lt;/span>&lt;span> - name: Build
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23&lt;/span>&lt;span> run: hugo --minify
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24&lt;/span>&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25&lt;/span>&lt;span> - name: Deploy
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26&lt;/span>&lt;span> uses: peaceiris/actions-gh-pages@v3
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27&lt;/span>&lt;span> with:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28&lt;/span>&lt;span> deploy_key: &lt;span style="color:#a31515">${&lt;/span>{ secrets.ACTIONS_DEPLOY_KEY &lt;span style="color:#a31515">}&lt;/span>} &lt;span style="color:#008000"># 这里的 ACTIONS_DEPLOY_KEY 则是上面设置 Private Key的变量名&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29&lt;/span>&lt;span> external_repository: Morimit/Morimit.github.io &lt;span style="color:#008000"># Pages绑定的远程仓库 &lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30&lt;/span>&lt;span> publish_dir: &lt;span style="color:#a31515">&amp;#34;./public&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31&lt;/span>&lt;span> keep_files: false &lt;span style="color:#008000"># remove existing files&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32&lt;/span>&lt;span> publish_branch: main &lt;span style="color:#008000"># deploying branch&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33&lt;/span>&lt;span> commit_message: &lt;span style="color:#a31515">${&lt;/span>{ github.event.head_commit.message &lt;span style="color:#a31515">}&lt;/span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3&lt;/span>&lt;span>&lt;span style="color:#008000"># 触发条件是git push&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4&lt;/span>&lt;span>on:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5&lt;/span>&lt;span> push:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6&lt;/span>&lt;span> branches:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7&lt;/span>&lt;span> - main
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8&lt;/span>&lt;span> - test
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9&lt;/span>&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10&lt;/span>&lt;span>jobs:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11&lt;/span>&lt;span> build-deploy:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12&lt;/span>&lt;span> runs-on: ubuntu-latest
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13&lt;/span>&lt;span> steps:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14&lt;/span>&lt;span> - uses: actions/checkout@v1 &lt;span style="color:#008000"># v2 does not have submodules option now&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15&lt;/span>&lt;span> &lt;span style="color:#008000"># with:&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16&lt;/span>&lt;span> &lt;span style="color:#008000"># submodules: true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17&lt;/span>&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18&lt;/span>&lt;span> - name: Setup Hugo
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19&lt;/span>&lt;span> uses: peaceiris/actions-hugo@v2
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20&lt;/span>&lt;span> with:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21&lt;/span>&lt;span> hugo-version: &lt;span style="color:#a31515">&amp;#39;latest&amp;#39;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22&lt;/span>&lt;span> extended: true
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23&lt;/span>&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24&lt;/span>&lt;span> - name: Build
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25&lt;/span>&lt;span> run: hugo --minify
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26&lt;/span>&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27&lt;/span>&lt;span> - name: Deploy
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28&lt;/span>&lt;span> uses: peaceiris/actions-gh-pages@v3
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29&lt;/span>&lt;span> with:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30&lt;/span>&lt;span> deploy_key: &lt;span style="color:#a31515">${&lt;/span>{ secrets.ACTIONS_DEPLOY_KEY &lt;span style="color:#a31515">}&lt;/span>} &lt;span style="color:#008000"># 这里的 ACTIONS_DEPLOY_KEY 则是上面设置 Private Key的变量名&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31&lt;/span>&lt;span> external_repository: Morimit/Morimit.github.io &lt;span style="color:#008000"># Pages绑定的远程仓库 &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32&lt;/span>&lt;span> publish_dir: &lt;span style="color:#a31515">&amp;#34;./public&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33&lt;/span>&lt;span> keep_files: false &lt;span style="color:#008000"># remove existing files&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34&lt;/span>&lt;span> publish_branch: main &lt;span style="color:#008000"># deploying branch&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35&lt;/span>&lt;span> commit_message: &lt;span style="color:#a31515">${&lt;/span>{ github.event.head_commit.message &lt;span style="color:#a31515">}&lt;/span>}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
-&lt;li>上面的步骤完成后，每次从本地git push源文件到GitHub都会触发GitHub action把publish文件夹更新到GitHub pages。&lt;/li>
+&lt;li>注意：&lt;code>publish_branch&lt;/code>要和该仓库绑定GitHub Pages的发布branch相一致&lt;/li>
+&lt;li>上面的步骤完成后，每次从本地git push源文件到GitHub都会触发GitHub Actions脚本把&lt;code>./public&lt;/code>文件夹更新到GitHub pages。&lt;/li>
 &lt;/ul>
 &lt;h2 id="搭建完成后的workflow">搭建完成后的workflow&lt;/h2>
 &lt;p>&lt;a class="link"
 href="https://morimit.github.io/2023/blog-workflow/"
-title="workflow"
->workflow&lt;/a>&lt;/p></description></item></channel></rss>
+>workflow&lt;/a>&lt;/p></description></item><item><title>如何使用Hugo搭建一个博客(总)</title><link>https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/</link><pubDate>Mon, 09 Jan 2023 13:50:03 +0800</pubDate><guid>https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/</guid><description>&lt;img src="https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/Journey.png" alt="Featured image of post 如何使用Hugo搭建一个博客(总)" />&lt;h2 id="博客规划">博客规划&lt;/h2>
+&lt;h3 id="定位">定位&lt;/h3>
+&lt;p>明确自己的核心需求就两个：&lt;/p>
+&lt;ul>
+&lt;li>技术笔记本&lt;/li>
+&lt;li>一些其他posts&lt;/li>
+&lt;/ul>
+&lt;h3 id="页面规划">页面规划&lt;/h3>
+&lt;h4 id="主页">主页&lt;/h4>
+&lt;ul>
+&lt;li>参考一些博客、小说、视频、新闻网站，展示页适合使用摊开的卡片形式，可以一目了然地看到所有posts的信息。&lt;/li>
+&lt;li>posts在本博客中是使用tags来管理的、互相没有上下级关联的博文。&lt;/li>
+&lt;/ul>
+&lt;h4 id="存档">存档&lt;/h4>
+&lt;p>存放所有notes和posts中的博文，考虑到博文的数量，按年份来分隔比较合理，并且不需要分页，因为分页有种切割了时间流的感觉。&lt;/p>
+&lt;h4 id="笔记">笔记&lt;/h4>
+&lt;ul>
+&lt;li>存放所有notes——以文档的形式罗列，每个note都具有总体章节目录和本节内容目录。&lt;/li>
+&lt;li>由于页面的布局很满了，所以目录的滚动条都要隐藏，鼠标放在目录上能滚动即可。&lt;/li>
+&lt;li>还有有种方式是折叠目录，但我更喜欢摊开的感觉&lt;/li>
+&lt;/ul>
+&lt;h4 id="关于">关于&lt;/h4>
+&lt;p>关于网站的信息和一些碎碎念。&lt;/p>
+&lt;h4 id="rss订阅">RSS订阅&lt;/h4>
+&lt;p>放这个是怕菜单目录太空了。&lt;/p>
+&lt;h2 id="搭建记录">搭建记录&lt;/h2>
+&lt;h3 id="一句话总结">一句话总结&lt;/h3>
+&lt;p>首先Hugo能够生成可以发布的静态网站文件，其次使用Git进行版本控制，每次修改后可以把源码传到GitHub，最后GitHub对Hugo建站有完整的支持组件（GitHub Actions、GitHub Pages），所以才能顺利完成一系列自动部署。&lt;/p>
+&lt;h3 id="初始化git仓库">初始化git仓库&lt;/h3>
+&lt;p>git是一个分布式版本控制系统，可以用来追踪博客的成长变动。&lt;/p>
+&lt;p>把存放博客的文件夹变成一个git仓库：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>git init
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="本地安装hugo">本地安装Hugo&lt;/h3>
+&lt;ul>
+&lt;li>安装环境：Windows 10&lt;/li>
+&lt;li>安装步骤参考&lt;a class="link"
+href="https://gohugo.io/installation/windows/"
+target="_blank"
+rel="noopener"
+>官方文档&lt;/a>，或者&lt;a class="link"
+href="https://www.gohugo.org/"
+target="_blank"
+rel="noopener"
+>中文文档&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>在这里我安装预编译的二进制版本，此版本是已经编译好的应用程序，不依赖Go环境，优点是可以直接运行，缺点是不能直接修改源码。&lt;/p>
+&lt;p>下载后需要添加环境变量，这样才能够在不同的文件夹中使用Hugo程序。在系统变量和用户变量的Path中都添加：
+&lt;figure
+class="gallery-image"
+style="flex-grow: 232; flex-basis: 557px"
+>
+&lt;a href="https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.PNG"
+data-size="787x339"
+>
+&lt;img src="https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1.PNG"
+width="787"
+height="339"
+srcset="https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1_hu1156817895206387378.PNG 720w, https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F1_hu16656016938339555511.PNG 2048w"
+loading="lazy"
+alt="hugo文件夹添加到系统变量"
+/>
+&lt;/a>
+&lt;figcaption>hugo文件夹添加到系统变量&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>然后就可以进入想要存放博客的文件夹，使用命令创建新站：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span> hugo new site 项目名
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>此时在根目录文件夹下可以发现Hugo已经创建了一些文件夹：
+&lt;figure
+class="gallery-image"
+style="flex-grow: 115; flex-basis: 277px"
+>
+&lt;a href="https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/hugo-new-site.png"
+data-size="336x291"
+>
+&lt;img src="https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/hugo-new-site.png"
+width="336"
+height="291"
+srcset="https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/hugo-new-site_hu4808743930802930435.png 720w, https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/hugo-new-site_hu18174432137527730647.png 2048w"
+loading="lazy"
+alt="文件夹框架"
+/>
+&lt;/a>
+&lt;figcaption>文件夹框架&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="选择并了解hugo主题">选择并了解Hugo主题&lt;/h3>
+&lt;ul>
+&lt;li>本博客主题选用参考了&lt;a class="link"
+href="https://mantyke.icu/posts/2022/stack-theme-mod/"
+target="_blank"
+rel="noopener"
+>Hugo-stack-theme 主题魔改版&lt;/a>&lt;/li>
+&lt;li>stack主题的特点之一是使用原生JS和CSS代码，没有使用框架。&lt;/li>
+&lt;/ul>
+&lt;p>直接下载Stack主题到&lt;code>./themes&lt;/code>文件夹中，并按照主题readme文档的提示进行一些配置。&lt;/p>
+&lt;p>再回到根目录下使用命令来预览：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>hugo server
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>这条命令会在运行内存中构建网站，并让网页跑在一个最小化的HTTP server中，这意味着可以一边修改网站一边看到修改效果。&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="flex-grow: 203; flex-basis: 488px"
+>
+&lt;a href="https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/exampleSite.png"
+data-size="1910x939"
+>
+&lt;img src="https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/exampleSite.png"
+width="1910"
+height="939"
+srcset="https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/exampleSite_hu5999404323008037843.png 720w, https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/exampleSite_hu3661112021506557136.png 2048w"
+loading="lazy"
+alt="Example Site"
+/>
+&lt;/a>
+&lt;figcaption>Example Site&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>关于web server更详细的解释：&lt;/p>
+&lt;blockquote>
+&lt;p>While the server is running, it watches your project directory for changes to assets, configuration, content, data, layouts, translations, and static files. When it detects a change, the server rebuilds your site and refreshes your browser using &lt;a class="link"
+href="https://github.com/livereload/livereload-js"
+target="_blank"
+rel="noopener"
+>LiveReload&lt;/a>.&lt;/p>
+&lt;p>about &lt;a class="link"
+href="https://github.com/livereload/livereload-js"
+target="_blank"
+rel="noopener"
+>LiveReload&lt;/a>:
+While the server is running, Hugo injects JavaScript into the generated HTML pages. The LiveReload script creates a connection from the browser to the server via web sockets. You do not need to install any software or browser plugins, nor is any configuration required.&lt;/p>
+&lt;/blockquote>
+&lt;p>注意Hugo都是从根目录开始渲染的，所以如果根目录的layouts和contents有内容，就会忽略themes文件夹中的同名文件夹。&lt;/p>
+&lt;p>以及如果出现不同后缀名的config文件，不同格式的优先级是toml&amp;gt;yaml&amp;gt;json。&lt;/p>
+&lt;p>（优先级细节可查看官方文档的lookup order）&lt;/p>
+&lt;h3 id="创建网站">创建网站&lt;/h3>
+&lt;p>真正创建网站的是下面一行命令：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>hugo
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>此命令会在网站根目录下创建public文件夹，这里存放的就是整个完整的网站，如果把public文件夹放在IIS之类的web服务器上，稍加修改config.yaml文件中的baseurl后就能直接打开。&lt;/p>
+&lt;h3 id="搭建workflow">搭建workflow&lt;/h3>
+&lt;ul>
+&lt;li>静态博客的工作流理想状态是本地修改内容后推送到远端，推送命令会触发远端更新网站。&lt;/li>
+&lt;li>拆解这个过程：
+&lt;ul>
+&lt;li>需要一个版本控制系统来管理每次修改的内容&lt;/li>
+&lt;li>远端需要有个存放源码的仓库&lt;/li>
+&lt;li>需要将网站源码推送到远端&lt;/li>
+&lt;li>远端需要一个静态网站托管服务/云主机&lt;/li>
+&lt;li>远端源码仓库有变动，就要重新用&lt;code>hugo&lt;/code>命令生成一次public文件夹，并把变动后的public文件夹推送给托管网站/云主机&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>对应的步骤是：
+&lt;ul>
+&lt;li>使用git管理代码变化&lt;/li>
+&lt;li>将本地git仓库与GitHub仓库连接：&lt;a class="link"
+href="https://morimit.github.io/2023/connect-git-to-github/"
+title="connect git to GitHub"
+>用 SSH 方式配置多个账号连接 GitHub&lt;/a>&lt;/li>
+&lt;li>新建两个GitHub仓库（GitHub有提供静态网站托管服务——GitHub Pages）&lt;/li>
+&lt;li>存放源码的仓库中用GitHub Actions建立CI/CD：&lt;a class="link"
+href="https://morimit.github.io/2023/building-blog-with-github-actions/"
+>Hugo workflow&lt;/a>（检测到git push操作后将public文件夹推送给GitHub Pages绑定的仓库）&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>&lt;figure
+class="gallery-image"
+style="flex-grow: 157; flex-basis: 378px"
+>
+&lt;a href="https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/workflow.png"
+data-size="858x544"
+>
+&lt;img src="https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/workflow.png"
+width="858"
+height="544"
+srcset="https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/workflow_hu18211203076313915261.png 720w, https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/workflow_hu10097892619386202914.png 2048w"
+loading="lazy"
+alt="workflow"
+/>
+&lt;/a>
+&lt;figcaption>workflow&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>完成上面的步骤后，就能够在公网上看到网站了。&lt;/p>
+&lt;h3 id="进阶修改主题">进阶：修改主题&lt;/h3>
+&lt;ul>
+&lt;li>直接上手修改会很捉急，因为Hugo并不是直接用html、css、js代码粘合的，还需要了解一些必要的Go模板语言知识&lt;/li>
+&lt;li>直接看官方文档又多又杂，即使看完getting started也容易依然一头雾水&lt;/li>
+&lt;li>所以建议可以从自己下载好的主题代码出发，了解：
+&lt;ul>
+&lt;li>文件夹之间的对应关系&lt;/li>
+&lt;li>每个代码文件在页面中的作用&lt;/li>
+&lt;li>每个伪API的作用&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>一些小tips：
+&lt;ul>
+&lt;li>&lt;code>.&lt;/code>代表传入每个区域的上下文（context）&lt;/li>
+&lt;li>layouts文件夹中最重要的是index.html，它是整个网站的home页面布局。&lt;/li>
+&lt;li>baseof.html是layouts/_default中每个文件布局的模板&lt;/li>
+&lt;li>Hugo有leaf bundle和branch bundle的概念：&lt;figure
+class="gallery-image"
+style="flex-grow: 125; flex-basis: 301px"
+>
+&lt;a href="https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/page-bundles.png"
+data-size="1081x861"
+>
+&lt;img src="https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/page-bundles.png"
+width="1081"
+height="861"
+srcset="https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/page-bundles_hu9210523811407249630.png 720w, https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/page-bundles_hu3785076733730913066.png 2048w"
+loading="lazy"
+alt="leaf bundle和branch bundle"
+/>
+&lt;/a>
+&lt;figcaption>leaf bundle和branch bundle&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>每个branch bundle都是section，section页面默认对应list.html，根目录的section页面（比如上图的about）对应_default文件夹中的同名html文件（about.html）&lt;/li>
+&lt;li>每个leaf bundle都是single页面，所有single页面对应single.html&lt;/li>
+&lt;li>Hugo没有subsection的概念，当section和subsection需要有不同布局的时候，如果不能修改生成器代码，就只能曲折地实现——把根目录下的section页面当作subsection&lt;/li>
+&lt;li>本博客中posts和notes中的单页面都对应single.html，但它们分属不同的section，所以可以拿sectionName来做区分&lt;/li>
+&lt;li>除了使用默认的tags和categories来分类外，可以自定义分类，本博客就自定义了notes分类。&lt;/li>
+&lt;li>layouts中相似的布局可以解耦出来，放到partials文件夹下。比如home页面和about页面都需要left banner，那么left banner就可以拆分出来作为一个组件。使用partials和定义blocks的区别：&lt;figure
+class="gallery-image"
+style="flex-grow: 217; flex-basis: 521px"
+>
+&lt;a href="https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/partialsVSblocks.png"
+data-size="798x367"
+>
+&lt;img src="https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/partialsVSblocks.png"
+width="798"
+height="367"
+srcset="https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/partialsVSblocks_hu8496638855446316767.png 720w, https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/partialsVSblocks_hu10722373893723112654.png 2048w"
+loading="lazy"
+alt="partials VS blocks"
+/>
+&lt;/a>
+&lt;figcaption>partials VS blocks&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>Hugo支持在markdown文件中插入html代码，可以直接插入标签，也可以用Go模板语言调用layouts中定义的shortcodes。&lt;/li>
+&lt;li>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>一些可能用到的参考：
+&lt;ul>
+&lt;li>&lt;a class="link"
+href="https://gohugo.io/methods/page/"
+target="_blank"
+rel="noopener"
+>Page methods：每个single页面的 &lt;code>.&lt;/code> 都是page object&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link"
+href="https://gohugo.io/functions/go-template/"
+target="_blank"
+rel="noopener"
+>Go template: functions, operators, and statements&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link"
+href="https://gohugo.io/functions/collections/where/#operators"
+target="_blank"
+rel="noopener"
+>collections.Where：常用来排除集合中某些项的函数&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link"
+href="https://gohugo.io/functions/collections/"
+target="_blank"
+rel="noopener"
+>Collections functions：每个collection可以使用的函数&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link"
+href="https://gohugo.io/functions/compare/"
+target="_blank"
+rel="noopener"
+>Compare functions：非常好用的比较函数&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link"
+href="https://gohugo.io/getting-started/glossary/"
+target="_blank"
+rel="noopener"
+>Glossary of terms：不懂得术语可以随时在此查询&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="添加内容">添加内容&lt;/h3>
+&lt;p>此时可以愉快地为博客添加内容了。因为每次添加frontmatter非常繁杂，所以建议基于archetypes文件夹中的模板来创建新markdown文档：&lt;/p>
+&lt;ul>
+&lt;li>archetypes文件夹中的每个文件对应一种内容类型，可以自定义：
+&lt;ul>
+&lt;li>&lt;code>archetypes/default.md&lt;/code>：用于没有指定内容类型时的默认模板。&lt;/li>
+&lt;li>&lt;code>archetypes/post.md&lt;/code>：专门用于创建博客文章的模板。&lt;/li>
+&lt;li>&lt;code>archetypes/note.md&lt;/code>：专门用于创建笔记页面的模板。&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>然后在根目录下，可以使用命令创建md文档：&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>hugo new post/my-first-post.md
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="最后形成的使用动线">最后形成的使用动线&lt;/h2>
+&lt;p>&lt;a class="link"
+href="https://morimit.github.io/2023/blog-workflow/"
+>Blog Workflow&lt;/a>&lt;/p>
+&lt;h2 id="参考">参考&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a class="link"
+href="https://gohugo.io/getting-started/quick-start/"
+target="_blank"
+rel="noopener"
+>Hugo Docs&lt;/a>: 内容多而全，适合查询&lt;/li>
+&lt;li>&lt;a class="link"
+href="https://www.manning.com/books/hugo-in-action"
+target="_blank"
+rel="noopener"
+>Hugo In Action&lt;/a>：系统且挑重点，适合快速过一遍&lt;/li>
+&lt;li>&lt;a class="link"
+href="https://cloudcannon.com/community/learn/hugo-101/"
+target="_blank"
+rel="noopener"
+>Hugo tutorial by CloudCannon&lt;/a>: Got a roughly picture of the file hierarchy of Hugo.&lt;/li>
+&lt;li>&lt;a class="link"
+href="https://pragprog.com/titles/bhhugo/"
+target="_blank"
+rel="noopener"
+>Build Websites with Hugo&lt;/a>: A complete guide.&lt;/li>
+&lt;li>&lt;a class="link"
+href="https://fourxiajiao.github.io/2022/hugo-blog/"
+target="_blank"
+rel="noopener"
+>不是从零开始的 Hugo 建站笔记&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link"
+href="https://www.mytechramblings.com/posts/create-a-website-with-hugo-and-gh/"
+target="_blank"
+rel="noopener"
+>Create and host a blog with Hugo and GitHub Pages in less than 30 minutes&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link"
+href="https://mantyke.icu/posts/2021/cf2cf0fb/"
+target="_blank"
+rel="noopener"
+>Hugo | 在文章中插入轮播图片&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>About Websites</title><link>https://morimit.github.io/2023/about-websites/</link><pubDate>Mon, 02 Jan 2023 12:16:02 +0800</pubDate><guid>https://morimit.github.io/2023/about-websites/</guid><description>&lt;img src="https://morimit.github.io/2023/about-websites/blog-webdesignmuseum.png" alt="Featured image of post About Websites" />&lt;h2 id="名词释义">名词释义&lt;/h2>
+&lt;ul>
+&lt;li>webpage：能够显示在web浏览器上的文档&lt;/li>
+&lt;li>website：许多网页组合成网站&lt;/li>
+&lt;li>web server：在web上托管网站的服务器&lt;/li>
+&lt;li>search engine：能够帮助使用者查找网页的服务&lt;/li>
+&lt;li>连接上述诸位的就是web：内联网、外联网和互联网的范围见下图&lt;figure
+class="gallery-image"
+style="flex-grow: 74; flex-basis: 179px"
+>
+&lt;a href="https://morimit.github.io/2023/about-websites/internet-schema-8-mdn.png"
+data-size="362x483"
+>
+&lt;img src="https://morimit.github.io/2023/about-websites/internet-schema-8-mdn.png"
+width="362"
+height="483"
+srcset="https://morimit.github.io/2023/about-websites/internet-schema-8-mdn_hu5114650924950752741.png 720w, https://morimit.github.io/2023/about-websites/internet-schema-8-mdn_hu16446234936770360412.png 2048w"
+loading="lazy"
+alt="about web"
+/>
+&lt;/a>
+&lt;figcaption>about web&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>HTTP：规范两台计算机间传输超文本的文本化无状态协议&lt;figure
+class="gallery-image"
+style="flex-grow: 304; flex-basis: 729px"
+>
+&lt;a href="https://morimit.github.io/2023/about-websites/web-server.png"
+data-size="827x272"
+>
+&lt;img src="https://morimit.github.io/2023/about-websites/web-server.png"
+width="827"
+height="272"
+srcset="https://morimit.github.io/2023/about-websites/web-server_hu9709201769568693954.png 720w, https://morimit.github.io/2023/about-websites/web-server_hu15581066417034439593.png 2048w"
+loading="lazy"
+alt="HTTP"
+/>
+&lt;/a>
+&lt;figcaption>HTTP&lt;/figcaption>
+&lt;/figure>
+&lt;/li>
+&lt;li>IP address：任何连上互联网的电脑都能通过公共IP地址来访问&lt;/li>
+&lt;li>domain name：为互联网上任何可用的web服务器提供人类能理解的地址&lt;/li>
+&lt;/ul>
+&lt;h2 id="web-发展史">Web 发展史&lt;/h2>
+&lt;p>&lt;figure
+class="gallery-image"
+style="flex-grow: 255; flex-basis: 613px"
+>
+&lt;a href="https://morimit.github.io/2023/about-websites/web-history.png"
+data-size="770x301"
+>
+&lt;img src="https://morimit.github.io/2023/about-websites/web-history.png"
+width="770"
+height="301"
+srcset="https://morimit.github.io/2023/about-websites/web-history_hu16711251112554345589.png 720w, https://morimit.github.io/2023/about-websites/web-history_hu6069480512318853866.png 2048w"
+loading="lazy"
+alt="web history"
+/>
+&lt;/a>
+&lt;figcaption>web history&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>博客属于web 2.0的产物，承载着使用者的表达和记录。&lt;/p></description></item></channel></rss>
