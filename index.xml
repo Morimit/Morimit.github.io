@@ -1,4 +1,95 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miaomi</title><link>https://morimit.github.io/</link><link rel="shortcut icon" href="https://morimit.github.io/images/Miaomi.svg"/><description>Recent content on Miaomi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 28 Oct 2024 09:20:09 +0800</lastBuildDate><atom:link href="https://morimit.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>什么是CI/CD</title><link>https://morimit.github.io/2024/%E4%BB%80%E4%B9%88%E6%98%AFci/cd/</link><pubDate>Mon, 28 Oct 2024 09:20:09 +0800</pubDate><guid>https://morimit.github.io/2024/%E4%BB%80%E4%B9%88%E6%98%AFci/cd/</guid><description>&lt;img src="https://mlops-guide.github.io/MLOps/CICDML/ci-cd.png" alt="Featured image of post 什么是CI/CD" />&lt;h2 id="reference">reference&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miaomi</title><link>https://morimit.github.io/</link><link rel="shortcut icon" href="https://morimit.github.io/images/Miaomi.svg"/><description>Recent content on Miaomi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 28 Oct 2024 13:17:28 +0800</lastBuildDate><atom:link href="https://morimit.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>使用一个GitHub pages部署多个项目</title><link>https://morimit.github.io/2024/%E4%BD%BF%E7%94%A8%E4%B8%80%E4%B8%AAgithub-pages%E9%83%A8%E7%BD%B2%E5%A4%9A%E4%B8%AA%E9%A1%B9%E7%9B%AE/</link><pubDate>Mon, 28 Oct 2024 13:17:28 +0800</pubDate><guid>https://morimit.github.io/2024/%E4%BD%BF%E7%94%A8%E4%B8%80%E4%B8%AAgithub-pages%E9%83%A8%E7%BD%B2%E5%A4%9A%E4%B8%AA%E9%A1%B9%E7%9B%AE/</guid><description>&lt;img src="https://morimit.github.io/2024/%E4%BD%BF%E7%94%A8%E4%B8%80%E4%B8%AAgithub-pages%E9%83%A8%E7%BD%B2%E5%A4%9A%E4%B8%AA%E9%A1%B9%E7%9B%AE/pages0.png" alt="Featured image of post 使用一个GitHub pages部署多个项目" />&lt;h2 id="关于github-pages">关于GitHub Pages&lt;/h2>
+&lt;blockquote class="quote">
+&lt;p>GitHub Pages 是一项静态站点托管服务，它直接从 GitHub 上的仓库获取 HTML、CSS 和 JavaScript 文件，（可选）通过构建过程运行文件，然后发布网站。&lt;/p>&lt;/blockquote>
+&lt;p>更多概念可参考相关文档：&lt;a class="link"
+href="https://docs.github.com/zh/pages/getting-started-with-github-pages/about-github-pages"
+target="_blank"
+rel="noopener"
+>about github pages&lt;/a>&lt;/p>
+&lt;p>一些重点：&lt;/p>
+&lt;ul>
+&lt;li>用户站点：&lt;code>&amp;lt;username&amp;gt;.github.io&lt;/code>&lt;/li>
+&lt;li>项目站点：&lt;code>http(s)://&amp;lt;username&amp;gt;.github.io/&amp;lt;repository&amp;gt;&lt;/code>&lt;/li>
+&lt;li>只能为 GitHub 上的每个帐户创建一个用户或组织站点。 项目站点（无论是组织还是个人帐户拥有）没有限制。&lt;/li>
+&lt;li>如果要创建用户或组织站点，则存储库必须命名为 &lt;code>&amp;lt;user&amp;gt;.github.io&lt;/code> 或 &lt;code>&amp;lt;organization&amp;gt;.github.io&lt;/code>，且名称必须使用小写字母&lt;/li>
+&lt;/ul>
+&lt;h2 id="部署博客项目">部署博客项目&lt;/h2>
+&lt;p>博客项目部署在用户站点的根目录下，仓库命名根据上面的规则使用&lt;code>&amp;lt;user&amp;gt;.github.io&lt;/code>格式：
+&lt;figure
+class="gallery-image"
+style="flex-grow: 215; flex-basis: 518px"
+>
+&lt;a href="https://morimit.github.io/2024/%E4%BD%BF%E7%94%A8%E4%B8%80%E4%B8%AAgithub-pages%E9%83%A8%E7%BD%B2%E5%A4%9A%E4%B8%AA%E9%A1%B9%E7%9B%AE/pages-blog.png"
+data-size="1442x668"
+>
+&lt;img src="https://morimit.github.io/2024/%E4%BD%BF%E7%94%A8%E4%B8%80%E4%B8%AAgithub-pages%E9%83%A8%E7%BD%B2%E5%A4%9A%E4%B8%AA%E9%A1%B9%E7%9B%AE/pages-blog.png"
+width="1442"
+height="668"
+srcset="https://morimit.github.io/2024/%E4%BD%BF%E7%94%A8%E4%B8%80%E4%B8%AAgithub-pages%E9%83%A8%E7%BD%B2%E5%A4%9A%E4%B8%AA%E9%A1%B9%E7%9B%AE/pages-blog_hu1823788257448338985.png 720w, https://morimit.github.io/2024/%E4%BD%BF%E7%94%A8%E4%B8%80%E4%B8%AAgithub-pages%E9%83%A8%E7%BD%B2%E5%A4%9A%E4%B8%AA%E9%A1%B9%E7%9B%AE/pages-blog_hu16275436437857887922.png 2048w"
+loading="lazy"
+alt="GitHub Pages设置"
+/>
+&lt;/a>
+&lt;figcaption>GitHub Pages设置&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="部署小项目">部署小项目&lt;/h2>
+&lt;p>项目站点的仓库名会作为访问路径的一部分，同样需要在Pages中设置：
+&lt;figure
+class="gallery-image"
+style="flex-grow: 174; flex-basis: 419px"
+>
+&lt;a href="https://morimit.github.io/2024/%E4%BD%BF%E7%94%A8%E4%B8%80%E4%B8%AAgithub-pages%E9%83%A8%E7%BD%B2%E5%A4%9A%E4%B8%AA%E9%A1%B9%E7%9B%AE/pages1.png"
+data-size="1295x741"
+>
+&lt;img src="https://morimit.github.io/2024/%E4%BD%BF%E7%94%A8%E4%B8%80%E4%B8%AAgithub-pages%E9%83%A8%E7%BD%B2%E5%A4%9A%E4%B8%AA%E9%A1%B9%E7%9B%AE/pages1.png"
+width="1295"
+height="741"
+srcset="https://morimit.github.io/2024/%E4%BD%BF%E7%94%A8%E4%B8%80%E4%B8%AAgithub-pages%E9%83%A8%E7%BD%B2%E5%A4%9A%E4%B8%AA%E9%A1%B9%E7%9B%AE/pages1_hu2439777712739934897.png 720w, https://morimit.github.io/2024/%E4%BD%BF%E7%94%A8%E4%B8%80%E4%B8%AAgithub-pages%E9%83%A8%E7%BD%B2%E5%A4%9A%E4%B8%AA%E9%A1%B9%E7%9B%AE/pages1_hu13135493439564425721.png 2048w"
+loading="lazy"
+alt="添加项目分支"
+/>
+&lt;/a>
+&lt;figcaption>添加项目分支&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="flex-grow: 176; flex-basis: 422px"
+>
+&lt;a href="https://morimit.github.io/2024/%E4%BD%BF%E7%94%A8%E4%B8%80%E4%B8%AAgithub-pages%E9%83%A8%E7%BD%B2%E5%A4%9A%E4%B8%AA%E9%A1%B9%E7%9B%AE/pages2.png"
+data-size="1165x661"
+>
+&lt;img src="https://morimit.github.io/2024/%E4%BD%BF%E7%94%A8%E4%B8%80%E4%B8%AAgithub-pages%E9%83%A8%E7%BD%B2%E5%A4%9A%E4%B8%AA%E9%A1%B9%E7%9B%AE/pages2.png"
+width="1165"
+height="661"
+srcset="https://morimit.github.io/2024/%E4%BD%BF%E7%94%A8%E4%B8%80%E4%B8%AAgithub-pages%E9%83%A8%E7%BD%B2%E5%A4%9A%E4%B8%AA%E9%A1%B9%E7%9B%AE/pages2_hu3411240119319823101.png 720w, https://morimit.github.io/2024/%E4%BD%BF%E7%94%A8%E4%B8%80%E4%B8%AAgithub-pages%E9%83%A8%E7%BD%B2%E5%A4%9A%E4%B8%AA%E9%A1%B9%E7%9B%AE/pages2_hu1913218260982026728.png 2048w"
+loading="lazy"
+alt="添加项目的网址路径"
+/>
+&lt;/a>
+&lt;figcaption>添加项目的网址路径&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>完成后就可以通过此网址访问项目了：
+&lt;figure
+class="gallery-image"
+style="flex-grow: 428; flex-basis: 1027px"
+>
+&lt;a href="https://morimit.github.io/2024/%E4%BD%BF%E7%94%A8%E4%B8%80%E4%B8%AAgithub-pages%E9%83%A8%E7%BD%B2%E5%A4%9A%E4%B8%AA%E9%A1%B9%E7%9B%AE/pages3.png"
+data-size="1019x238"
+>
+&lt;img src="https://morimit.github.io/2024/%E4%BD%BF%E7%94%A8%E4%B8%80%E4%B8%AAgithub-pages%E9%83%A8%E7%BD%B2%E5%A4%9A%E4%B8%AA%E9%A1%B9%E7%9B%AE/pages3.png"
+width="1019"
+height="238"
+srcset="https://morimit.github.io/2024/%E4%BD%BF%E7%94%A8%E4%B8%80%E4%B8%AAgithub-pages%E9%83%A8%E7%BD%B2%E5%A4%9A%E4%B8%AA%E9%A1%B9%E7%9B%AE/pages3_hu16502513854947468212.png 720w, https://morimit.github.io/2024/%E4%BD%BF%E7%94%A8%E4%B8%80%E4%B8%AAgithub-pages%E9%83%A8%E7%BD%B2%E5%A4%9A%E4%B8%AA%E9%A1%B9%E7%9B%AE/pages3_hu14260167904933021828.png 2048w"
+loading="lazy"
+alt="访问项目"
+/>
+&lt;/a>
+&lt;figcaption>访问项目&lt;/figcaption>
+&lt;/figure>
+&lt;/p></description></item><item><title>什么是CI/CD</title><link>https://morimit.github.io/2024/%E4%BB%80%E4%B9%88%E6%98%AFci/cd/</link><pubDate>Mon, 28 Oct 2024 09:20:09 +0800</pubDate><guid>https://morimit.github.io/2024/%E4%BB%80%E4%B9%88%E6%98%AFci/cd/</guid><description>&lt;img src="https://mlops-guide.github.io/MLOps/CICDML/ci-cd.png" alt="Featured image of post 什么是CI/CD" />&lt;h2 id="reference">reference&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a class="link"
 href="https://www.explainthis.io/zh-hans/swe/cicd"
@@ -509,6 +600,11 @@ rel="noopener"
 &lt;/ul></description></item><item><title>Building Blog With GitHub Actions</title><link>https://morimit.github.io/2023/building-blog-with-github-actions/</link><pubDate>Tue, 10 Jan 2023 13:50:03 +0800</pubDate><guid>https://morimit.github.io/2023/building-blog-with-github-actions/</guid><description>&lt;img src="https://morimit.github.io/2023/building-blog-with-github-actions/actions.PNG" alt="Featured image of post Building Blog With GitHub Actions" />&lt;h2 id="reference">Reference&lt;/h2>
 &lt;ul>
 &lt;li>&lt;a class="link"
+href="https://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html"
+target="_blank"
+rel="noopener"
+>GitHub Actions 入门教程&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link"
 href="https://gohugo.io/hosting-and-deployment/hosting-on-github/"
 target="_blank"
 rel="noopener"
@@ -595,7 +691,7 @@ alt="ssh-private"
 &lt;/figure>
 &lt;/p>
 &lt;h3 id="给源码仓库添加脚本">给源码仓库添加脚本&lt;/h3>
-&lt;p>在源码仓库中找到Actions，新建workflow：
+&lt;p>在源码仓库中找到Actions栏，新建workflow：
 &lt;figure
 class="gallery-image"
 style="flex-grow: 531; flex-basis: 1274px"
@@ -651,6 +747,33 @@ alt="template"
 &lt;figcaption>template&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
+&lt;p>可以在右侧查看actions市场和GitHub Actions的使用文档：
+&lt;figure
+class="gallery-image"
+style="flex-grow: 74; flex-basis: 179px"
+>
+&lt;a href="https://morimit.github.io/2023/building-blog-with-github-actions/deploy4.png"
+data-size="596x798"
+>
+&lt;img src="https://morimit.github.io/2023/building-blog-with-github-actions/deploy4.png"
+width="596"
+height="798"
+srcset="https://morimit.github.io/2023/building-blog-with-github-actions/deploy4_hu12256529330701723378.png 720w, https://morimit.github.io/2023/building-blog-with-github-actions/deploy4_hu2834368055800742848.png 2048w"
+loading="lazy"
+alt="actions &amp; docs"
+/>
+&lt;/a>
+&lt;figcaption>actions &amp;amp; docs&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h3 id="修改脚本内容">修改脚本内容&lt;/h3>
+&lt;p>一些专用术语：&lt;/p>
+&lt;ul>
+&lt;li>workflow （工作流程）：持续集成一次运行的过程，就是一个 workflow。&lt;/li>
+&lt;li>job （任务）：一个 workflow 由一个或多个 jobs 构成，含义是一次持续集成的运行，可以完成多个任务。&lt;/li>
+&lt;li>step（步骤）：每个 job 由多个 step 构成，一步步完成。&lt;/li>
+&lt;li>action （动作）：每个 step 可以依次执行一个或多个命令（action）。&lt;/li>
+&lt;/ul>
 &lt;p>脚本内容修改如下：&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-shell" data-lang="shell">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1&lt;/span>&lt;span>name: Deploy Hugo Site to Github Pages on Main Branch
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2&lt;/span>&lt;span>
@@ -707,8 +830,6 @@ href="https://morimit.github.io/2023/blog-workflow/"
 &lt;li>参考一些博客、小说、视频、新闻网站，展示页适合使用摊开的卡片形式，可以一目了然地看到所有posts的信息&lt;/li>
 &lt;li>&lt;strong>posts在本博客中是使用tags来管理的、互相没有上下级关联的博文&lt;/strong>&lt;/li>
 &lt;/ul>
-&lt;h4 id="存档">存档&lt;/h4>
-&lt;p>存放所有notes和posts中的博文，考虑到博文的数量，按年份来分隔比较合理，并且不需要分页，因为分页有种切割了时间流的感觉。&lt;/p>
 &lt;h4 id="笔记">笔记&lt;/h4>
 &lt;ul>
 &lt;li>存放所有notes——以文档的形式罗列，每个note都具有总体章节目录和本节内容目录&lt;/li>
@@ -716,10 +837,14 @@ href="https://morimit.github.io/2023/blog-workflow/"
 &lt;li>由于页面的布局很满了，所以目录的滚动条都要隐藏，鼠标放在目录上能滚动即可&lt;/li>
 &lt;li>还有有种方式是折叠目录，但我更喜欢摊开的感觉&lt;/li>
 &lt;/ul>
+&lt;h4 id="项目">项目&lt;/h4>
+&lt;p>存放一些小项目。&lt;/p>
+&lt;h4 id="存档">存档&lt;/h4>
+&lt;p>存放所有notes和posts中的博文，考虑到博文的数量，按年份来分隔比较合理，并且不需要分页，因为分页有种切割了时间流的感觉。&lt;/p>
 &lt;h4 id="关于">关于&lt;/h4>
 &lt;p>关于网站的信息和一些碎碎念。&lt;/p>
 &lt;h4 id="rss订阅">RSS订阅&lt;/h4>
-&lt;p>放这个是怕菜单目录太空了。&lt;/p>
+&lt;p>可以使用inoreader等RSS阅读器来订阅博文。&lt;/p>
 &lt;h2 id="搭建记录">搭建记录&lt;/h2>
 &lt;h3 id="一句话总结">一句话总结&lt;/h3>
 &lt;p>首先Hugo能够生成可以发布的静态网站文件，其次使用Git进行版本控制，每次修改后可以把源码传到GitHub，最后GitHub对Hugo建站有完整的支持组件（GitHub Actions、GitHub Pages），所以才能顺利完成一系列自动部署。&lt;/p>
@@ -843,6 +968,7 @@ While the server is running, Hugo injects JavaScript into the generated HTML pag
 &lt;li>需要将网站源码推送到远端&lt;/li>
 &lt;li>远端需要一个静态网站托管服务/云主机&lt;/li>
 &lt;li>远端源码仓库有变动，就要重新用&lt;code>hugo&lt;/code>命令生成一次public文件夹，并把变动后的public文件夹推送给托管网站/云主机&lt;/li>
+&lt;li>托管服务通过public文件夹展示网页&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>对应的步骤是：
@@ -856,6 +982,9 @@ title="connect git to GitHub"
 &lt;li>存放源码的仓库中用GitHub Actions建立CI/CD：&lt;a class="link"
 href="https://morimit.github.io/2023/building-blog-with-github-actions/"
 >Hugo workflow&lt;/a>（检测到git push操作后将public文件夹推送给GitHub Pages绑定的仓库）&lt;/li>
+&lt;li>&lt;a class="link"
+href="https://morimit.github.io/2024/%E4%BD%BF%E7%94%A8%E4%B8%80%E4%B8%AAgithub-pages%E9%83%A8%E7%BD%B2%E5%A4%9A%E4%B8%AA%E9%A1%B9%E7%9B%AE/"
+>使用GitHub Pages部署项目&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -972,10 +1101,6 @@ rel="noopener"
 >Glossary of terms：不懂得术语可以随时在此查询&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
-&lt;/ul>
-&lt;h3 id="本博客主题的核心技术">本博客主题的核心技术&lt;/h3>
-&lt;ul>
-&lt;li>本博客的图片展示用了一个JavaScript库photoswipe&lt;/li>
 &lt;/ul>
 &lt;h3 id="添加内容">添加内容&lt;/h3>
 &lt;p>此时可以愉快地为博客添加内容了。因为每次添加frontmatter非常繁杂，所以建议基于archetypes文件夹中的模板来创建新markdown文档：&lt;/p>

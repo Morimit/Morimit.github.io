@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Miaomi</title><link>https://morimit.github.io/tags/blog/</link><description>Recent content in Blog on Miaomi</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 28 Oct 2024 10:47:03 +0800</lastBuildDate><atom:link href="https://morimit.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Different Blog Types</title><link>https://morimit.github.io/2023/different-blog-types/</link><pubDate>Thu, 16 Mar 2023 09:33:30 +0800</pubDate><guid>https://morimit.github.io/2023/different-blog-types/</guid><description>&lt;p>本章图片来源：hugo in action&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog on Miaomi</title><link>https://morimit.github.io/tags/blog/</link><description>Recent content in Blog on Miaomi</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 28 Oct 2024 14:15:50 +0800</lastBuildDate><atom:link href="https://morimit.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Different Blog Types</title><link>https://morimit.github.io/2023/different-blog-types/</link><pubDate>Thu, 16 Mar 2023 09:33:30 +0800</pubDate><guid>https://morimit.github.io/2023/different-blog-types/</guid><description>&lt;p>本章图片来源：hugo in action&lt;/p>
 &lt;h2 id="博客类型">博客类型&lt;/h2>
 &lt;p>从博客使用者的角度，按照是否有后台能够在线编辑博文，博客可分为：&lt;/p>
 &lt;ul>
@@ -37,6 +37,13 @@
 &lt;h3 id="添加posts文章">添加posts文章&lt;/h3>
 &lt;p>不需要指定模板，Hugo会使用 &lt;code>archetypes/default.md&lt;/code>模板来建立文档：&lt;/p></description></item><item><title>Building Blog With GitHub Actions</title><link>https://morimit.github.io/2023/building-blog-with-github-actions/</link><pubDate>Tue, 10 Jan 2023 13:50:03 +0800</pubDate><guid>https://morimit.github.io/2023/building-blog-with-github-actions/</guid><description>&lt;h2 id="reference">Reference&lt;/h2>
 &lt;ul>
+&lt;li>&lt;a class="link" 
+ href="https://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >GitHub Actions 入门教程&lt;/a>&lt;/li>
 &lt;li>&lt;a class="link" 
  href="https://gohugo.io/hosting-and-deployment/hosting-on-github/" 
  
@@ -104,8 +111,15 @@
 &lt;li>参考一些博客、小说、视频、新闻网站，展示页适合使用摊开的卡片形式，可以一目了然地看到所有posts的信息&lt;/li>
 &lt;li>&lt;strong>posts在本博客中是使用tags来管理的、互相没有上下级关联的博文&lt;/strong>&lt;/li>
 &lt;/ul>
-&lt;h4 id="存档">存档&lt;/h4>
-&lt;p>存放所有notes和posts中的博文，考虑到博文的数量，按年份来分隔比较合理，并且不需要分页，因为分页有种切割了时间流的感觉。&lt;/p></description></item><item><title>About Websites</title><link>https://morimit.github.io/2023/about-websites/</link><pubDate>Mon, 02 Jan 2023 12:16:02 +0800</pubDate><guid>https://morimit.github.io/2023/about-websites/</guid><description>&lt;h2 id="名词释义">名词释义&lt;/h2>
+&lt;h4 id="笔记">笔记&lt;/h4>
+&lt;ul>
+&lt;li>存放所有notes——以文档的形式罗列，每个note都具有总体章节目录和本节内容目录&lt;/li>
+&lt;li>&lt;strong>notes在本博客中是使用notes分类来管理、互相之间有层级关系的博文，且不会出现在主页展示&lt;/strong>&lt;/li>
+&lt;li>由于页面的布局很满了，所以目录的滚动条都要隐藏，鼠标放在目录上能滚动即可&lt;/li>
+&lt;li>还有有种方式是折叠目录，但我更喜欢摊开的感觉&lt;/li>
+&lt;/ul>
+&lt;h4 id="项目">项目&lt;/h4>
+&lt;p>存放一些小项目。&lt;/p></description></item><item><title>About Websites</title><link>https://morimit.github.io/2023/about-websites/</link><pubDate>Mon, 02 Jan 2023 12:16:02 +0800</pubDate><guid>https://morimit.github.io/2023/about-websites/</guid><description>&lt;h2 id="名词释义">名词释义&lt;/h2>
 &lt;ul>
 &lt;li>webpage：能够显示在web浏览器上的文档&lt;/li>
 &lt;li>website：许多网页组合成网站&lt;/li>
