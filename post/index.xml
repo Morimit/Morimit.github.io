@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Miaomi</title><link>https://morimit.github.io/post/</link><description>Recent content in Posts on Miaomi</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 26 Oct 2024 20:59:56 +0800</lastBuildDate><atom:link href="https://morimit.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>使用Python操作Excel</title><link>https://morimit.github.io/2023/%E4%BD%BF%E7%94%A8python%E6%93%8D%E4%BD%9Cexcel/</link><pubDate>Thu, 05 Oct 2023 09:58:39 +0800</pubDate><guid>https://morimit.github.io/2023/%E4%BD%BF%E7%94%A8python%E6%93%8D%E4%BD%9Cexcel/</guid><description>&lt;h2 id="需求">需求&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Miaomi</title><link>https://morimit.github.io/post/</link><description>Recent content in Posts on Miaomi</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 28 Oct 2024 10:47:03 +0800</lastBuildDate><atom:link href="https://morimit.github.io/post/index.xml" rel="self" type="application/rss+xml"/><item><title>什么是CI/CD</title><link>https://morimit.github.io/2024/%E4%BB%80%E4%B9%88%E6%98%AFci/cd/</link><pubDate>Mon, 28 Oct 2024 09:20:09 +0800</pubDate><guid>https://morimit.github.io/2024/%E4%BB%80%E4%B9%88%E6%98%AFci/cd/</guid><description>&lt;h2 id="reference">reference&lt;/h2>
+&lt;ul>
+&lt;li>&lt;a class="link" 
+ href="https://www.explainthis.io/zh-hans/swe/cicd" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >explainthis:DevOps&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" 
+ href="https://cloud.tencent.com/developer/article/2322080" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >万字长文详解DevOps及DevOps工具链&lt;/a>&lt;/li>
+&lt;li>&lt;a class="link" 
+ href="https://www.ruanyifeng.com/blog/2015/09/continuous-integration.html" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >阮一峰的博客&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="诞生背景">诞生背景&lt;/h2>
+&lt;p>CI/CD是Continuous Integration（持续集成）和Continuous Delivery/Deployment（持续交付）的缩写。它产生于倡导敏捷开发的大背景下（普遍使用光盘的年代），软件开发不再是一次完成、测试后才上线交付，而是及早交付、开发者收到反馈后根据变动的需求持续改进的过程。&lt;/p></description></item><item><title>使用Python操作Excel</title><link>https://morimit.github.io/2023/%E4%BD%BF%E7%94%A8python%E6%93%8D%E4%BD%9Cexcel/</link><pubDate>Thu, 05 Oct 2023 09:58:39 +0800</pubDate><guid>https://morimit.github.io/2023/%E4%BD%BF%E7%94%A8python%E6%93%8D%E4%BD%9Cexcel/</guid><description>&lt;h2 id="需求">需求&lt;/h2>
 &lt;p>将微信接龙打卡更新到考勤表中，已到的人✔，未到的人❌&lt;/p>
 &lt;h2 id="思路拆分">思路拆分&lt;/h2>
 &lt;p>对比两列，一列是人员姓名（固定列），一列是此人当日打卡情况。每次微信打卡后，复制接龙到表格的对比列中，如果固定列的名字有出现在对比列中，则更新当日打卡记录。&lt;/p></description></item><item><title>Different Blog Types</title><link>https://morimit.github.io/2023/different-blog-types/</link><pubDate>Thu, 16 Mar 2023 09:33:30 +0800</pubDate><guid>https://morimit.github.io/2023/different-blog-types/</guid><description>&lt;p>本章图片来源：hugo in action&lt;/p>
@@ -23,20 +48,22 @@
  srcset="https://morimit.github.io/2023/different-blog-types/%E5%85%B8%E5%9E%8B%E5%8A%A8%E6%80%81%E5%8D%9A%E5%AE%A2%E6%9E%B6%E6%9E%84_hu14183632345828057992.png 720w, https://morimit.github.io/2023/different-blog-types/%E5%85%B8%E5%9E%8B%E5%8A%A8%E6%80%81%E5%8D%9A%E5%AE%A2%E6%9E%B6%E6%9E%84_hu4347290784196763693.png 2048w" 
  loading="lazy"
  
- alt="典型动态博客架构"
+ alt="典型动态博客架构 | 来源：https://www.manning.com/books/hugo-in-action"
  
  />
  &lt;/a>
  
- &lt;figcaption>典型动态博客架构&lt;/figcaption>
+ &lt;figcaption>典型动态博客架构 | 来源：https://www.manning.com/books/hugo-in-action&lt;/figcaption>
  
 &lt;/figure>
 &lt;/p></description></item><item><title>Blog Workflow</title><link>https://morimit.github.io/2023/blog-workflow/</link><pubDate>Wed, 11 Jan 2023 20:59:31 +0800</pubDate><guid>https://morimit.github.io/2023/blog-workflow/</guid><description>&lt;h2 id="添加文章">添加文章&lt;/h2>
-&lt;h3 id="添加post文章">添加post文章&lt;/h3>
-&lt;p>不需要指定模板，Hugo会使用 &lt;code>archetypes/default.md&lt;/code>模板来建立文档：&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-bash" data-lang="bash">&lt;span style="display:flex;">&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>hugo new post/my-first-post.md
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="添加notes文章">添加notes文章&lt;/h3>
-&lt;p>指定模板，使用命令&lt;code>hugo new [文件路径]/[文件名].md -k [archetype name]&lt;/code>&lt;/p></description></item><item><title>Connect Git to Github</title><link>https://morimit.github.io/2023/connect-git-to-github/</link><pubDate>Tue, 10 Jan 2023 16:22:12 +0800</pubDate><guid>https://morimit.github.io/2023/connect-git-to-github/</guid><description>&lt;h2 id="场景">场景&lt;/h2>
+&lt;h3 id="关于notes和posts">关于notes和posts&lt;/h3>
+&lt;p>本博客中二者的划分可查看：&lt;a class="link" 
+ href="https://morimit.github.io/2023/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8hugo%E6%90%AD%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2%E6%80%BB/#页面规划" 
+ 
+ >notes和posts区域&lt;/a>&lt;/p>
+&lt;h3 id="添加posts文章">添加posts文章&lt;/h3>
+&lt;p>不需要指定模板，Hugo会使用 &lt;code>archetypes/default.md&lt;/code>模板来建立文档：&lt;/p></description></item><item><title>Connect Git to Github</title><link>https://morimit.github.io/2023/connect-git-to-github/</link><pubDate>Tue, 10 Jan 2023 16:22:12 +0800</pubDate><guid>https://morimit.github.io/2023/connect-git-to-github/</guid><description>&lt;h2 id="场景">场景&lt;/h2>
 &lt;p>需要用一台（Windows）电脑同时连接多个GitHub账号。&lt;/p>
 &lt;h2 id="建立ssh连接">建立SSH连接&lt;/h2>
 &lt;h3 id="创建两个ssh-key">创建两个SSH key&lt;/h3>
@@ -133,8 +160,8 @@
 &lt;h3 id="页面规划">页面规划&lt;/h3>
 &lt;h4 id="主页">主页&lt;/h4>
 &lt;ul>
-&lt;li>参考一些博客、小说、视频、新闻网站，展示页适合使用摊开的卡片形式，可以一目了然地看到所有posts的信息。&lt;/li>
-&lt;li>posts在本博客中是使用tags来管理的、互相没有上下级关联的博文。&lt;/li>
+&lt;li>参考一些博客、小说、视频、新闻网站，展示页适合使用摊开的卡片形式，可以一目了然地看到所有posts的信息&lt;/li>
+&lt;li>&lt;strong>posts在本博客中是使用tags来管理的、互相没有上下级关联的博文&lt;/strong>&lt;/li>
 &lt;/ul>
 &lt;h4 id="存档">存档&lt;/h4>
 &lt;p>存放所有notes和posts中的博文，考虑到博文的数量，按年份来分隔比较合理，并且不需要分页，因为分页有种切割了时间流的感觉。&lt;/p></description></item><item><title>About Websites</title><link>https://morimit.github.io/2023/about-websites/</link><pubDate>Mon, 02 Jan 2023 12:16:02 +0800</pubDate><guid>https://morimit.github.io/2023/about-websites/</guid><description>&lt;h2 id="名词释义">名词释义&lt;/h2>
@@ -157,12 +184,18 @@
  srcset="https://morimit.github.io/2023/about-websites/internet-schema-8-mdn_hu5114650924950752741.png 720w, https://morimit.github.io/2023/about-websites/internet-schema-8-mdn_hu16446234936770360412.png 2048w" 
  loading="lazy"
  
- alt="about web"
+ alt="图片来源: https://developer.mozilla.org"
  
  />
  &lt;/a>
  
- &lt;figcaption>about web&lt;/figcaption>
+ &lt;figcaption>图片来源: &lt;a class="link" 
+ href="https://developer.mozilla.org" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >https://developer.mozilla.org&lt;/a>&lt;/figcaption>
  
 &lt;/figure>
 &lt;/li>
@@ -180,12 +213,18 @@
  srcset="https://morimit.github.io/2023/about-websites/web-server_hu9709201769568693954.png 720w, https://morimit.github.io/2023/about-websites/web-server_hu15581066417034439593.png 2048w" 
  loading="lazy"
  
- alt="HTTP"
+ alt="图片来源: https://developer.mozilla.org"
  
  />
  &lt;/a>
  
- &lt;figcaption>HTTP&lt;/figcaption>
+ &lt;figcaption>图片来源: &lt;a class="link" 
+ href="https://developer.mozilla.org" 
+ 
+ 
+ target="_blank" 
+ rel="noopener"
+ >https://developer.mozilla.org&lt;/a>&lt;/figcaption>
  
 &lt;/figure>
 &lt;/li>
