@@ -160,25 +160,7 @@ rel="noopener"
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
-&lt;p>CD最理想的状况是当开发者把代码合并后，就会开始整合、测试，最终部署，整个流程不需用有人工介入，一切自动化完成，新的功能就会到最端使用者手上。&lt;/p></description></item><item><title>1.1 第一节</title><link>https://morimit.github.io/javascript/chapter1/1.1/</link><pubDate>Fri, 04 Oct 2024 17:05:36 +0800</pubDate><guid>https://morimit.github.io/javascript/chapter1/1.1/</guid><description/></item><item><title>1.2 第二节</title><link>https://morimit.github.io/javascript/chapter1/1.2/</link><pubDate>Fri, 04 Oct 2024 17:05:36 +0800</pubDate><guid>https://morimit.github.io/javascript/chapter1/1.2/</guid><description>&lt;h2 id="第二节">第二节&lt;/h2></description></item><item><title>2.1 第一节</title><link>https://morimit.github.io/javascript/chapter2/2.1/</link><pubDate>Sun, 29 Sep 2024 20:46:15 +0800</pubDate><guid>https://morimit.github.io/javascript/chapter2/2.1/</guid><description>&lt;h2 id="第一部分">第一部分&lt;/h2>
-&lt;p>hello~
-this is a test page
-hello~
-this is a test pagehello~
-this is a test page
-hello~
-this is a test pagehello~
-this is a test page
-hello~
-this is a test pagehello~
-首先Hugo能够生成可以发布的网站文件，其次使用git进行版本控制，每次修改后可以把源码传到GitHub，最后GitHub对Hugo建站有完整的支持组件（GitHub action、GitHub pages service），所以才能顺利完成一系列自动部署。&lt;/p>
-&lt;h2 id="第二部分">第二部分&lt;/h2>
-&lt;p>首先Hugo能够生成可以发布的网站文件，其次使用git进行版本控制，每次修改后可以把源码传到GitHub，最后GitHub对Hugo建站有完整的支持组件（GitHub action、GitHub pages service），所以才能顺利完成一系列自动部署。&lt;/p>
-&lt;p>首先Hugo能够生成可以发布的网站文件，其次使用git进行版本控制，每次修改后可以把源码传到GitHub，最后GitHub对Hugo建站有完整的支持组件（GitHub action、GitHub pages service），所以才能顺利完成一系列自动部署&lt;/p>
-&lt;h2 id="第三部分">第三部分&lt;/h2>
-&lt;p>首先Hugo能够生成可以发布的网站文件，其次使用git进行版本控制，每次修改后可以把源码传到GitHub，最后GitHub对Hugo建站有完整的支持组件（GitHub action、GitHub pages service），所以才能顺利完成一系列自动部署。
-首先Hugo能够生成可以发布的网站文件，其次使用git进行版本控制，每次修改后可以把源码传到GitHub，最后GitHub对Hugo建站有完整的支持组件（GitHub action、GitHub pages service），所以才能顺利完成一系列自动部署&lt;/p>
-&lt;p>首先Hugo能够生成可以发布的网站文件，其次使用git进行版本控制，每次修改后可以把源码传到GitHub，最后GitHub对Hugo建站有完整的支持组件（GitHub action、GitHub pages service），所以才能顺利完成一系列自动部署首先Hugo能够生成可以发布的网站文件，其次使用git进行版本控制，每次修改后可以把源码传到GitHub，最后GitHub对Hugo建站有完整的支持组件（GitHub action、GitHub pages service），所以才能顺利完成一系列自动部署&lt;/p></description></item><item><title>使用Python操作Excel</title><link>https://morimit.github.io/2023/%E4%BD%BF%E7%94%A8python%E6%93%8D%E4%BD%9Cexcel/</link><pubDate>Thu, 05 Oct 2023 09:58:39 +0800</pubDate><guid>https://morimit.github.io/2023/%E4%BD%BF%E7%94%A8python%E6%93%8D%E4%BD%9Cexcel/</guid><description>&lt;img src="https://morimit.github.io/2023/%E4%BD%BF%E7%94%A8python%E6%93%8D%E4%BD%9Cexcel/openpyxl.PNG" alt="Featured image of post 使用Python操作Excel" />&lt;h2 id="需求">需求&lt;/h2>
+&lt;p>CD最理想的状况是当开发者把代码合并后，就会开始整合、测试，最终部署，整个流程不需用有人工介入，一切自动化完成，新的功能就会到最端使用者手上。&lt;/p></description></item><item><title>1.1 基础语法</title><link>https://morimit.github.io/javascript/chapter1/1.1/</link><pubDate>Fri, 04 Oct 2024 17:05:36 +0800</pubDate><guid>https://morimit.github.io/javascript/chapter1/1.1/</guid><description/></item><item><title>1.2 代码质量</title><link>https://morimit.github.io/javascript/chapter1/1.2/</link><pubDate>Fri, 04 Oct 2024 17:05:36 +0800</pubDate><guid>https://morimit.github.io/javascript/chapter1/1.2/</guid><description>&lt;h2 id="heading">&lt;/h2></description></item><item><title>2.1 第一节</title><link>https://morimit.github.io/javascript/chapter2/2.1/</link><pubDate>Sun, 29 Sep 2024 20:46:15 +0800</pubDate><guid>https://morimit.github.io/javascript/chapter2/2.1/</guid><description/></item><item><title>使用Python操作Excel</title><link>https://morimit.github.io/2023/%E4%BD%BF%E7%94%A8python%E6%93%8D%E4%BD%9Cexcel/</link><pubDate>Thu, 05 Oct 2023 09:58:39 +0800</pubDate><guid>https://morimit.github.io/2023/%E4%BD%BF%E7%94%A8python%E6%93%8D%E4%BD%9Cexcel/</guid><description>&lt;img src="https://morimit.github.io/2023/%E4%BD%BF%E7%94%A8python%E6%93%8D%E4%BD%9Cexcel/openpyxl.PNG" alt="Featured image of post 使用Python操作Excel" />&lt;h2 id="需求">需求&lt;/h2>
 &lt;p>将微信接龙打卡更新到考勤表中，已到的人✔，未到的人❌&lt;/p>
 &lt;h2 id="思路拆分">思路拆分&lt;/h2>
 &lt;p>对比两列，一列是人员姓名（固定列），一列是此人当日打卡情况。每次微信打卡后，复制接龙到表格的对比列中，如果固定列的名字有出现在对比列中，则更新当日打卡记录。&lt;/p>
