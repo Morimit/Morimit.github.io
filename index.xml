@@ -1,4 +1,106 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miaomi</title><link>https://morimit.github.io/</link><link rel="shortcut icon" href="https://morimit.github.io/images/Miaomi.svg"/><description>Recent content on Miaomi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 05 Nov 2024 11:29:51 +0800</lastBuildDate><atom:link href="https://morimit.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>如何做计划</title><link>https://morimit.github.io/2024/%E5%A6%82%E4%BD%95%E5%81%9A%E8%AE%A1%E5%88%92/</link><pubDate>Tue, 05 Nov 2024 11:29:51 +0800</pubDate><guid>https://morimit.github.io/2024/%E5%A6%82%E4%BD%95%E5%81%9A%E8%AE%A1%E5%88%92/</guid><description>&lt;img src="https://morimit.github.io/2024/%E5%A6%82%E4%BD%95%E5%81%9A%E8%AE%A1%E5%88%92/typing.png" alt="Featured image of post 如何做计划" />&lt;h2 id="为什么要做计划">为什么要做计划&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miaomi</title><link>https://morimit.github.io/</link><link rel="shortcut icon" href="https://morimit.github.io/images/Miaomi.svg"/><description>Recent content on Miaomi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 07 Nov 2024 13:06:27 +0800</lastBuildDate><atom:link href="https://morimit.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>给博客添加Google Analytics</title><link>https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/</link><pubDate>Thu, 07 Nov 2024 13:06:27 +0800</pubDate><guid>https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/</guid><description>&lt;h2 id="什么是google-analytics">什么是Google Analytics&lt;/h2>
+&lt;p>Google Analytics 4 (GA4) 是 Google 的一种网络分析工具，可让你免费跟踪和衡量网站上的用户流量和行为。&lt;/p>
+&lt;h2 id="给网站添加ga的跟踪代码">给网站添加GA的跟踪代码&lt;/h2>
+&lt;p>注册什么的直接跟着&lt;a class="link"
+href="https://support.google.com/analytics/answer/9304153?sjid=1742798696676955087-NC#zippy="
+target="_blank"
+rel="noopener"
+>官方文档&lt;/a>走，关键在于GA ID的设置上：&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="flex-grow: 211; flex-basis: 508px"
+>
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA2.png"
+data-size="909x429"
+>
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA2.png"
+width="909"
+height="429"
+srcset="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA2_hu744fabf950417bbbcb35ca912d052d6a_61730_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA2_hu744fabf950417bbbcb35ca912d052d6a_61730_2048x0_resize_box_3.png 2048w"
+loading="lazy"
+alt="set up data collection"
+/>
+&lt;/a>
+&lt;figcaption>set up data collection&lt;/figcaption>
+&lt;/figure>
+这里是给博客添加GA代码，而Hugo博客生成器对GA本身有代码支持，所以选第二个&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="flex-grow: 106; flex-basis: 255px"
+>
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA3.png"
+data-size="914x857"
+>
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA3.png"
+width="914"
+height="857"
+srcset="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA3_hu3c3abc966c36e4dcd940c0fc57543e46_123797_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA3_hu3c3abc966c36e4dcd940c0fc57543e46_123797_2048x0_resize_box_3.png 2048w"
+loading="lazy"
+alt="add the Google tag directly"
+/>
+&lt;/a>
+&lt;figcaption>add the Google tag directly&lt;/figcaption>
+&lt;/figure>
+继续跟着步骤走，找到这段代码&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="flex-grow: 241; flex-basis: 580px"
+>
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA4.png"
+data-size="1098x454"
+>
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA4.png"
+width="1098"
+height="454"
+srcset="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA4_hu3cf82db48b25f523729987ca1c37b412_28332_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA4_hu3cf82db48b25f523729987ca1c37b412_28332_2048x0_resize_box_3.png 2048w"
+loading="lazy"
+alt="tag instruction"
+/>
+&lt;/a>
+&lt;figcaption>tag instruction&lt;/figcaption>
+&lt;/figure>
+将这段含有GA ID的代码保存到博客layouts根目录下的 &lt;code>_internal/google_analytics.html&lt;/code>文件夹中&lt;/p>
+&lt;p>然后在博客&lt;code>layouts/partials/head/head.html&lt;/code>文件中使用该模板：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>{{&lt;span style="color:#008000">/* 防止hugo server的流量也计入流量监测 */&lt;/span>}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2&lt;/span>&lt;span>{{- &lt;span style="color:#00f">if&lt;/span> not .Site.IsServer -}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3&lt;/span>&lt;span> {{- template &lt;span style="color:#a31515">&amp;#34;_internal/google_analytics_async.html&amp;#34;&lt;/span> . -}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4&lt;/span>&lt;span>{{- end -}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5&lt;/span>&lt;span>{{- partial &lt;span style="color:#a31515">&amp;#34;head/custom.html&amp;#34;&lt;/span> . -}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>注意hugo v0.120.0之后不再使用&lt;code>.Site.IsServer&lt;/code>：
+&lt;figure
+class="gallery-image"
+style="flex-grow: 226; flex-basis: 543px"
+>
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/hugo1.png"
+data-size="473x209"
+>
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/hugo1.png"
+width="473"
+height="209"
+srcset="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/hugo1_hu00a50e9cdd72d54331520bc11fc8e68e_5845_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/hugo1_hu00a50e9cdd72d54331520bc11fc8e68e_5845_2048x0_resize_box_3.png 2048w"
+loading="lazy"
+alt="hugo version"
+/>
+&lt;/a>
+&lt;figcaption>hugo version&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>在博客config文件中也添加：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>&lt;span style="color:#008000"># GA Tracking ID&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2&lt;/span>&lt;span>services:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3&lt;/span>&lt;span> googleAnalytics:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4&lt;/span>&lt;span> id: G-yourID
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>最后虽然文档说是30分钟，但我却是过几个小时后才在Google Analytics上看到访客数据。&lt;/p>
+&lt;h2 id="references">References&lt;/h2>
+&lt;ul>
+&lt;li>(比较老的教程，但来龙去脉写得比较完整)[https://note.qidong.name/2017/07/05/google-analytics-in-hugo/]&lt;/li>
+&lt;li>(与上面相反)( &lt;a class="link"
+href="https://immwind.com/google-analytics-for-hugo/"
+target="_blank"
+rel="noopener"
+>https://immwind.com/google-analytics-for-hugo/&lt;/a>)&lt;/li>
+&lt;li>(主要步骤还是看最新的GA官方文档)[https://support.google.com/analytics/answer/9304153?sjid=1742798696676955087-NC]&lt;/li>
+&lt;/ul></description></item><item><title>如何做计划</title><link>https://morimit.github.io/2024/%E5%A6%82%E4%BD%95%E5%81%9A%E8%AE%A1%E5%88%92/</link><pubDate>Tue, 05 Nov 2024 11:29:51 +0800</pubDate><guid>https://morimit.github.io/2024/%E5%A6%82%E4%BD%95%E5%81%9A%E8%AE%A1%E5%88%92/</guid><description>&lt;img src="https://morimit.github.io/2024/%E5%A6%82%E4%BD%95%E5%81%9A%E8%AE%A1%E5%88%92/typing.png" alt="Featured image of post 如何做计划" />&lt;h2 id="为什么要做计划">为什么要做计划&lt;/h2>
 &lt;p>在开始做计划前，必须问自己一个问题——为什么要做？&lt;/p>
 &lt;p>&lt;strong>这个问题的答案越具体越好&lt;/strong>。&lt;/p>
 &lt;p>在没有问出这个问题，心中也没有答案的时候，就很容易做出这样的计划——
@@ -954,21 +1056,22 @@ alt="actions &amp; docs"
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18&lt;/span>&lt;span> - name: Setup Hugo
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19&lt;/span>&lt;span> uses: peaceiris/actions-hugo@v2
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20&lt;/span>&lt;span> with:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21&lt;/span>&lt;span> hugo-version: &lt;span style="color:#a31515">&amp;#39;latest&amp;#39;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22&lt;/span>&lt;span> extended: true
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23&lt;/span>&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24&lt;/span>&lt;span> - name: Build
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25&lt;/span>&lt;span> run: hugo --minify
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26&lt;/span>&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27&lt;/span>&lt;span> - name: Deploy
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28&lt;/span>&lt;span> uses: peaceiris/actions-gh-pages@v3
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29&lt;/span>&lt;span> with:
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30&lt;/span>&lt;span> deploy_key: &lt;span style="color:#a31515">${&lt;/span>{ secrets.ACTIONS_DEPLOY_KEY &lt;span style="color:#a31515">}&lt;/span>} &lt;span style="color:#008000"># 这里的 ACTIONS_DEPLOY_KEY 则是上面设置 Private Key的变量名&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31&lt;/span>&lt;span> external_repository: Morimit/Morimit.github.io &lt;span style="color:#008000"># Pages绑定的远程仓库 &lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32&lt;/span>&lt;span> publish_dir: &lt;span style="color:#a31515">&amp;#34;./public&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33&lt;/span>&lt;span> keep_files: false &lt;span style="color:#008000"># remove existing files&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34&lt;/span>&lt;span> publish_branch: main &lt;span style="color:#008000"># deploying branch&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35&lt;/span>&lt;span> commit_message: &lt;span style="color:#a31515">${&lt;/span>{ github.event.head_commit.message &lt;span style="color:#a31515">}&lt;/span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21&lt;/span>&lt;span> &lt;span style="color:#008000"># The Hugo version to download (if necessary) and use. Example: 0.58.2&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22&lt;/span>&lt;span> hugo-version: &lt;span style="color:#a31515">&amp;#39;0.108.0&amp;#39;&lt;/span> &lt;span style="color:#008000"># default is &amp;#39;latest&amp;#39;, better use your local development version&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23&lt;/span>&lt;span> extended: true
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24&lt;/span>&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25&lt;/span>&lt;span> - name: Build
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26&lt;/span>&lt;span> run: hugo --minify
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27&lt;/span>&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28&lt;/span>&lt;span> - name: Deploy
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29&lt;/span>&lt;span> uses: peaceiris/actions-gh-pages@v3
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30&lt;/span>&lt;span> with:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31&lt;/span>&lt;span> deploy_key: &lt;span style="color:#a31515">${&lt;/span>{ secrets.ACTIONS_DEPLOY_KEY &lt;span style="color:#a31515">}&lt;/span>} &lt;span style="color:#008000"># 这里的 ACTIONS_DEPLOY_KEY 则是上面设置 Private Key的变量名&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32&lt;/span>&lt;span> external_repository: Morimit/Morimit.github.io &lt;span style="color:#008000"># Pages绑定的远程仓库 &lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33&lt;/span>&lt;span> publish_dir: &lt;span style="color:#a31515">&amp;#34;./public&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34&lt;/span>&lt;span> keep_files: false &lt;span style="color:#008000"># remove existing files&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35&lt;/span>&lt;span> publish_branch: main &lt;span style="color:#008000"># deploying branch&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36&lt;/span>&lt;span> commit_message: &lt;span style="color:#a31515">${&lt;/span>{ github.event.head_commit.message &lt;span style="color:#a31515">}&lt;/span>}
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;ul>
 &lt;li>注意：&lt;code>publish_branch&lt;/code>要和该仓库绑定GitHub Pages的发布branch相一致&lt;/li>
 &lt;li>上面的步骤完成后，每次从本地git push源文件到GitHub都会触发GitHub Actions脚本把&lt;code>./public&lt;/code>文件夹更新到GitHub pages。&lt;/li>
