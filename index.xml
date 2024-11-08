@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miaomi</title><link>https://morimit.github.io/</link><link rel="shortcut icon" href="https://morimit.github.io/images/Miaomi.svg"/><description>Recent content on Miaomi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 07 Nov 2024 13:06:27 +0800</lastBuildDate><atom:link href="https://morimit.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>给博客添加Google Analytics</title><link>https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/</link><pubDate>Thu, 07 Nov 2024 13:06:27 +0800</pubDate><guid>https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/</guid><description>&lt;img src="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA.png" alt="Featured image of post 给博客添加Google Analytics" />&lt;h2 id="什么是google-analytics">什么是Google Analytics&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miaomi</title><link>https://morimit.github.io/</link><link rel="shortcut icon" href="https://morimit.github.io/images/Miaomi.svg"/><description>Recent content on Miaomi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 07 Nov 2024 13:06:27 +0800</lastBuildDate><atom:link href="https://morimit.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>给Hugo博客添加Google Analytics</title><link>https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/</link><pubDate>Thu, 07 Nov 2024 13:06:27 +0800</pubDate><guid>https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/</guid><description>&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA.png" alt="Featured image of post 给Hugo博客添加Google Analytics" />&lt;h2 id="什么是google-analytics">什么是Google Analytics&lt;/h2>
 &lt;p>Google Analytics 4 (GA4) 是 Google 的一种网络分析工具，可让你免费跟踪和衡量网站上的用户流量和行为。&lt;/p>
 &lt;h2 id="给网站添加ga的跟踪代码">给网站添加GA的跟踪代码&lt;/h2>
 &lt;p>注册什么的直接跟着&lt;a class="link"
@@ -10,13 +10,13 @@ rel="noopener"
 class="gallery-image"
 style="flex-grow: 211; flex-basis: 508px"
 >
-&lt;a href="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA2.png"
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA2.png"
 data-size="909x429"
 >
-&lt;img src="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA2.png"
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA2.png"
 width="909"
 height="429"
-srcset="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA2_hu744fabf950417bbbcb35ca912d052d6a_61730_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA2_hu744fabf950417bbbcb35ca912d052d6a_61730_2048x0_resize_box_3.png 2048w"
+srcset="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA2_hu744fabf950417bbbcb35ca912d052d6a_61730_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA2_hu744fabf950417bbbcb35ca912d052d6a_61730_2048x0_resize_box_3.png 2048w"
 loading="lazy"
 alt="set up data collection"
 />
@@ -28,13 +28,13 @@ alt="set up data collection"
 class="gallery-image"
 style="flex-grow: 106; flex-basis: 255px"
 >
-&lt;a href="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA3.png"
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA3.png"
 data-size="914x857"
 >
-&lt;img src="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA3.png"
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA3.png"
 width="914"
 height="857"
-srcset="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA3_hu3c3abc966c36e4dcd940c0fc57543e46_123797_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA3_hu3c3abc966c36e4dcd940c0fc57543e46_123797_2048x0_resize_box_3.png 2048w"
+srcset="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA3_hu3c3abc966c36e4dcd940c0fc57543e46_123797_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA3_hu3c3abc966c36e4dcd940c0fc57543e46_123797_2048x0_resize_box_3.png 2048w"
 loading="lazy"
 alt="add the Google tag directly"
 />
@@ -46,13 +46,13 @@ alt="add the Google tag directly"
 class="gallery-image"
 style="flex-grow: 241; flex-basis: 580px"
 >
-&lt;a href="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA4.png"
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA4.png"
 data-size="1098x454"
 >
-&lt;img src="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA4.png"
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA4.png"
 width="1098"
 height="454"
-srcset="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA4_hu3cf82db48b25f523729987ca1c37b412_28332_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA4_hu3cf82db48b25f523729987ca1c37b412_28332_2048x0_resize_box_3.png 2048w"
+srcset="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA4_hu3cf82db48b25f523729987ca1c37b412_28332_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA4_hu3cf82db48b25f523729987ca1c37b412_28332_2048x0_resize_box_3.png 2048w"
 loading="lazy"
 alt="tag instruction"
 />
@@ -71,13 +71,13 @@ alt="tag instruction"
 class="gallery-image"
 style="flex-grow: 226; flex-basis: 543px"
 >
-&lt;a href="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/hugo1.png"
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/hugo1.png"
 data-size="473x209"
 >
-&lt;img src="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/hugo1.png"
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/hugo1.png"
 width="473"
 height="209"
-srcset="https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/hugo1_hu00a50e9cdd72d54331520bc11fc8e68e_5845_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/hugo1_hu00a50e9cdd72d54331520bc11fc8e68e_5845_2048x0_resize_box_3.png 2048w"
+srcset="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/hugo1_hu00a50e9cdd72d54331520bc11fc8e68e_5845_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/hugo1_hu00a50e9cdd72d54331520bc11fc8e68e_5845_2048x0_resize_box_3.png 2048w"
 loading="lazy"
 alt="hugo version"
 />
