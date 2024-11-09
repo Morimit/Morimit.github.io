@@ -1,4 +1,396 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miaomi</title><link>https://morimit.github.io/</link><link rel="shortcut icon" href="https://morimit.github.io/images/Miaomi.svg"/><description>Recent content on Miaomi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 07 Nov 2024 13:06:27 +0800</lastBuildDate><atom:link href="https://morimit.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>给Hugo博客添加Google Analytics</title><link>https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/</link><pubDate>Thu, 07 Nov 2024 13:06:27 +0800</pubDate><guid>https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/</guid><description>&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA.png" alt="Featured image of post 给Hugo博客添加Google Analytics" />&lt;h2 id="什么是google-analytics">什么是Google Analytics&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Miaomi</title><link>https://morimit.github.io/</link><link rel="shortcut icon" href="https://morimit.github.io/images/Miaomi.svg"/><description>Recent content on Miaomi</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 09 Nov 2024 17:51:34 +0800</lastBuildDate><atom:link href="https://morimit.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>给Hugo博客添加Waline评论区并设置邮件通知</title><link>https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/</link><pubDate>Sat, 09 Nov 2024 17:51:34 +0800</pubDate><guid>https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/</guid><description>&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/waline.png" alt="Featured image of post 给Hugo博客添加Waline评论区并设置邮件通知" />&lt;h2 id="ref">REF&lt;/h2>
+&lt;ul>
+&lt;li>按照&lt;a class="link"
+href="https://waline.js.org/guide/get-started/"
+target="_blank"
+rel="noopener"
+>Waline官方文档&lt;/a>可以快速上手配置&lt;/li>
+&lt;li>有不清楚的地方以及后面的邮件模板可以参照 &lt;a class="link"
+href="https://blog.reincarnatey.net/2024/0719-better-waline/"
+target="_blank"
+rel="noopener"
+>失迹の博客&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="设置数据库leancloud">设置数据库（LeanCloud）&lt;/h2>
+&lt;p>按照Waline文档的步骤走，&lt;a class="link"
+href="https://console.leancloud.app/register"
+target="_blank"
+rel="noopener"
+>注册&lt;/a>好LeanCloud国际版&lt;/p>
+&lt;p>博客选择开发者版本就够用了：
+&lt;figure
+class="gallery-image"
+style="flex-grow: 208; flex-basis: 500px"
+>
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/leancloud.png"
+data-size="1493x716"
+>
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/leancloud.png"
+width="1493"
+height="716"
+srcset="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/leancloud_hu721131ead15d6ae9f94b7b662417c86d_103622_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/leancloud_hu721131ead15d6ae9f94b7b662417c86d_103622_2048x0_resize_box_3.png 2048w"
+loading="lazy"
+alt="LeanCloud price"
+/>
+&lt;/a>
+&lt;figcaption>LeanCloud price&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>记住三个应用凭证：
+&lt;figure
+class="gallery-image"
+style="flex-grow: 287; flex-basis: 691px"
+>
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/leancloud2.png"
+data-size="1408x489"
+>
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/leancloud2.png"
+width="1408"
+height="489"
+srcset="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/leancloud2_hu5ad07e331f6eb5eed336829ffe32e746_46978_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/leancloud2_hu5ad07e331f6eb5eed336829ffe32e746_46978_2048x0_resize_box_3.png 2048w"
+loading="lazy"
+alt="AppID、AppKey、MasterKey"
+/>
+&lt;/a>
+&lt;figcaption>AppID、AppKey、MasterKey&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="部署服务端vercel">部署服务端（Vercel）&lt;/h2>
+&lt;p>服务端可以通过 docker 进行部署或直接部署在自托管环境上，也可以部署到其他常见云平台，这里我选择用Vercel部署。&lt;/p>
+&lt;p>按照Waline文档的步骤走，如果没有在仓库安装过Vercel，则会跳出安装页面：
+&lt;figure
+class="gallery-image"
+style="flex-grow: 69; flex-basis: 167px"
+>
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel1.png"
+data-size="708x1015"
+>
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel1.png"
+width="708"
+height="1015"
+srcset="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel1_hu6c81363ae55d40242d4328361bead09e_66048_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel1_hu6c81363ae55d40242d4328361bead09e_66048_2048x0_resize_box_3.png 2048w"
+loading="lazy"
+alt="install Vercel"
+/>
+&lt;/a>
+&lt;figcaption>install Vercel&lt;/figcaption>
+&lt;/figure>
+&lt;figure
+class="gallery-image"
+style="flex-grow: 107; flex-basis: 258px"
+>
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel2.png"
+data-size="927x859"
+>
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel2.png"
+width="927"
+height="859"
+srcset="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel2_hu7b76abd0fdc2da2e574cda885971c350_65077_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel2_hu7b76abd0fdc2da2e574cda885971c350_65077_2048x0_resize_box_3.png 2048w"
+loading="lazy"
+alt="create project"
+/>
+&lt;/a>
+&lt;figcaption>create project&lt;/figcaption>
+&lt;/figure>
+&lt;figure
+class="gallery-image"
+style="flex-grow: 98; flex-basis: 235px"
+>
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel3.png"
+data-size="874x889"
+>
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel3.png"
+width="874"
+height="889"
+srcset="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel3_hu3b90dda11d174cdbcdad1ce80ede9144_62300_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel3_hu3b90dda11d174cdbcdad1ce80ede9144_62300_2048x0_resize_box_3.png 2048w"
+loading="lazy"
+alt="deployment"
+/>
+&lt;/a>
+&lt;figcaption>deployment&lt;/figcaption>
+&lt;/figure>
+&lt;figure
+class="gallery-image"
+style="flex-grow: 85; flex-basis: 205px"
+>
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel4.png"
+data-size="732x855"
+>
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel4.png"
+width="732"
+height="855"
+srcset="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel4_hu8721a7e4b61069571699507ebbadf002_61250_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel4_hu8721a7e4b61069571699507ebbadf002_61250_2048x0_resize_box_3.png 2048w"
+loading="lazy"
+alt="finish"
+/>
+&lt;/a>
+&lt;figcaption>finish&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>上图分别展示了安装Vercel、创建项目、Vercel基于Waline模板自动化部署的过程。&lt;/p>
+&lt;p>接下里是在这个项目里添加三个环境变量，分别对应上面的三个LeanCloud凭证：
+&lt;figure
+class="gallery-image"
+style="flex-grow: 193; flex-basis: 463px"
+>
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel-envir.png"
+data-size="1728x895"
+>
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel-envir.png"
+width="1728"
+height="895"
+srcset="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel-envir_hu33673b4ff1a794615b61c5615fc4695d_99743_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel-envir_hu33673b4ff1a794615b61c5615fc4695d_99743_2048x0_resize_box_3.png 2048w"
+loading="lazy"
+alt="环境变量"
+/>
+&lt;/a>
+&lt;figcaption>环境变量&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>每次配置新的环境变量后都要重新部署：
+&lt;figure
+class="gallery-image"
+style="flex-grow: 227; flex-basis: 546px"
+>
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/redeploy.png"
+data-size="1616x710"
+>
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/redeploy.png"
+width="1616"
+height="710"
+srcset="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/redeploy_hufa41cd4d4e01c0a2102a0d17aeaedac8_113969_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/redeploy_hufa41cd4d4e01c0a2102a0d17aeaedac8_113969_2048x0_resize_box_3.png 2048w"
+loading="lazy"
+alt="redeploy"
+/>
+&lt;/a>
+&lt;figcaption>redeploy&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>部署成功后可以通过服务端地址访问服务端了：
+&lt;figure
+class="gallery-image"
+style="flex-grow: 264; flex-basis: 635px"
+>
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel-visit.png"
+data-size="1709x645"
+>
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel-visit.png"
+width="1709"
+height="645"
+srcset="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel-visit_hu335e67c37920d7e07ebf64ce75838c14_55236_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel-visit_hu335e67c37920d7e07ebf64ce75838c14_55236_2048x0_resize_box_3.png 2048w"
+loading="lazy"
+alt="visit server"
+/>
+&lt;/a>
+&lt;figcaption>visit server&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="绑定域名可选">绑定域名（可选）&lt;/h2>
+&lt;p>可以把vercel绑定自己的域名，这里我直接用vercel自动分配的域名了~&lt;/p>
+&lt;h2 id="配置客户端hugo博客">配置客户端（Hugo博客）&lt;/h2>
+&lt;p>此博客基于的Stack主题是集成了Waline评论模板的，只不过样式用的是v2，而目前官网已经更新到v3了，所以可以参考Waline文档把引入样式表和js脚本都换成v3的：&lt;/p>
+&lt;p>在&lt;code>config.yaml&lt;/code>文件中开启评论区并配置相关参数：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-yaml" data-lang="yaml">&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1&lt;/span>&lt;span>comments:
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2&lt;/span>&lt;span> enabled: &lt;span style="color:#00f">true&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3&lt;/span>&lt;span> provider: waline
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>在&lt;code>layouts\partials\comments\provider\waline.html&lt;/code>文件中修改代码：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 1&lt;/span>&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 2&lt;/span>&lt;span>&amp;lt;link
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 3&lt;/span>&lt;span>rel=&lt;span style="color:#a31515">&amp;#34;stylesheet&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 4&lt;/span>&lt;span>href=&lt;span style="color:#a31515">&amp;#34;https://unpkg.com/@waline/client@v3/dist/waline.css&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 5&lt;/span>&lt;span>/&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 6&lt;/span>&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 7&lt;/span>&lt;span>&amp;lt;div id=&lt;span style="color:#a31515">&amp;#34;waline&amp;#34;&lt;/span> class=&lt;span style="color:#a31515">&amp;#34;waline-container&amp;#34;&lt;/span>&amp;gt;&amp;lt;/div&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 8&lt;/span>&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"> 9&lt;/span>&lt;span>&amp;lt;style&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">10&lt;/span>&lt;span> .waline-container {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">11&lt;/span>&lt;span> background-color: &lt;span style="color:#00f">var&lt;/span>(--card-background);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">12&lt;/span>&lt;span> border-radius: &lt;span style="color:#00f">var&lt;/span>(--card-border-radius);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">13&lt;/span>&lt;span> box-shadow: &lt;span style="color:#00f">var&lt;/span>(--shadow-l1);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">14&lt;/span>&lt;span> padding: &lt;span style="color:#00f">var&lt;/span>(--card-padding);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">15&lt;/span>&lt;span> --waline-font-size: &lt;span style="color:#00f">var&lt;/span>(--article-font-size);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">16&lt;/span>&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">17&lt;/span>&lt;span> .waline-container .wl-count {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">18&lt;/span>&lt;span> color: &lt;span style="color:#00f">var&lt;/span>(--card-text-color-main);
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">19&lt;/span>&lt;span> }
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">20&lt;/span>&lt;span>&amp;lt;/style&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">21&lt;/span>&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">22&lt;/span>&lt;span>{{- with .Site.Params.comments.waline -}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">23&lt;/span>&lt;span>{{- &lt;span style="">$&lt;/span>config := dict &lt;span style="color:#a31515">&amp;#34;el&amp;#34;&lt;/span> &lt;span style="color:#a31515">&amp;#34;#waline&amp;#34;&lt;/span> &lt;span style="color:#a31515">&amp;#34;dark&amp;#34;&lt;/span> &lt;span style="color:#a31515">`html[data-scheme=&amp;#34;dark&amp;#34;]`&lt;/span> -}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">24&lt;/span>&lt;span>{{- &lt;span style="">$&lt;/span>replaceKeys := dict &lt;span style="color:#a31515">&amp;#34;serverurl&amp;#34;&lt;/span> &lt;span style="color:#a31515">&amp;#34;serverURL&amp;#34;&lt;/span> &lt;span style="color:#a31515">&amp;#34;requiredmeta&amp;#34;&lt;/span> &lt;span style="color:#a31515">&amp;#34;requiredMeta&amp;#34;&lt;/span> &lt;span style="color:#a31515">&amp;#34;wordlimit&amp;#34;&lt;/span> &lt;span style="color:#a31515">&amp;#34;wordLimit&amp;#34;&lt;/span> &lt;span style="color:#a31515">&amp;#34;pagesize&amp;#34;&lt;/span> &lt;span style="color:#a31515">&amp;#34;pageSize&amp;#34;&lt;/span> &lt;span style="color:#a31515">&amp;#34;avatarcdn&amp;#34;&lt;/span> &lt;span style="color:#a31515">&amp;#34;avatarCDN&amp;#34;&lt;/span> &lt;span style="color:#a31515">&amp;#34;avatarforce&amp;#34;&lt;/span> &lt;span style="color:#a31515">&amp;#34;avatarForce&amp;#34;&lt;/span> -}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">25&lt;/span>&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">26&lt;/span>&lt;span> {{- &lt;span style="color:#00f">range&lt;/span> &lt;span style="">$&lt;/span>key, &lt;span style="">$&lt;/span>val := . -}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">27&lt;/span>&lt;span> {{- &lt;span style="color:#00f">if&lt;/span> &lt;span style="">$&lt;/span>val -}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">28&lt;/span>&lt;span> {{- &lt;span style="">$&lt;/span>replaceKey := index &lt;span style="">$&lt;/span>replaceKeys &lt;span style="">$&lt;/span>key -}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">29&lt;/span>&lt;span> {{- &lt;span style="">$&lt;/span>k := &lt;span style="color:#00f">default&lt;/span> &lt;span style="">$&lt;/span>key &lt;span style="">$&lt;/span>replaceKey -}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">30&lt;/span>&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">31&lt;/span>&lt;span> {{- &lt;span style="">$&lt;/span>config = merge &lt;span style="">$&lt;/span>config (dict &lt;span style="">$&lt;/span>k &lt;span style="">$&lt;/span>val) -}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">32&lt;/span>&lt;span> {{- end -}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">33&lt;/span>&lt;span> {{- end -}}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">34&lt;/span>&lt;span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">35&lt;/span>&lt;span> &amp;lt;script &lt;span style="color:#00f">type&lt;/span>=&lt;span style="color:#a31515">&amp;#34;module&amp;#34;&lt;/span>&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">36&lt;/span>&lt;span> &lt;span style="color:#00f">import&lt;/span> { init } from &lt;span style="">&amp;#39;&lt;/span>https:&lt;span style="color:#008000">//unpkg.com/@waline/client@v3/dist/waline.js&amp;#39;;
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">37&lt;/span>&lt;span>&lt;span style="color:#008000">&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">38&lt;/span>&lt;span> init({{ &lt;span style="">$&lt;/span>config | jsonify | safeJS }});
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">39&lt;/span>&lt;span> &amp;lt;/script&amp;gt;
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span style="white-space:pre;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">40&lt;/span>&lt;span>{{- end -}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>看评论区右下角的Powered by Waline后面的版本号可以知道是否配置成功&lt;/p>
+&lt;p>完成上面的步骤后，就可以在评论区留言了：
+&lt;figure
+class="gallery-image"
+style="flex-grow: 202; flex-basis: 485px"
+>
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/comment.png"
+data-size="1210x598"
+>
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/comment.png"
+width="1210"
+height="598"
+srcset="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/comment_hu34091fc84e0f62b0a22c98c775067b00_36953_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/comment_hu34091fc84e0f62b0a22c98c775067b00_36953_2048x0_resize_box_3.png 2048w"
+loading="lazy"
+alt="comment area"
+/>
+&lt;/a>
+&lt;figcaption>comment area&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="登录管理端评论管理">登录管理端（评论管理）&lt;/h2>
+&lt;blockquote class="quote">
+&lt;p>&lt;ol>
+&lt;li>部署完成后，请访问 &lt;code>&amp;lt;serverURL&amp;gt;/ui/register&lt;/code> 进行注册。首个注册的人会被设定成管理员。&lt;/li>
+&lt;li>管理员登陆后，即可看到评论管理界面。在这里可以修改、标记或删除评论。&lt;/li>
+&lt;li>用户也可通过评论框注册账号，登陆后会跳转到自己的档案页。&lt;/li>
+&lt;/ol>
+&lt;/p>&lt;/blockquote>
+&lt;p>其中&lt;code>serverURL&lt;/code>即服务端的地址
+&lt;figure
+class="gallery-image"
+style="flex-grow: 264; flex-basis: 635px"
+>
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel-visit.png"
+data-size="1709x645"
+>
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel-visit.png"
+width="1709"
+height="645"
+srcset="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel-visit_hu335e67c37920d7e07ebf64ce75838c14_55236_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel-visit_hu335e67c37920d7e07ebf64ce75838c14_55236_2048x0_resize_box_3.png 2048w"
+loading="lazy"
+alt="serverURL"
+/>
+&lt;/a>
+&lt;figcaption>serverURL&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>注册后就可以管理评论了:
+&lt;figure
+class="gallery-image"
+style="flex-grow: 226; flex-basis: 543px"
+>
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/comment-manage.png"
+data-size="1080x477"
+>
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/comment-manage.png"
+width="1080"
+height="477"
+srcset="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/comment-manage_hue2203c51309d98638b582a624b5ca20e_27744_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/comment-manage_hue2203c51309d98638b582a624b5ca20e_27744_2048x0_resize_box_3.png 2048w"
+loading="lazy"
+alt="server side comment management"
+/>
+&lt;/a>
+&lt;figcaption>server side comment management&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;h2 id="解决vercel-dns污染问题待尝试">解决Vercel DNS污染问题（待尝试）&lt;/h2>
+&lt;ul>
+&lt;li>可以参考&lt;a class="link"
+href="https://www.cnblogs.com/cubeyu/articles/17451621.html"
+target="_blank"
+rel="noopener"
+>这个博客&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="配置评论邮件通知">配置评论邮件通知&lt;/h2>
+&lt;p>首先了解一下两个协议，SMTP是可以从邮件客户端向邮件服务端发送、中继或转发邮件的协议，IMAP是可以从邮件服务器上获取邮件信息、下载邮件的协议。&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="flex-grow: 183; flex-basis: 440px"
+>
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/SMTP&amp;amp;IMAP.png"
+data-size="1104x601"
+>
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/SMTP&amp;amp;IMAP.png"
+width="1104"
+height="601"
+srcset="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/SMTP&amp;amp;IMAP_huc212c8330a916dd597eb5ce07d3979af_54304_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/SMTP&amp;amp;IMAP_huc212c8330a916dd597eb5ce07d3979af_54304_2048x0_resize_box_3.png 2048w"
+loading="lazy"
+alt="图片来源：https://www.cnblogs.com/jiyuwu/p/16313476.html"
+/>
+&lt;/a>
+&lt;figcaption>图片来源：https://www.cnblogs.com/jiyuwu/p/16313476.html&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>这里我们通过配置Vercel的SMTP环境变量，每当有评论的时候就让SMTP服务端来发送邮件。&lt;/p>
+&lt;p>SMTP服务端可以自己用服务器搭建，也可以选择各大邮件服务商。这里我一开始用Outlook邮件一直没成功，后面还是用Gmail了。&lt;/p>
+&lt;h3 id="gmail启用imap">Gmail启用IMAP&lt;/h3>
+&lt;p>Gmail在打开IMAP的同时也会打开SMTP
+&lt;figure
+class="gallery-image"
+style="flex-grow: 191; flex-basis: 460px"
+>
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/Gmail-IMAP.png"
+data-size="1427x744"
+>
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/Gmail-IMAP.png"
+width="1427"
+height="744"
+srcset="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/Gmail-IMAP_hu8248fe13b413dc1adfdcdf565d66fbdc_127753_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/Gmail-IMAP_hu8248fe13b413dc1adfdcdf565d66fbdc_127753_2048x0_resize_box_3.png 2048w"
+loading="lazy"
+alt="enable IMAP"
+/>
+&lt;/a>
+&lt;figcaption>enable IMAP&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>此外还要打开Google账号的两步验证，然后才能生成一个App password（后面要填入环境变量）。&lt;/p>
+&lt;h3 id="配置vercel环境变量">配置Vercel环境变量&lt;/h3>
+&lt;p>需要配置以下环境变量：&lt;/p>
+&lt;ul>
+&lt;li>SMTP_SERVICE：Gmail&lt;/li>
+&lt;li>SMTP_USER：youremail@gmail.com&lt;/li>
+&lt;li>SMTP_PASS：填上面获取的App password，有16位，要删除空格&lt;/li>
+&lt;li>SITE_NAME：填博客的名字&lt;/li>
+&lt;li>SITE_URL：https://your-site-domain-name&lt;/li>
+&lt;li>AUTHOR_EMAIL：填自己常用的邮箱(最好是上面评论管理的管理员邮箱)，用来接收评论通知&lt;/li>
+&lt;/ul>
+&lt;p>以下是选填的环境变量:&lt;/p>
+&lt;ul>
+&lt;li>SENDER_NAME: Miaomi&amp;rsquo;s Blog&lt;/li>
+&lt;li>SENDER_EMAIL: 自定义发送邮件的发件地址&lt;/li>
+&lt;li>MAIL_SUBJECT: Dear {{parent.nick | safe}}，your comment on {{site.name | safe}}&amp;rsquo;s Blog received a reply&lt;/li>
+&lt;li>MAIL_TEMPLATE: 自定义评论回复邮件内容(可直接贴HTML代码)&lt;/li>
+&lt;li>MAIL_SUBJECT_ADMIN: 亲爱的站长，您的博客{{site.name | safe}}收到一条新评论，请及时回复哦~&lt;/li>
+&lt;li>MAIL_TEMPLATE_ADMIN: 自定义新评论通知邮件内容(可直接贴HTML代码)&lt;/li>
+&lt;/ul>
+&lt;p>记得&lt;strong>每次配置好环境变量都要点redeploy才会生效&lt;/strong>&lt;/p>
+&lt;p>一切准备就绪后，评论区有回复都能收到邮件通知了~&lt;/p>
+&lt;p>默认的邮件模板如下：
+&lt;figure
+class="gallery-image"
+style="flex-grow: 141; flex-basis: 340px"
+>
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/comment-mail.png"
+data-size="504x355"
+>
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/comment-mail.png"
+width="504"
+height="355"
+srcset="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/comment-mail_hu3e0c0b59b8c8c960831e400f970dfd58_8596_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/comment-mail_hu3e0c0b59b8c8c960831e400f970dfd58_8596_2048x0_resize_box_3.png 2048w"
+loading="lazy"
+alt="received mail"
+/>
+&lt;/a>
+&lt;figcaption>received mail&lt;/figcaption>
+&lt;/figure>
+有时间一定要改一下模板，看着和我的主题色不太搭~&lt;/p></description></item><item><title>给Hugo博客添加Google Analytics</title><link>https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/</link><pubDate>Thu, 07 Nov 2024 13:06:27 +0800</pubDate><guid>https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/</guid><description>&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0google-analytics/GA.png" alt="Featured image of post 给Hugo博客添加Google Analytics" />&lt;h2 id="什么是google-analytics">什么是Google Analytics&lt;/h2>
 &lt;p>Google Analytics 4 (GA4) 是 Google 的一种网络分析工具，可让你免费跟踪和衡量网站上的用户流量和行为。&lt;/p>
 &lt;h2 id="给网站添加ga的跟踪代码">给网站添加GA的跟踪代码&lt;/h2>
 &lt;p>注册什么的直接跟着&lt;a class="link"
