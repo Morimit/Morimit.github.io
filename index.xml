@@ -652,7 +652,26 @@ alt="yearly plan"
 &lt;/figure>
 &lt;/p>
 &lt;h3 id="第三阶段">第三阶段&lt;/h3>
-&lt;p>这个阶段，我保留了时间视角的月计划和年计划，使用obsidian的daily notes插件，还新增了项目视角的计划表：&lt;/p>
+&lt;p>这个阶段，我保留了时间视角的月计划和年计划，使用obsidian的daily notes插件记录日计划:
+&lt;figure
+class="gallery-image"
+style="flex-grow: 142; flex-basis: 340px"
+>
+&lt;a href="https://morimit.github.io/2024/%E5%A6%82%E4%BD%95%E5%81%9A%E8%AE%A1%E5%88%92/v3-2.png"
+data-size="1037x730"
+>
+&lt;img src="https://morimit.github.io/2024/%E5%A6%82%E4%BD%95%E5%81%9A%E8%AE%A1%E5%88%92/v3-2.png"
+width="1037"
+height="730"
+srcset="https://morimit.github.io/2024/%E5%A6%82%E4%BD%95%E5%81%9A%E8%AE%A1%E5%88%92/v3-2_hu99435449e792ca989e295d0e37f70103_38326_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E5%A6%82%E4%BD%95%E5%81%9A%E8%AE%A1%E5%88%92/v3-2_hu99435449e792ca989e295d0e37f70103_38326_2048x0_resize_box_3.png 2048w"
+loading="lazy"
+alt="daily notes"
+/>
+&lt;/a>
+&lt;figcaption>daily notes&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
+&lt;p>最后还新增了项目视角的计划表：&lt;/p>
 &lt;p>&lt;figure
 class="gallery-image"
 style="flex-grow: 693; flex-basis: 1664px"
@@ -671,6 +690,7 @@ alt="project management"
 &lt;figcaption>project management&lt;/figcaption>
 &lt;/figure>
 &lt;/p>
+&lt;p>本质上只要保持住daily notes的记录，坚持每天写一点，那么月计划和年计划就有素材可以复盘，项目表也会有记录可以追踪。&lt;/p>
 &lt;h2 id="如何做计划">如何做计划&lt;/h2>
 &lt;p>总结一下做计划的过程：&lt;/p>
 &lt;ul>
