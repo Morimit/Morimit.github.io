@@ -351,12 +351,53 @@ alt="enable IMAP"
 &lt;/figure>
 &lt;/p>
 &lt;p>此外还要打开Google账号的两步验证，然后才能生成一个App password（后面要填入环境变量）。&lt;/p>
+&lt;h3 id="开启163邮箱的imapsmtp服务">开启163邮箱的IMAP/SMTP服务&lt;/h3>
+&lt;p>Gmail被封了，还是用上了163邮箱。&lt;/p>
+&lt;p>首先找到设置，开启IMAP/SMTP服务
+&lt;figure
+class="gallery-image"
+style="flex-grow: 204; flex-basis: 490px"
+>
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/163-SMTP.png"
+data-size="1323x647"
+>
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/163-SMTP.png"
+width="1323"
+height="647"
+srcset="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/163-SMTP_hu699eb75c1a697d1b80ed1ebfb6ab5a1d_92906_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/163-SMTP_hu699eb75c1a697d1b80ed1ebfb6ab5a1d_92906_2048x0_resize_box_3.png 2048w"
+loading="lazy"
+alt="163mail settings"
+/>
+&lt;/a>
+&lt;figcaption>163mail settings&lt;/figcaption>
+&lt;/figure>
+比较坑的地方是授权码只有180天有效期。&lt;/p>
+&lt;hr>
+&lt;p>有个小坑：SMTP_USER的值必须和SENDER_EMAIL的值一致，否则会一直收不到邮件通知，再查看vercel的日志，会发现错误代码553&lt;/p>
+&lt;p>&lt;figure
+class="gallery-image"
+style="flex-grow: 211; flex-basis: 507px"
+>
+&lt;a href="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel-mail-error.png"
+data-size="1883x890"
+>
+&lt;img src="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel-mail-error.png"
+width="1883"
+height="890"
+srcset="https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel-mail-error_hufb3d614f974353d59576a7eededd88f6_220149_720x0_resize_box_3.png 720w, https://morimit.github.io/2024/%E7%BB%99hugo%E5%8D%9A%E5%AE%A2%E6%B7%BB%E5%8A%A0waline%E8%AF%84%E8%AE%BA%E5%8C%BA%E5%B9%B6%E8%AE%BE%E7%BD%AE%E9%82%AE%E4%BB%B6%E9%80%9A%E7%9F%A5/vercel-mail-error_hufb3d614f974353d59576a7eededd88f6_220149_2048x0_resize_box_3.png 2048w"
+loading="lazy"
+alt="mail error"
+/>
+&lt;/a>
+&lt;figcaption>mail error&lt;/figcaption>
+&lt;/figure>
+&lt;/p>
 &lt;h3 id="配置vercel环境变量">配置Vercel环境变量&lt;/h3>
 &lt;p>需要配置以下环境变量：&lt;/p>
 &lt;ul>
-&lt;li>SMTP_SERVICE：Gmail&lt;/li>
+&lt;li>SMTP_SERVICE：Gmail/163（如果是waline支持的运营商，就不用填SMTP_HOST 和 SMTP_PORT）&lt;/li>
 &lt;li>SMTP_USER：youremail@gmail.com&lt;/li>
-&lt;li>SMTP_PASS：填上面获取的App password，有16位，要删除空格&lt;/li>
+&lt;li>SMTP_PASS：gmail填上面获取的App password，有16位，要删除空格/163mail填SMTP授权码&lt;/li>
 &lt;li>SITE_NAME：填博客的名字&lt;/li>
 &lt;li>SITE_URL：https://your-site-domain-name&lt;/li>
 &lt;li>AUTHOR_EMAIL：填自己常用的邮箱(最好是上面评论管理的管理员邮箱)，用来接收评论通知&lt;/li>
@@ -364,7 +405,7 @@ alt="enable IMAP"
 &lt;p>以下是选填的环境变量:&lt;/p>
 &lt;ul>
 &lt;li>SENDER_NAME: Miaomi&amp;rsquo;s Blog&lt;/li>
-&lt;li>SENDER_EMAIL: 自定义发送邮件的发件地址&lt;/li>
+&lt;li>SENDER_EMAIL: 自定义发送邮件的发件地址（如果使用gmail可以自定义，如果用163则必须保证此值和SMTP_USER一致）&lt;/li>
 &lt;li>MAIL_SUBJECT: Dear {{parent.nick | safe}}，your comment on {{site.name | safe}}&amp;rsquo;s Blog received a reply&lt;/li>
 &lt;li>MAIL_TEMPLATE: 自定义评论回复邮件内容(可直接贴HTML代码)&lt;/li>
 &lt;li>MAIL_SUBJECT_ADMIN: 亲爱的站长，您的博客{{site.name | safe}}收到一条新评论，请及时回复哦~&lt;/li>
